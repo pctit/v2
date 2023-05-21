@@ -5,27 +5,139 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: v2rayfree.eu.org - 美国CloudFlare节点 18, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca.ilovescp.com}, udp: true}
+  - {name: 美国 CloudFlare节点, server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: dd8314cc-3754-416d-9456-0991f2e74753, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: us2.sanfencdn.net}, udp: true}
+  - {name: v2rayfree.eu.org - 巴西圣保罗CloudFlare节点 11, server: 188.114.97.7, port: 443, type: vmess, uuid: 9aa6b5ad-c0fc-47f4-a837-f72179d7b662, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Lsv4s7nS0ErewnEN, ws-headers: {Host: channel2.unlimiteddev.tk}, udp: true}
+  - {name: 美国【付费推荐：https://v1.mk/vip】4, server: 162.159.152.153, port: 8880, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: csjp.iiio.wiki}, udp: true}
+  - {name: 美国【付费推荐：https://v1.mk/vip】15, server: 104.18.1.110, port: 443, type: vmess, uuid: 1d8488a7-c784-4e66-ae92-1b22da9c9e68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/c3lZ7dp02p?ed=2048", ws-headers: {Host: d2.pgypgykmoljklj.xyz}, udp: true}
+  - {name: 美国【付费推荐：https://v1.mk/vip】10, server: honeygain.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Dusseldorf.kotick.site}, udp: true}
+  - {name: 美国【付费推荐：https://v1.mk/vip】34, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: nl.sharecentrepro.com}, udp: true}
+  - {name: v2rayfree.eu.org - 美国CloudFlare公司CDN节点 20, server: kontakt.az, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Amsterdam.kotick.site}, udp: true}
+  - {name: 美国【付费推荐：https://v1.mk/vip】5, server: v2-ca1.silverdragon.cn, port: 443, type: vmess, uuid: e790e3bf-c553-40ed-b2b6-436afd3f5f5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ca/v2wss, ws-headers: {Host: v2-ca1.silverdragon.cn}, udp: true}
+  - {name: 美国【付费推荐：https://v1.mk/vip】42, server: delivery.cvs.com, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
+  - {name: 罗马尼亚【付费推荐：https://v1.mk/vip】12, server: 45.85.119.135, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Dusseldorf.kotick.site}, udp: true}
+  - {name: _CN_中国 5, server: 36.133.171.209, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【付费推荐：https://v1.mk/vip】48, server: ydyx.heimaojiasu.cloud, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
+  - {name: 美国【付费推荐：https://v1.mk/vip】45, server: onlinevideoconverter.pro, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
+  - {name: 欧盟 V2CROSS.COM, server: 45.14.174.57, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
+  - {name: 美国 CloudFlare公司CDN节点(shopify), server: 23.227.38.0, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
   - {name: 美国【付费推荐：https://v1.mk/vip】28, server: irvless42.forsarinna.site, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
+  - {name: 中国【付费推荐：https://v1.mk/vip】31, server: hz-dx.duaaoped.xyz, port: 41191, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116, udp: true}
+  - {name: 美国【付费推荐：https://v1.mk/vip】33, server: subscene.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
+  - {name: v2rayfree.eu.org - 美国  14, server: 170.114.45.224, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
+  - {name: 美国【付费推荐：https://v1.mk/vip】35, server: www.wayfair.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
+  - {name: 美国 CloudFlare节点 2, server: 104.18.21.81, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Dusseldorf.kotick.site}, udp: true}
+  - {name: 美国【付费推荐：https://v1.mk/vip】22, server: beenverified.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Dusseldorf.kotick.site}, udp: true}
+  - {name: 美国【付费推荐：https://v1.mk/vip】19, server: javatpoint.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Lille.kotick.site}, udp: true}
+  - {name: 塞浦路斯【付费推荐：https://v1.mk/vip】25, server: 203.23.106.148, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Lille.kotick.site}, udp: true}
+  - {name: 乌克兰【付费推荐：https://v1.mk/vip】29, server: 195.137.167.29, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Lille.kotick.site}, udp: true}
+  - {name: 美国【付费推荐：https://v1.mk/vip】60, server: xuwu996.ml, port: 80, type: vmess, uuid: 5067f17c-40f5-4635-af71-a9a746c735a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jd1.xuwu996.eu.org}, udp: true}
+  - {name: v2rayfree.eu.org - 欧盟  7, server: 45.85.119.44, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
+  - {name: v2rayfree.eu.org - 美国CloudFlare公司CDN节点 17, server: 104.18.21.81, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Dusseldorf.kotick.site}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - v2rayfree.eu.org - 美国CloudFlare节点 18
+      - 美国 CloudFlare节点
+      - v2rayfree.eu.org - 巴西圣保罗CloudFlare节点 11
+      - 美国【付费推荐：https://v1.mk/vip】4
+      - 美国【付费推荐：https://v1.mk/vip】15
+      - 美国【付费推荐：https://v1.mk/vip】10
+      - 美国【付费推荐：https://v1.mk/vip】34
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 20
+      - 美国【付费推荐：https://v1.mk/vip】5
+      - 美国【付费推荐：https://v1.mk/vip】42
+      - 罗马尼亚【付费推荐：https://v1.mk/vip】12
+      - _CN_中国 5
+      - 美国【付费推荐：https://v1.mk/vip】48
+      - 美国【付费推荐：https://v1.mk/vip】45
+      - 欧盟 V2CROSS.COM
+      - 美国 CloudFlare公司CDN节点(shopify)
       - 美国【付费推荐：https://v1.mk/vip】28
+      - 中国【付费推荐：https://v1.mk/vip】31
+      - 美国【付费推荐：https://v1.mk/vip】33
+      - v2rayfree.eu.org - 美国  14
+      - 美国【付费推荐：https://v1.mk/vip】35
+      - 美国 CloudFlare节点 2
+      - 美国【付费推荐：https://v1.mk/vip】22
+      - 美国【付费推荐：https://v1.mk/vip】19
+      - 塞浦路斯【付费推荐：https://v1.mk/vip】25
+      - 乌克兰【付费推荐：https://v1.mk/vip】29
+      - 美国【付费推荐：https://v1.mk/vip】60
+      - v2rayfree.eu.org - 欧盟  7
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 17
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - v2rayfree.eu.org - 美国CloudFlare节点 18
+      - 美国 CloudFlare节点
+      - v2rayfree.eu.org - 巴西圣保罗CloudFlare节点 11
+      - 美国【付费推荐：https://v1.mk/vip】4
+      - 美国【付费推荐：https://v1.mk/vip】15
+      - 美国【付费推荐：https://v1.mk/vip】10
+      - 美国【付费推荐：https://v1.mk/vip】34
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 20
+      - 美国【付费推荐：https://v1.mk/vip】5
+      - 美国【付费推荐：https://v1.mk/vip】42
+      - 罗马尼亚【付费推荐：https://v1.mk/vip】12
+      - _CN_中国 5
+      - 美国【付费推荐：https://v1.mk/vip】48
+      - 美国【付费推荐：https://v1.mk/vip】45
+      - 欧盟 V2CROSS.COM
+      - 美国 CloudFlare公司CDN节点(shopify)
       - 美国【付费推荐：https://v1.mk/vip】28
+      - 中国【付费推荐：https://v1.mk/vip】31
+      - 美国【付费推荐：https://v1.mk/vip】33
+      - v2rayfree.eu.org - 美国  14
+      - 美国【付费推荐：https://v1.mk/vip】35
+      - 美国 CloudFlare节点 2
+      - 美国【付费推荐：https://v1.mk/vip】22
+      - 美国【付费推荐：https://v1.mk/vip】19
+      - 塞浦路斯【付费推荐：https://v1.mk/vip】25
+      - 乌克兰【付费推荐：https://v1.mk/vip】29
+      - 美国【付费推荐：https://v1.mk/vip】60
+      - v2rayfree.eu.org - 欧盟  7
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 17
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - v2rayfree.eu.org - 美国CloudFlare节点 18
+      - 美国 CloudFlare节点
+      - v2rayfree.eu.org - 巴西圣保罗CloudFlare节点 11
+      - 美国【付费推荐：https://v1.mk/vip】4
+      - 美国【付费推荐：https://v1.mk/vip】15
+      - 美国【付费推荐：https://v1.mk/vip】10
+      - 美国【付费推荐：https://v1.mk/vip】34
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 20
+      - 美国【付费推荐：https://v1.mk/vip】5
+      - 美国【付费推荐：https://v1.mk/vip】42
+      - 罗马尼亚【付费推荐：https://v1.mk/vip】12
+      - _CN_中国 5
+      - 美国【付费推荐：https://v1.mk/vip】48
+      - 美国【付费推荐：https://v1.mk/vip】45
+      - 欧盟 V2CROSS.COM
+      - 美国 CloudFlare公司CDN节点(shopify)
       - 美国【付费推荐：https://v1.mk/vip】28
+      - 中国【付费推荐：https://v1.mk/vip】31
+      - 美国【付费推荐：https://v1.mk/vip】33
+      - v2rayfree.eu.org - 美国  14
+      - 美国【付费推荐：https://v1.mk/vip】35
+      - 美国 CloudFlare节点 2
+      - 美国【付费推荐：https://v1.mk/vip】22
+      - 美国【付费推荐：https://v1.mk/vip】19
+      - 塞浦路斯【付费推荐：https://v1.mk/vip】25
+      - 乌克兰【付费推荐：https://v1.mk/vip】29
+      - 美国【付费推荐：https://v1.mk/vip】60
+      - v2rayfree.eu.org - 欧盟  7
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 17
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -44,7 +156,35 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - v2rayfree.eu.org - 美国CloudFlare节点 18
+      - 美国 CloudFlare节点
+      - v2rayfree.eu.org - 巴西圣保罗CloudFlare节点 11
+      - 美国【付费推荐：https://v1.mk/vip】4
+      - 美国【付费推荐：https://v1.mk/vip】15
+      - 美国【付费推荐：https://v1.mk/vip】10
+      - 美国【付费推荐：https://v1.mk/vip】34
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 20
+      - 美国【付费推荐：https://v1.mk/vip】5
+      - 美国【付费推荐：https://v1.mk/vip】42
+      - 罗马尼亚【付费推荐：https://v1.mk/vip】12
+      - _CN_中国 5
+      - 美国【付费推荐：https://v1.mk/vip】48
+      - 美国【付费推荐：https://v1.mk/vip】45
+      - 欧盟 V2CROSS.COM
+      - 美国 CloudFlare公司CDN节点(shopify)
       - 美国【付费推荐：https://v1.mk/vip】28
+      - 中国【付费推荐：https://v1.mk/vip】31
+      - 美国【付费推荐：https://v1.mk/vip】33
+      - v2rayfree.eu.org - 美国  14
+      - 美国【付费推荐：https://v1.mk/vip】35
+      - 美国 CloudFlare节点 2
+      - 美国【付费推荐：https://v1.mk/vip】22
+      - 美国【付费推荐：https://v1.mk/vip】19
+      - 塞浦路斯【付费推荐：https://v1.mk/vip】25
+      - 乌克兰【付费推荐：https://v1.mk/vip】29
+      - 美国【付费推荐：https://v1.mk/vip】60
+      - v2rayfree.eu.org - 欧盟  7
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 17
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -55,20 +195,104 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - v2rayfree.eu.org - 美国CloudFlare节点 18
+      - 美国 CloudFlare节点
+      - v2rayfree.eu.org - 巴西圣保罗CloudFlare节点 11
+      - 美国【付费推荐：https://v1.mk/vip】4
+      - 美国【付费推荐：https://v1.mk/vip】15
+      - 美国【付费推荐：https://v1.mk/vip】10
+      - 美国【付费推荐：https://v1.mk/vip】34
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 20
+      - 美国【付费推荐：https://v1.mk/vip】5
+      - 美国【付费推荐：https://v1.mk/vip】42
+      - 罗马尼亚【付费推荐：https://v1.mk/vip】12
+      - _CN_中国 5
+      - 美国【付费推荐：https://v1.mk/vip】48
+      - 美国【付费推荐：https://v1.mk/vip】45
+      - 欧盟 V2CROSS.COM
+      - 美国 CloudFlare公司CDN节点(shopify)
       - 美国【付费推荐：https://v1.mk/vip】28
+      - 中国【付费推荐：https://v1.mk/vip】31
+      - 美国【付费推荐：https://v1.mk/vip】33
+      - v2rayfree.eu.org - 美国  14
+      - 美国【付费推荐：https://v1.mk/vip】35
+      - 美国 CloudFlare节点 2
+      - 美国【付费推荐：https://v1.mk/vip】22
+      - 美国【付费推荐：https://v1.mk/vip】19
+      - 塞浦路斯【付费推荐：https://v1.mk/vip】25
+      - 乌克兰【付费推荐：https://v1.mk/vip】29
+      - 美国【付费推荐：https://v1.mk/vip】60
+      - v2rayfree.eu.org - 欧盟  7
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 17
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - v2rayfree.eu.org - 美国CloudFlare节点 18
+      - 美国 CloudFlare节点
+      - v2rayfree.eu.org - 巴西圣保罗CloudFlare节点 11
+      - 美国【付费推荐：https://v1.mk/vip】4
+      - 美国【付费推荐：https://v1.mk/vip】15
+      - 美国【付费推荐：https://v1.mk/vip】10
+      - 美国【付费推荐：https://v1.mk/vip】34
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 20
+      - 美国【付费推荐：https://v1.mk/vip】5
+      - 美国【付费推荐：https://v1.mk/vip】42
+      - 罗马尼亚【付费推荐：https://v1.mk/vip】12
+      - _CN_中国 5
+      - 美国【付费推荐：https://v1.mk/vip】48
+      - 美国【付费推荐：https://v1.mk/vip】45
+      - 欧盟 V2CROSS.COM
+      - 美国 CloudFlare公司CDN节点(shopify)
       - 美国【付费推荐：https://v1.mk/vip】28
+      - 中国【付费推荐：https://v1.mk/vip】31
+      - 美国【付费推荐：https://v1.mk/vip】33
+      - v2rayfree.eu.org - 美国  14
+      - 美国【付费推荐：https://v1.mk/vip】35
+      - 美国 CloudFlare节点 2
+      - 美国【付费推荐：https://v1.mk/vip】22
+      - 美国【付费推荐：https://v1.mk/vip】19
+      - 塞浦路斯【付费推荐：https://v1.mk/vip】25
+      - 乌克兰【付费推荐：https://v1.mk/vip】29
+      - 美国【付费推荐：https://v1.mk/vip】60
+      - v2rayfree.eu.org - 欧盟  7
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 17
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - v2rayfree.eu.org - 美国CloudFlare节点 18
+      - 美国 CloudFlare节点
+      - v2rayfree.eu.org - 巴西圣保罗CloudFlare节点 11
+      - 美国【付费推荐：https://v1.mk/vip】4
+      - 美国【付费推荐：https://v1.mk/vip】15
+      - 美国【付费推荐：https://v1.mk/vip】10
+      - 美国【付费推荐：https://v1.mk/vip】34
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 20
+      - 美国【付费推荐：https://v1.mk/vip】5
+      - 美国【付费推荐：https://v1.mk/vip】42
+      - 罗马尼亚【付费推荐：https://v1.mk/vip】12
+      - _CN_中国 5
+      - 美国【付费推荐：https://v1.mk/vip】48
+      - 美国【付费推荐：https://v1.mk/vip】45
+      - 欧盟 V2CROSS.COM
+      - 美国 CloudFlare公司CDN节点(shopify)
       - 美国【付费推荐：https://v1.mk/vip】28
+      - 中国【付费推荐：https://v1.mk/vip】31
+      - 美国【付费推荐：https://v1.mk/vip】33
+      - v2rayfree.eu.org - 美国  14
+      - 美国【付费推荐：https://v1.mk/vip】35
+      - 美国 CloudFlare节点 2
+      - 美国【付费推荐：https://v1.mk/vip】22
+      - 美国【付费推荐：https://v1.mk/vip】19
+      - 塞浦路斯【付费推荐：https://v1.mk/vip】25
+      - 乌克兰【付费推荐：https://v1.mk/vip】29
+      - 美国【付费推荐：https://v1.mk/vip】60
+      - v2rayfree.eu.org - 欧盟  7
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 17
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -84,7 +308,35 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - v2rayfree.eu.org - 美国CloudFlare节点 18
+      - 美国 CloudFlare节点
+      - v2rayfree.eu.org - 巴西圣保罗CloudFlare节点 11
+      - 美国【付费推荐：https://v1.mk/vip】4
+      - 美国【付费推荐：https://v1.mk/vip】15
+      - 美国【付费推荐：https://v1.mk/vip】10
+      - 美国【付费推荐：https://v1.mk/vip】34
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 20
+      - 美国【付费推荐：https://v1.mk/vip】5
+      - 美国【付费推荐：https://v1.mk/vip】42
+      - 罗马尼亚【付费推荐：https://v1.mk/vip】12
+      - _CN_中国 5
+      - 美国【付费推荐：https://v1.mk/vip】48
+      - 美国【付费推荐：https://v1.mk/vip】45
+      - 欧盟 V2CROSS.COM
+      - 美国 CloudFlare公司CDN节点(shopify)
       - 美国【付费推荐：https://v1.mk/vip】28
+      - 中国【付费推荐：https://v1.mk/vip】31
+      - 美国【付费推荐：https://v1.mk/vip】33
+      - v2rayfree.eu.org - 美国  14
+      - 美国【付费推荐：https://v1.mk/vip】35
+      - 美国 CloudFlare节点 2
+      - 美国【付费推荐：https://v1.mk/vip】22
+      - 美国【付费推荐：https://v1.mk/vip】19
+      - 塞浦路斯【付费推荐：https://v1.mk/vip】25
+      - 乌克兰【付费推荐：https://v1.mk/vip】29
+      - 美国【付费推荐：https://v1.mk/vip】60
+      - v2rayfree.eu.org - 欧盟  7
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 17
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

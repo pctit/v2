@@ -5,279 +5,259 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay 🇸🇬 Singapore(ChatGPT) 15 TG:@nodpai, server: hz-cm.topmusicworld.com, port: 14597, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116, udp: true}
-  - {name: 二爷翻墙网 https://1808.ga  节点_10, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv1.sharecentrepro.org}, udp: true}
-  - {name: Relay 🇯🇵 Japan 18 TG:@nodpai, server: hn.xiaohouzi.club, port: 48734, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: 中国【付费推荐：suo.yt/ssrsub】100, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇨🇦 Canada(ChatGPT) 03 TG:@nodpai, server: cs.xiaohouzi.club, port: 28280, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: cs.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: 美国 加利福尼亚州洛杉矶Sharktech数据中心, server: 170.178.167.140, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: United States(ChatGPT) 65 TG:@nodpai, server: 163.123.192.153, port: 443, type: trojan, password: d69793f4-8379-41ab-91aa-e51371ca8d26, skip-cert-verify: true, udp: true}
-  - {name: United States(ChatGPT) 34 TG:@nodpai, server: 23.224.110.242, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/1683715826870, ws-headers: {Host: www.77039717.xyz}, udp: true}
-  - {name: 二爷翻墙网 https://1808.ga  节点_12, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv3.sharecentrepro.org}, udp: true}
-  - {name: 二爷翻墙网 https://1808.ga  节点_6, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-hytron.ilovescp.com}, udp: true}
-  - {name: Relay 🇯🇵 Japan(ChatGPT) 07 TG:@nodpai, server: fae1.interface.buzz, port: 31766, type: ss, cipher: aes-128-gcm, password: c7a1f42c-c79a-3c31-9544-89aff988379c, udp: true}
-  - {name: Relay 🇸🇬 Singapore(ChatGPT) 21 TG:@nodpai, server: hn.xiaohouzi.club, port: 19025, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: 二爷翻墙网 https://1808.ga  节点_15, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp3.scproxy.top}, udp: true}
-  - {name: _CN_中国, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 二爷翻墙网 https://1808.ga  节点_11, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv2.sharecentrepro.org}, udp: true}
-  - {name: United States(ChatGPT) 68 TG:@nodpai, server: 163.123.192.154, port: 443, type: trojan, password: 997a9caa-5950-476f-8614-462fb2e0ed18, skip-cert-verify: true, udp: true}
-  - {name: Singapore(ChatGPT) 14 TG:@nodpai, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: do.sharecentrepro.com}, udp: true}
-  - {name: 二爷翻墙网 https://1808.ga  节点_5, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: uk1.scproxy.top}, udp: true}
-  - {name: United States(ChatGPT) 19 TG:@nodpai, server: us4.01dj.sbs, port: 443, type: vmess, uuid: 1d746ee5-ceb8-4960-88fb-d9efc4ea2328, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sometimesnaive, ws-headers: {Host: us4.01dj.sbs}, udp: true}
-  - {name: BuyVM2, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: buyvm2.yxjnode.com}, udp: true}
-  - {name: United States(ChatGPT) 32 TG:@nodpai, server: bp.nidaye.eu.org, port: 443, type: vmess, uuid: c77d02e9-5738-46ac-9512-7b67746cad85, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ndy58850, ws-headers: {Host: bp.nidaye.eu.org}, udp: true}
-  - {name: _JP_日本, server: jp1.d4995a2eb9b2.sanfen004.me, port: 443, type: vmess, uuid: 7262cf44-a587-401a-9cd3-a87e2ce8f04e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: jp1.d4995a2eb9b2.sanfen004.me}, udp: true}
-  - {name: SW, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: op.yxjnode.com}, udp: true}
-  - {name: United States(ChatGPT) 39 TG:@nodpai, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: gcore.ilovescp.com}, udp: true}
-  - {name: 美国【付费推荐：https://v1.mk/vip】5, server: v2-ca1.silverdragon.cn, port: 443, type: vmess, uuid: e790e3bf-c553-40ed-b2b6-436afd3f5f5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ca/v2wss, ws-headers: {Host: v2-ca1.silverdragon.cn}, udp: true}
-  - {name: DP1@yxjnode, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: dp1.yxjnode.com}, udp: true}
-  - {name: github.com/freefq - 美国华盛顿州西雅图市亚马逊(Amazon)公司数据中心 6, server: jp1.d4995a2eb9b2.sanfen004.me, port: 443, type: vmess, uuid: 7262cf44-a587-401a-9cd3-a87e2ce8f04e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: www.microsoft.com}, udp: true}
-  - {name: _TW_台湾, server: scloudtw1-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, sni: scloudtw1-tg-data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇭🇰 Hong Kong 23 TG:@nodpai, server: hn.xiaohouzi.club, port: 19535, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: 美国【付费推荐：https://v1.mk/vip】34, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: nl.sharecentrepro.com}, udp: true}
-  - {name: Relay 🇸🇬 Singapore 22 TG:@nodpai, server: hnm.xiaohouzi.club, port: 18633, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇸🇬 Singapore(ChatGPT) 20 TG:@nodpai, server: hnm.xiaohouzi.club, port: 18635, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: V002--US-付费推荐:suo.yt/ssrsub, server: cdncf.scyu.app, port: 80, type: vmess, uuid: f809b651-3924-4a80-abde-6c8536fbb229, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: ssrsub.v01.ssrsub.com}, udp: true}
-  - {name: Netherlands 01 TG:@nodpai, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: nl.sharecentrepro.com}, udp: true}
-  - {name: BuyVM1@yxjnode, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: buyvm1.yxjnode.com}, udp: true}
+  - {name: JP-20.63.179.215-2216, server: fscsg.fscloud123456789.com, port: 443, type: trojan, password: fc77cc6a-9a1b-435a-b983-0922f05bd2c4, sni: fscsg.fscloud123456789.com, skip-cert-verify: true, udp: true}
+  - {name: JP-52.194.125.16-2006, server: fschk.fscloud123456789.com, port: 443, type: trojan, password: e8093eb7-0749-4dd3-9391-91b87f797367, sni: fschk.fscloud123456789.com, skip-cert-verify: true, udp: true}
   - {name: United States(ChatGPT) 28 TG:@nodpai, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp4.scproxy.top}, udp: true}
-  - {name: _CN_中国 5, server: 36.133.171.209, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: India(ChatGPT) 01 TG:@nodpai, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国阿里云 5, server: microsoftdebug.com, port: 8880, type: vmess, uuid: c0f8cfc4-7c7f-470f-9411-46eb752c49f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /gqfWkjL8.gif, ws-headers: {Host: v1.lsb1.microsoftdebug.com}, udp: true}
-  - {name: Taiwan 14 TG:@nodpai, server: stw4-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, sni: stw4-tg-data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇸🇬 Singapore(ChatGPT) 24 TG:@nodpai, server: hnm.xiaohouzi.club, port: 18831, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: "[peasoft/NoMoreWalls]13,16,22|🇺🇸 United States(ChatGPT) 68 T...", server: 163.123.192.154, port: 443, type: trojan, password: 997a9caa-5950-476f-8614-462fb2e0ed18, skip-cert-verify: true, udp: true}
+  - {name: Relay 🇭🇰 Hong Kong 21 TG:@nodpai, server: hn.xiaohouzi.club, port: 19534, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: US-163.123.192.152-0222, server: 163.123.192.152, port: 443, type: trojan, password: ce918944-78ef-4b99-9304-60337192b4b7, skip-cert-verify: true, udp: true}
+  - {name: RELAY-104.21.82.246-0205, server: jp2.01dj.sbs, port: 443, type: vmess, uuid: 95b2dc83-a476-4a82-93b2-0d77b4c30c18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sometimesnaive, ws-headers: {Host: jp2.01dj.sbs}, udp: true}
+  - {name: Telegram@极客分享_5, server: ger.digires.shop, port: 443, type: vmess, uuid: f988dd2c-0d1a-49d0-cabc-a1288d72d183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /14161, ws-headers: {Host: ger.digires.shop}, udp: true}
+  - {name: Telegram@极客分享_3, server: beta.noaries.de, port: 2082, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: contabo-jp-win.iiio.wiki}, udp: true}
+  - {name: 二爷翻墙网 https://1808.ga  节点_6, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-hytron.ilovescp.com}, udp: true}
   - {name: India(ChatGPT) 02 TG:@nodpai, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: in.sharecentrepro.com}, udp: true}
-  - {name: 美国 CloudFlare节点, server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: dd8314cc-3754-416d-9456-0991f2e74753, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: us2.sanfencdn.net}, udp: true}
-  - {name: 美国【付费推荐：https://v1.mk/vip】10, server: honeygain.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Dusseldorf.kotick.site}, udp: true}
-  - {name: 美国 CloudFlare节点 2, server: 104.18.21.81, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Dusseldorf.kotick.site}, udp: true}
-  - {name: Viet Nam 03 TG:@nodpai, server: vn1.microsoft-orgwly.vip, port: 443, type: trojan, password: aef8d2c4-6ff7-4cc1-8d14-8596d3426223, sni: vn1.microsoft-orgwly.vip, skip-cert-verify: true, udp: true}
-  - {name: 美国【付费推荐：https://v1.mk/vip】22, server: beenverified.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Dusseldorf.kotick.site}, udp: true}
-  - {name: "@SSRSUB-V25-付费推荐:suo.yt/ssrsub", server: 23.227.60.184, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Dusseldorf.kotick.site}, udp: true}
-  - {name: 罗马尼亚【付费推荐：https://v1.mk/vip】12, server: 45.85.119.135, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Dusseldorf.kotick.site}, udp: true}
-  - {name: v2rayfree.eu.org - 欧盟  7, server: 45.85.119.44, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
-  - {name: Taiwan(ChatGPT) 20 TG:@nodpai, server: stw6-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, sni: stw6-tg-data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
-  - {name: DP2@yxjnode, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: dp2.yxjnode.com}, udp: true}
-  - {name: _TW_台湾 2, server: scloudtw2-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, sni: scloudtw2-tg-data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
-  - {name: v2rayfree.eu.org - 美国  14, server: 170.114.45.224, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
-  - {name: 欧盟 V2CROSS.COM, server: 45.14.174.57, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
-  - {name: 美国 CloudFlare公司CDN节点(shopify), server: 23.227.38.0, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
-  - {name: 美国【付费推荐：https://v1.mk/vip】28, server: irvless42.forsarinna.site, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
-  - {name: github.com/freefq - 北京市移动 27, server: 36.134.16.190, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【付费推荐：https://v1.mk/vip】33, server: subscene.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
-  - {name: 美国【付费推荐：https://v1.mk/vip】35, server: www.wayfair.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
-  - {name: DP3, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: dp3.yxjnode.com}, udp: true}
-  - {name: 美国【付费推荐：https://v1.mk/vip】45, server: onlinevideoconverter.pro, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
-  - {name: github.com/freefq - 俄罗斯新西伯利亚ADMAN数据中心 22, server: 185.133.40.192, port: 35059, type: vmess, uuid: 8d78c2a8-acaa-467d-9234-d2606624506d, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: United States(ChatGPT) 39 TG:@nodpai, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: gcore.ilovescp.com}, udp: true}
+  - {name: 二爷翻墙网 https://1808.ga  节点_12, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv3.sharecentrepro.org}, udp: true}
+  - {name: SW, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: op.yxjnode.com}, udp: true}
+  - {name: Telegram@极客分享_8, server: x.leonard.eu.org, port: 443, type: vmess, uuid: 1441af41-5cee-497e-a47c-c26af169f9ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: x.leonard.eu.org}, udp: true}
+  - {name: 二爷翻墙网 https://1808.ga  节点_5, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: uk1.scproxy.top}, udp: true}
+  - {name: RELAY-104.21.8.54-16862, server: do-sg.lzz.app, port: 443, type: vmess, uuid: 0f8b517f-6ffd-4f8b-a129-910a64c26034, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /re, ws-headers: {Host: do-sg.lzz.app}, udp: true}
+  - {name: Relay 🇺🇸 United States(ChatGPT) 58 TG:@nodpai, server: hn.xiaohouzi.club, port: 19012, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: RELAY-104.21.88.167-2073, server: cdn-xjp3.cqjsl.xyz, port: 443, type: vmess, uuid: a9772cf3-095d-4283-aab6-3087720db32d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn-xjp3.cqjsl.xyz}, udp: true}
+  - {name: "[Rawdroid/Free-servers]美国 CloudFlare节点", server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: f809b651-3924-4a80-abde-6c8536fbb229, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: ssrsub.v03.ssrsub.com}, udp: true}
+  - {name: 美国 CloudFlare节点, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: buyvm2.yxjnode.com}, udp: true}
+  - {name: +日本+384, server: 43.206.152.124, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, skip-cert-verify: true, udp: true}
+  - {name: 二爷翻墙网 https://1808.ga  节点_15, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp3.scproxy.top}, udp: true}
   - {name: Luxembourg(ChatGPT) 01 TG:@nodpai, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ny1.sharecentrepro.org}, udp: true}
+  - {name: RELAY-198.41.223.126-0453, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: f809b651-3924-4a80-abde-6c8536fbb229, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: ssrsub.v03.ssrsub.com}, udp: true}
+  - {name: "[xrayfree]美国32", server: invideo.io, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Lille.kotick.site}, udp: true}
+  - {name: Relay 🇨🇦 Canada(ChatGPT) 03 TG:@nodpai, server: cs.xiaohouzi.club, port: 28280, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: cs.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: RELAY-104.21.53.35-0085, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: dp1.yxjnode.com}, udp: true}
+  - {name: "[peasoft/NoMoreWalls]0,1,7,8,9,10,12,12,12,12,12,12,13,13,13,13,13,13,15,17,19,19,19,20,25,26,27,28,29,30|🇺🇸 _US_美国_____________", server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: dp1.yxjnode.com}, udp: true}
+  - {name: 二爷翻墙网 https://1808.ga  节点_11, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv2.sharecentrepro.org}, udp: true}
+  - {name: JP-43.206.152.124-0105, server: awsjp14-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: awsjp14-data.amazon-azure.com, skip-cert-verify: true, udp: true}
+  - {name: "[peasoft/NoMoreWalls]20|日本2-ChatGPT", server: jp2.01dj.sbs, port: 443, type: vmess, uuid: 95b2dc83-a476-4a82-93b2-0d77b4c30c18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sometimesnaive, ws-headers: {Host: jp2.01dj.sbs}, udp: true}
+  - {name: RELAY-162.159.152.153-1251, server: 162.159.152.153, port: 8880, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: csjp.iiio.wiki}, udp: true}
+  - {name: 二爷翻墙网 https://1808.ga  节点_10, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv1.sharecentrepro.org}, udp: true}
+  - {name: SG-8.222.192.30-0450, server: cdncf.scyu.app, port: 80, type: vmess, uuid: f809b651-3924-4a80-abde-6c8536fbb229, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: ssrsub.v01.ssrsub.com}, udp: true}
+  - {name: RELAY-23.227.39.1-5455, server: 23.227.39.1, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Lille.kotick.site}, udp: true}
+  - {name: SG-4.194.140.223-14816, server: de.stablize.top, port: 443, type: trojan, password: dfe0ee5b-c61d-43f7-847c-1f58b25e501b, sni: de.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: RELAY-172.67.207.208-0190, server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: dd8314cc-3754-416d-9456-0991f2e74753, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: us2.sanfencdn.net}, udp: true}
+  - {name: Relay 🇭🇰 Hong Kong 16 TG:@nodpai, server: hn.xiaohouzi.club, port: 20021, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: Relay 🇭🇰 Hong Kong 15 TG:@nodpai, server: hnm.xiaohouzi.club, port: 30845, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: "[aiboboxx/v2rayfree]美国CloudFlare节点 13", server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: dd8314cc-3754-416d-9456-0991f2e74753, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: us2.sanfencdn.net}, udp: true}
+  - {name: 二爷翻墙网 https://1808.ga  节点_13, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp1.scproxy.top}, udp: true}
+  - {name: Telegram@极客分享_7, server: gz-yd.crazyspeed.xyz, port: 13595, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116, udp: true}
+  - {name: JP-43.206.152.124-2481, server: awsjp14-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: awsjp14-data.amazon-azure.com, skip-cert-verify: true, udp: true}
+  - {name: Relay 🇨🇳 China(ChatGPT) 07 TG:@nodpai, server: 120.226.50.68, port: 34214, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[peasoft/NoMoreWalls]16|哥伦比亚 001", server: 91.195.110.38, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
+  - {name: Relay 🇭🇰 Hong Kong 20 TG:@nodpai, server: hn.xiaohouzi.club, port: 19231, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: SG-4.193.229.204-14789, server: ca.stablize.top, port: 443, type: trojan, password: 353bd97c-a089-457f-a291-c19920dbe6d5, sni: ca.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: "[aiboboxx/v2rayfree]美国CloudFlare公司CDN节点(shopify) 14", server: 23.227.38.0, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
+  - {name: 美国 CloudFlare公司CDN节点(shopify), server: 23.227.38.99, port: 443, type: vmess, uuid: 86d37526-5758-4cec-862f-df404b313086, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /3G6WPDL7, ws-headers: {Host: 1.freek1.xyz}, udp: true}
+  - {name: RELAY-45.131.210.221-5388, server: ztl.ircf.space, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Lille.kotick.site}, udp: true}
+  - {name: "[xrayfree]美国33", server: subscene.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
+  - {name: "[xrayfree]美国28", server: irvless42.forsarinna.site, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
+  - {name: "[peasoft/NoMoreWalls]16|塞浦路斯 004", server: 203.22.223.51, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
+  - {name: "[xrayfree]美国48", server: ydyx.heimaojiasu.cloud, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
+  - {name: "[xrayfree]美国27", server: ancestry.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
+  - {name: "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_顺丰_8", server: pl1-vmess.greenssh.xyz, port: 80, type: vmess, uuid: 26cd2459-4f68-4e56-b19c-b0b26f6ff843, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: pl1-vmess.greenssh.xyz}, udp: true}
+  - {name: "[peasoft/NoMoreWalls]15,16|澳大利亚  17", server: 203.29.53.179, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
+  - {name: "[aiboboxx/v2rayfree]美国  9", server: 170.114.45.224, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.kotick.site}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay 🇸🇬 Singapore(ChatGPT) 15 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_10
-      - Relay 🇯🇵 Japan 18 TG:@nodpai
-      - 中国【付费推荐：suo.yt/ssrsub】100
-      - Relay 🇨🇦 Canada(ChatGPT) 03 TG:@nodpai
-      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - United States(ChatGPT) 65 TG:@nodpai
-      - United States(ChatGPT) 34 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_12
-      - 二爷翻墙网 https://1808.ga  节点_6
-      - Relay 🇯🇵 Japan(ChatGPT) 07 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 21 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_15
-      - _CN_中国
-      - 二爷翻墙网 https://1808.ga  节点_11
-      - United States(ChatGPT) 68 TG:@nodpai
-      - Singapore(ChatGPT) 14 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_5
-      - United States(ChatGPT) 19 TG:@nodpai
-      - BuyVM2
-      - United States(ChatGPT) 32 TG:@nodpai
-      - _JP_日本
-      - SW
-      - United States(ChatGPT) 39 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】5
-      - DP1@yxjnode
-      - github.com/freefq - 美国华盛顿州西雅图市亚马逊(Amazon)公司数据中心 6
-      - _TW_台湾
-      - Relay 🇭🇰 Hong Kong 23 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】34
-      - Relay 🇸🇬 Singapore 22 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 20 TG:@nodpai
-      - V002--US-付费推荐:suo.yt/ssrsub
-      - Netherlands 01 TG:@nodpai
-      - BuyVM1@yxjnode
+      - JP-20.63.179.215-2216
+      - JP-52.194.125.16-2006
       - United States(ChatGPT) 28 TG:@nodpai
-      - _CN_中国 5
-      - India(ChatGPT) 01 TG:@nodpai
-      - github.com/freefq - 美国阿里云 5
-      - Taiwan 14 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 24 TG:@nodpai
+      - "[peasoft/NoMoreWalls]13,16,22|🇺🇸 United States(ChatGPT) 68 T..."
+      - Relay 🇭🇰 Hong Kong 21 TG:@nodpai
+      - US-163.123.192.152-0222
+      - RELAY-104.21.82.246-0205
+      - Telegram@极客分享_5
+      - Telegram@极客分享_3
+      - 二爷翻墙网 https://1808.ga  节点_6
       - India(ChatGPT) 02 TG:@nodpai
+      - United States(ChatGPT) 39 TG:@nodpai
+      - 二爷翻墙网 https://1808.ga  节点_12
+      - SW
+      - Telegram@极客分享_8
+      - 二爷翻墙网 https://1808.ga  节点_5
+      - RELAY-104.21.8.54-16862
+      - Relay 🇺🇸 United States(ChatGPT) 58 TG:@nodpai
+      - RELAY-104.21.88.167-2073
+      - "[Rawdroid/Free-servers]美国 CloudFlare节点"
       - 美国 CloudFlare节点
-      - 美国【付费推荐：https://v1.mk/vip】10
-      - 美国 CloudFlare节点 2
-      - Viet Nam 03 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】22
-      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
-      - 罗马尼亚【付费推荐：https://v1.mk/vip】12
-      - v2rayfree.eu.org - 欧盟  7
-      - Taiwan(ChatGPT) 20 TG:@nodpai
-      - DP2@yxjnode
-      - _TW_台湾 2
-      - v2rayfree.eu.org - 美国  14
-      - 欧盟 V2CROSS.COM
-      - 美国 CloudFlare公司CDN节点(shopify)
-      - 美国【付费推荐：https://v1.mk/vip】28
-      - github.com/freefq - 北京市移动 27
-      - 美国【付费推荐：https://v1.mk/vip】33
-      - 美国【付费推荐：https://v1.mk/vip】35
-      - DP3
-      - 美国【付费推荐：https://v1.mk/vip】45
-      - github.com/freefq - 俄罗斯新西伯利亚ADMAN数据中心 22
+      - +日本+384
+      - 二爷翻墙网 https://1808.ga  节点_15
       - Luxembourg(ChatGPT) 01 TG:@nodpai
+      - RELAY-198.41.223.126-0453
+      - "[xrayfree]美国32"
+      - Relay 🇨🇦 Canada(ChatGPT) 03 TG:@nodpai
+      - RELAY-104.21.53.35-0085
+      - "[peasoft/NoMoreWalls]0,1,7,8,9,10,12,12,12,12,12,12,13,13,13,13,13,13,15,17,19,19,19,20,25,26,27,28,29,30|🇺🇸 _US_美国_____________"
+      - 二爷翻墙网 https://1808.ga  节点_11
+      - JP-43.206.152.124-0105
+      - "[peasoft/NoMoreWalls]20|日本2-ChatGPT"
+      - RELAY-162.159.152.153-1251
+      - 二爷翻墙网 https://1808.ga  节点_10
+      - SG-8.222.192.30-0450
+      - RELAY-23.227.39.1-5455
+      - SG-4.194.140.223-14816
+      - RELAY-172.67.207.208-0190
+      - Relay 🇭🇰 Hong Kong 16 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 15 TG:@nodpai
+      - "[aiboboxx/v2rayfree]美国CloudFlare节点 13"
+      - 二爷翻墙网 https://1808.ga  节点_13
+      - Telegram@极客分享_7
+      - JP-43.206.152.124-2481
+      - Relay 🇨🇳 China(ChatGPT) 07 TG:@nodpai
+      - "[peasoft/NoMoreWalls]16|哥伦比亚 001"
+      - Relay 🇭🇰 Hong Kong 20 TG:@nodpai
+      - SG-4.193.229.204-14789
+      - "[aiboboxx/v2rayfree]美国CloudFlare公司CDN节点(shopify) 14"
+      - 美国 CloudFlare公司CDN节点(shopify)
+      - RELAY-45.131.210.221-5388
+      - "[xrayfree]美国33"
+      - "[xrayfree]美国28"
+      - "[peasoft/NoMoreWalls]16|塞浦路斯 004"
+      - "[xrayfree]美国48"
+      - "[xrayfree]美国27"
+      - "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_顺丰_8"
+      - "[peasoft/NoMoreWalls]15,16|澳大利亚  17"
+      - "[aiboboxx/v2rayfree]美国  9"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay 🇸🇬 Singapore(ChatGPT) 15 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_10
-      - Relay 🇯🇵 Japan 18 TG:@nodpai
-      - 中国【付费推荐：suo.yt/ssrsub】100
-      - Relay 🇨🇦 Canada(ChatGPT) 03 TG:@nodpai
-      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - United States(ChatGPT) 65 TG:@nodpai
-      - United States(ChatGPT) 34 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_12
-      - 二爷翻墙网 https://1808.ga  节点_6
-      - Relay 🇯🇵 Japan(ChatGPT) 07 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 21 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_15
-      - _CN_中国
-      - 二爷翻墙网 https://1808.ga  节点_11
-      - United States(ChatGPT) 68 TG:@nodpai
-      - Singapore(ChatGPT) 14 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_5
-      - United States(ChatGPT) 19 TG:@nodpai
-      - BuyVM2
-      - United States(ChatGPT) 32 TG:@nodpai
-      - _JP_日本
-      - SW
-      - United States(ChatGPT) 39 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】5
-      - DP1@yxjnode
-      - github.com/freefq - 美国华盛顿州西雅图市亚马逊(Amazon)公司数据中心 6
-      - _TW_台湾
-      - Relay 🇭🇰 Hong Kong 23 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】34
-      - Relay 🇸🇬 Singapore 22 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 20 TG:@nodpai
-      - V002--US-付费推荐:suo.yt/ssrsub
-      - Netherlands 01 TG:@nodpai
-      - BuyVM1@yxjnode
+      - JP-20.63.179.215-2216
+      - JP-52.194.125.16-2006
       - United States(ChatGPT) 28 TG:@nodpai
-      - _CN_中国 5
-      - India(ChatGPT) 01 TG:@nodpai
-      - github.com/freefq - 美国阿里云 5
-      - Taiwan 14 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 24 TG:@nodpai
+      - "[peasoft/NoMoreWalls]13,16,22|🇺🇸 United States(ChatGPT) 68 T..."
+      - Relay 🇭🇰 Hong Kong 21 TG:@nodpai
+      - US-163.123.192.152-0222
+      - RELAY-104.21.82.246-0205
+      - Telegram@极客分享_5
+      - Telegram@极客分享_3
+      - 二爷翻墙网 https://1808.ga  节点_6
       - India(ChatGPT) 02 TG:@nodpai
+      - United States(ChatGPT) 39 TG:@nodpai
+      - 二爷翻墙网 https://1808.ga  节点_12
+      - SW
+      - Telegram@极客分享_8
+      - 二爷翻墙网 https://1808.ga  节点_5
+      - RELAY-104.21.8.54-16862
+      - Relay 🇺🇸 United States(ChatGPT) 58 TG:@nodpai
+      - RELAY-104.21.88.167-2073
+      - "[Rawdroid/Free-servers]美国 CloudFlare节点"
       - 美国 CloudFlare节点
-      - 美国【付费推荐：https://v1.mk/vip】10
-      - 美国 CloudFlare节点 2
-      - Viet Nam 03 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】22
-      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
-      - 罗马尼亚【付费推荐：https://v1.mk/vip】12
-      - v2rayfree.eu.org - 欧盟  7
-      - Taiwan(ChatGPT) 20 TG:@nodpai
-      - DP2@yxjnode
-      - _TW_台湾 2
-      - v2rayfree.eu.org - 美国  14
-      - 欧盟 V2CROSS.COM
-      - 美国 CloudFlare公司CDN节点(shopify)
-      - 美国【付费推荐：https://v1.mk/vip】28
-      - github.com/freefq - 北京市移动 27
-      - 美国【付费推荐：https://v1.mk/vip】33
-      - 美国【付费推荐：https://v1.mk/vip】35
-      - DP3
-      - 美国【付费推荐：https://v1.mk/vip】45
-      - github.com/freefq - 俄罗斯新西伯利亚ADMAN数据中心 22
+      - +日本+384
+      - 二爷翻墙网 https://1808.ga  节点_15
       - Luxembourg(ChatGPT) 01 TG:@nodpai
+      - RELAY-198.41.223.126-0453
+      - "[xrayfree]美国32"
+      - Relay 🇨🇦 Canada(ChatGPT) 03 TG:@nodpai
+      - RELAY-104.21.53.35-0085
+      - "[peasoft/NoMoreWalls]0,1,7,8,9,10,12,12,12,12,12,12,13,13,13,13,13,13,15,17,19,19,19,20,25,26,27,28,29,30|🇺🇸 _US_美国_____________"
+      - 二爷翻墙网 https://1808.ga  节点_11
+      - JP-43.206.152.124-0105
+      - "[peasoft/NoMoreWalls]20|日本2-ChatGPT"
+      - RELAY-162.159.152.153-1251
+      - 二爷翻墙网 https://1808.ga  节点_10
+      - SG-8.222.192.30-0450
+      - RELAY-23.227.39.1-5455
+      - SG-4.194.140.223-14816
+      - RELAY-172.67.207.208-0190
+      - Relay 🇭🇰 Hong Kong 16 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 15 TG:@nodpai
+      - "[aiboboxx/v2rayfree]美国CloudFlare节点 13"
+      - 二爷翻墙网 https://1808.ga  节点_13
+      - Telegram@极客分享_7
+      - JP-43.206.152.124-2481
+      - Relay 🇨🇳 China(ChatGPT) 07 TG:@nodpai
+      - "[peasoft/NoMoreWalls]16|哥伦比亚 001"
+      - Relay 🇭🇰 Hong Kong 20 TG:@nodpai
+      - SG-4.193.229.204-14789
+      - "[aiboboxx/v2rayfree]美国CloudFlare公司CDN节点(shopify) 14"
+      - 美国 CloudFlare公司CDN节点(shopify)
+      - RELAY-45.131.210.221-5388
+      - "[xrayfree]美国33"
+      - "[xrayfree]美国28"
+      - "[peasoft/NoMoreWalls]16|塞浦路斯 004"
+      - "[xrayfree]美国48"
+      - "[xrayfree]美国27"
+      - "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_顺丰_8"
+      - "[peasoft/NoMoreWalls]15,16|澳大利亚  17"
+      - "[aiboboxx/v2rayfree]美国  9"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay 🇸🇬 Singapore(ChatGPT) 15 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_10
-      - Relay 🇯🇵 Japan 18 TG:@nodpai
-      - 中国【付费推荐：suo.yt/ssrsub】100
-      - Relay 🇨🇦 Canada(ChatGPT) 03 TG:@nodpai
-      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - United States(ChatGPT) 65 TG:@nodpai
-      - United States(ChatGPT) 34 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_12
-      - 二爷翻墙网 https://1808.ga  节点_6
-      - Relay 🇯🇵 Japan(ChatGPT) 07 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 21 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_15
-      - _CN_中国
-      - 二爷翻墙网 https://1808.ga  节点_11
-      - United States(ChatGPT) 68 TG:@nodpai
-      - Singapore(ChatGPT) 14 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_5
-      - United States(ChatGPT) 19 TG:@nodpai
-      - BuyVM2
-      - United States(ChatGPT) 32 TG:@nodpai
-      - _JP_日本
-      - SW
-      - United States(ChatGPT) 39 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】5
-      - DP1@yxjnode
-      - github.com/freefq - 美国华盛顿州西雅图市亚马逊(Amazon)公司数据中心 6
-      - _TW_台湾
-      - Relay 🇭🇰 Hong Kong 23 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】34
-      - Relay 🇸🇬 Singapore 22 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 20 TG:@nodpai
-      - V002--US-付费推荐:suo.yt/ssrsub
-      - Netherlands 01 TG:@nodpai
-      - BuyVM1@yxjnode
+      - JP-20.63.179.215-2216
+      - JP-52.194.125.16-2006
       - United States(ChatGPT) 28 TG:@nodpai
-      - _CN_中国 5
-      - India(ChatGPT) 01 TG:@nodpai
-      - github.com/freefq - 美国阿里云 5
-      - Taiwan 14 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 24 TG:@nodpai
+      - "[peasoft/NoMoreWalls]13,16,22|🇺🇸 United States(ChatGPT) 68 T..."
+      - Relay 🇭🇰 Hong Kong 21 TG:@nodpai
+      - US-163.123.192.152-0222
+      - RELAY-104.21.82.246-0205
+      - Telegram@极客分享_5
+      - Telegram@极客分享_3
+      - 二爷翻墙网 https://1808.ga  节点_6
       - India(ChatGPT) 02 TG:@nodpai
+      - United States(ChatGPT) 39 TG:@nodpai
+      - 二爷翻墙网 https://1808.ga  节点_12
+      - SW
+      - Telegram@极客分享_8
+      - 二爷翻墙网 https://1808.ga  节点_5
+      - RELAY-104.21.8.54-16862
+      - Relay 🇺🇸 United States(ChatGPT) 58 TG:@nodpai
+      - RELAY-104.21.88.167-2073
+      - "[Rawdroid/Free-servers]美国 CloudFlare节点"
       - 美国 CloudFlare节点
-      - 美国【付费推荐：https://v1.mk/vip】10
-      - 美国 CloudFlare节点 2
-      - Viet Nam 03 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】22
-      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
-      - 罗马尼亚【付费推荐：https://v1.mk/vip】12
-      - v2rayfree.eu.org - 欧盟  7
-      - Taiwan(ChatGPT) 20 TG:@nodpai
-      - DP2@yxjnode
-      - _TW_台湾 2
-      - v2rayfree.eu.org - 美国  14
-      - 欧盟 V2CROSS.COM
-      - 美国 CloudFlare公司CDN节点(shopify)
-      - 美国【付费推荐：https://v1.mk/vip】28
-      - github.com/freefq - 北京市移动 27
-      - 美国【付费推荐：https://v1.mk/vip】33
-      - 美国【付费推荐：https://v1.mk/vip】35
-      - DP3
-      - 美国【付费推荐：https://v1.mk/vip】45
-      - github.com/freefq - 俄罗斯新西伯利亚ADMAN数据中心 22
+      - +日本+384
+      - 二爷翻墙网 https://1808.ga  节点_15
       - Luxembourg(ChatGPT) 01 TG:@nodpai
+      - RELAY-198.41.223.126-0453
+      - "[xrayfree]美国32"
+      - Relay 🇨🇦 Canada(ChatGPT) 03 TG:@nodpai
+      - RELAY-104.21.53.35-0085
+      - "[peasoft/NoMoreWalls]0,1,7,8,9,10,12,12,12,12,12,12,13,13,13,13,13,13,15,17,19,19,19,20,25,26,27,28,29,30|🇺🇸 _US_美国_____________"
+      - 二爷翻墙网 https://1808.ga  节点_11
+      - JP-43.206.152.124-0105
+      - "[peasoft/NoMoreWalls]20|日本2-ChatGPT"
+      - RELAY-162.159.152.153-1251
+      - 二爷翻墙网 https://1808.ga  节点_10
+      - SG-8.222.192.30-0450
+      - RELAY-23.227.39.1-5455
+      - SG-4.194.140.223-14816
+      - RELAY-172.67.207.208-0190
+      - Relay 🇭🇰 Hong Kong 16 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 15 TG:@nodpai
+      - "[aiboboxx/v2rayfree]美国CloudFlare节点 13"
+      - 二爷翻墙网 https://1808.ga  节点_13
+      - Telegram@极客分享_7
+      - JP-43.206.152.124-2481
+      - Relay 🇨🇳 China(ChatGPT) 07 TG:@nodpai
+      - "[peasoft/NoMoreWalls]16|哥伦比亚 001"
+      - Relay 🇭🇰 Hong Kong 20 TG:@nodpai
+      - SG-4.193.229.204-14789
+      - "[aiboboxx/v2rayfree]美国CloudFlare公司CDN节点(shopify) 14"
+      - 美国 CloudFlare公司CDN节点(shopify)
+      - RELAY-45.131.210.221-5388
+      - "[xrayfree]美国33"
+      - "[xrayfree]美国28"
+      - "[peasoft/NoMoreWalls]16|塞浦路斯 004"
+      - "[xrayfree]美国48"
+      - "[xrayfree]美国27"
+      - "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_顺丰_8"
+      - "[peasoft/NoMoreWalls]15,16|澳大利亚  17"
+      - "[aiboboxx/v2rayfree]美国  9"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -296,285 +276,263 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay 🇸🇬 Singapore(ChatGPT) 15 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_10
-      - Relay 🇯🇵 Japan 18 TG:@nodpai
-      - 中国【付费推荐：suo.yt/ssrsub】100
-      - Relay 🇨🇦 Canada(ChatGPT) 03 TG:@nodpai
-      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - United States(ChatGPT) 65 TG:@nodpai
-      - United States(ChatGPT) 34 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_12
-      - 二爷翻墙网 https://1808.ga  节点_6
-      - Relay 🇯🇵 Japan(ChatGPT) 07 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 21 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_15
-      - _CN_中国
-      - 二爷翻墙网 https://1808.ga  节点_11
-      - United States(ChatGPT) 68 TG:@nodpai
-      - Singapore(ChatGPT) 14 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_5
-      - United States(ChatGPT) 19 TG:@nodpai
-      - BuyVM2
-      - United States(ChatGPT) 32 TG:@nodpai
-      - _JP_日本
-      - SW
-      - United States(ChatGPT) 39 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】5
-      - DP1@yxjnode
-      - github.com/freefq - 美国华盛顿州西雅图市亚马逊(Amazon)公司数据中心 6
-      - _TW_台湾
-      - Relay 🇭🇰 Hong Kong 23 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】34
-      - Relay 🇸🇬 Singapore 22 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 20 TG:@nodpai
-      - V002--US-付费推荐:suo.yt/ssrsub
-      - Netherlands 01 TG:@nodpai
-      - BuyVM1@yxjnode
+      - JP-20.63.179.215-2216
+      - JP-52.194.125.16-2006
       - United States(ChatGPT) 28 TG:@nodpai
-      - _CN_中国 5
-      - India(ChatGPT) 01 TG:@nodpai
-      - github.com/freefq - 美国阿里云 5
-      - Taiwan 14 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 24 TG:@nodpai
+      - "[peasoft/NoMoreWalls]13,16,22|🇺🇸 United States(ChatGPT) 68 T..."
+      - Relay 🇭🇰 Hong Kong 21 TG:@nodpai
+      - US-163.123.192.152-0222
+      - RELAY-104.21.82.246-0205
+      - Telegram@极客分享_5
+      - Telegram@极客分享_3
+      - 二爷翻墙网 https://1808.ga  节点_6
       - India(ChatGPT) 02 TG:@nodpai
+      - United States(ChatGPT) 39 TG:@nodpai
+      - 二爷翻墙网 https://1808.ga  节点_12
+      - SW
+      - Telegram@极客分享_8
+      - 二爷翻墙网 https://1808.ga  节点_5
+      - RELAY-104.21.8.54-16862
+      - Relay 🇺🇸 United States(ChatGPT) 58 TG:@nodpai
+      - RELAY-104.21.88.167-2073
+      - "[Rawdroid/Free-servers]美国 CloudFlare节点"
       - 美国 CloudFlare节点
-      - 美国【付费推荐：https://v1.mk/vip】10
-      - 美国 CloudFlare节点 2
-      - Viet Nam 03 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】22
-      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
-      - 罗马尼亚【付费推荐：https://v1.mk/vip】12
-      - v2rayfree.eu.org - 欧盟  7
-      - Taiwan(ChatGPT) 20 TG:@nodpai
-      - DP2@yxjnode
-      - _TW_台湾 2
-      - v2rayfree.eu.org - 美国  14
-      - 欧盟 V2CROSS.COM
-      - 美国 CloudFlare公司CDN节点(shopify)
-      - 美国【付费推荐：https://v1.mk/vip】28
-      - github.com/freefq - 北京市移动 27
-      - 美国【付费推荐：https://v1.mk/vip】33
-      - 美国【付费推荐：https://v1.mk/vip】35
-      - DP3
-      - 美国【付费推荐：https://v1.mk/vip】45
-      - github.com/freefq - 俄罗斯新西伯利亚ADMAN数据中心 22
+      - +日本+384
+      - 二爷翻墙网 https://1808.ga  节点_15
       - Luxembourg(ChatGPT) 01 TG:@nodpai
+      - RELAY-198.41.223.126-0453
+      - "[xrayfree]美国32"
+      - Relay 🇨🇦 Canada(ChatGPT) 03 TG:@nodpai
+      - RELAY-104.21.53.35-0085
+      - "[peasoft/NoMoreWalls]0,1,7,8,9,10,12,12,12,12,12,12,13,13,13,13,13,13,15,17,19,19,19,20,25,26,27,28,29,30|🇺🇸 _US_美国_____________"
+      - 二爷翻墙网 https://1808.ga  节点_11
+      - JP-43.206.152.124-0105
+      - "[peasoft/NoMoreWalls]20|日本2-ChatGPT"
+      - RELAY-162.159.152.153-1251
+      - 二爷翻墙网 https://1808.ga  节点_10
+      - SG-8.222.192.30-0450
+      - RELAY-23.227.39.1-5455
+      - SG-4.194.140.223-14816
+      - RELAY-172.67.207.208-0190
+      - Relay 🇭🇰 Hong Kong 16 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 15 TG:@nodpai
+      - "[aiboboxx/v2rayfree]美国CloudFlare节点 13"
+      - 二爷翻墙网 https://1808.ga  节点_13
+      - Telegram@极客分享_7
+      - JP-43.206.152.124-2481
+      - Relay 🇨🇳 China(ChatGPT) 07 TG:@nodpai
+      - "[peasoft/NoMoreWalls]16|哥伦比亚 001"
+      - Relay 🇭🇰 Hong Kong 20 TG:@nodpai
+      - SG-4.193.229.204-14789
+      - "[aiboboxx/v2rayfree]美国CloudFlare公司CDN节点(shopify) 14"
+      - 美国 CloudFlare公司CDN节点(shopify)
+      - RELAY-45.131.210.221-5388
+      - "[xrayfree]美国33"
+      - "[xrayfree]美国28"
+      - "[peasoft/NoMoreWalls]16|塞浦路斯 004"
+      - "[xrayfree]美国48"
+      - "[xrayfree]美国27"
+      - "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_顺丰_8"
+      - "[peasoft/NoMoreWalls]15,16|澳大利亚  17"
+      - "[aiboboxx/v2rayfree]美国  9"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - _TW_台湾
-      - _TW_台湾 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay 🇸🇬 Singapore(ChatGPT) 15 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_10
-      - Relay 🇯🇵 Japan 18 TG:@nodpai
-      - 中国【付费推荐：suo.yt/ssrsub】100
-      - Relay 🇨🇦 Canada(ChatGPT) 03 TG:@nodpai
-      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - United States(ChatGPT) 65 TG:@nodpai
-      - United States(ChatGPT) 34 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_12
-      - 二爷翻墙网 https://1808.ga  节点_6
-      - Relay 🇯🇵 Japan(ChatGPT) 07 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 21 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_15
-      - _CN_中国
-      - 二爷翻墙网 https://1808.ga  节点_11
-      - United States(ChatGPT) 68 TG:@nodpai
-      - Singapore(ChatGPT) 14 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_5
-      - United States(ChatGPT) 19 TG:@nodpai
-      - BuyVM2
-      - United States(ChatGPT) 32 TG:@nodpai
-      - _JP_日本
-      - SW
-      - United States(ChatGPT) 39 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】5
-      - DP1@yxjnode
-      - github.com/freefq - 美国华盛顿州西雅图市亚马逊(Amazon)公司数据中心 6
-      - _TW_台湾
-      - Relay 🇭🇰 Hong Kong 23 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】34
-      - Relay 🇸🇬 Singapore 22 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 20 TG:@nodpai
-      - V002--US-付费推荐:suo.yt/ssrsub
-      - Netherlands 01 TG:@nodpai
-      - BuyVM1@yxjnode
+      - JP-20.63.179.215-2216
+      - JP-52.194.125.16-2006
       - United States(ChatGPT) 28 TG:@nodpai
-      - _CN_中国 5
-      - India(ChatGPT) 01 TG:@nodpai
-      - github.com/freefq - 美国阿里云 5
-      - Taiwan 14 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 24 TG:@nodpai
+      - "[peasoft/NoMoreWalls]13,16,22|🇺🇸 United States(ChatGPT) 68 T..."
+      - Relay 🇭🇰 Hong Kong 21 TG:@nodpai
+      - US-163.123.192.152-0222
+      - RELAY-104.21.82.246-0205
+      - Telegram@极客分享_5
+      - Telegram@极客分享_3
+      - 二爷翻墙网 https://1808.ga  节点_6
       - India(ChatGPT) 02 TG:@nodpai
+      - United States(ChatGPT) 39 TG:@nodpai
+      - 二爷翻墙网 https://1808.ga  节点_12
+      - SW
+      - Telegram@极客分享_8
+      - 二爷翻墙网 https://1808.ga  节点_5
+      - RELAY-104.21.8.54-16862
+      - Relay 🇺🇸 United States(ChatGPT) 58 TG:@nodpai
+      - RELAY-104.21.88.167-2073
+      - "[Rawdroid/Free-servers]美国 CloudFlare节点"
       - 美国 CloudFlare节点
-      - 美国【付费推荐：https://v1.mk/vip】10
-      - 美国 CloudFlare节点 2
-      - Viet Nam 03 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】22
-      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
-      - 罗马尼亚【付费推荐：https://v1.mk/vip】12
-      - v2rayfree.eu.org - 欧盟  7
-      - Taiwan(ChatGPT) 20 TG:@nodpai
-      - DP2@yxjnode
-      - _TW_台湾 2
-      - v2rayfree.eu.org - 美国  14
-      - 欧盟 V2CROSS.COM
-      - 美国 CloudFlare公司CDN节点(shopify)
-      - 美国【付费推荐：https://v1.mk/vip】28
-      - github.com/freefq - 北京市移动 27
-      - 美国【付费推荐：https://v1.mk/vip】33
-      - 美国【付费推荐：https://v1.mk/vip】35
-      - DP3
-      - 美国【付费推荐：https://v1.mk/vip】45
-      - github.com/freefq - 俄罗斯新西伯利亚ADMAN数据中心 22
+      - +日本+384
+      - 二爷翻墙网 https://1808.ga  节点_15
       - Luxembourg(ChatGPT) 01 TG:@nodpai
+      - RELAY-198.41.223.126-0453
+      - "[xrayfree]美国32"
+      - Relay 🇨🇦 Canada(ChatGPT) 03 TG:@nodpai
+      - RELAY-104.21.53.35-0085
+      - "[peasoft/NoMoreWalls]0,1,7,8,9,10,12,12,12,12,12,12,13,13,13,13,13,13,15,17,19,19,19,20,25,26,27,28,29,30|🇺🇸 _US_美国_____________"
+      - 二爷翻墙网 https://1808.ga  节点_11
+      - JP-43.206.152.124-0105
+      - "[peasoft/NoMoreWalls]20|日本2-ChatGPT"
+      - RELAY-162.159.152.153-1251
+      - 二爷翻墙网 https://1808.ga  节点_10
+      - SG-8.222.192.30-0450
+      - RELAY-23.227.39.1-5455
+      - SG-4.194.140.223-14816
+      - RELAY-172.67.207.208-0190
+      - Relay 🇭🇰 Hong Kong 16 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 15 TG:@nodpai
+      - "[aiboboxx/v2rayfree]美国CloudFlare节点 13"
+      - 二爷翻墙网 https://1808.ga  节点_13
+      - Telegram@极客分享_7
+      - JP-43.206.152.124-2481
+      - Relay 🇨🇳 China(ChatGPT) 07 TG:@nodpai
+      - "[peasoft/NoMoreWalls]16|哥伦比亚 001"
+      - Relay 🇭🇰 Hong Kong 20 TG:@nodpai
+      - SG-4.193.229.204-14789
+      - "[aiboboxx/v2rayfree]美国CloudFlare公司CDN节点(shopify) 14"
+      - 美国 CloudFlare公司CDN节点(shopify)
+      - RELAY-45.131.210.221-5388
+      - "[xrayfree]美国33"
+      - "[xrayfree]美国28"
+      - "[peasoft/NoMoreWalls]16|塞浦路斯 004"
+      - "[xrayfree]美国48"
+      - "[xrayfree]美国27"
+      - "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_顺丰_8"
+      - "[peasoft/NoMoreWalls]15,16|澳大利亚  17"
+      - "[aiboboxx/v2rayfree]美国  9"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay 🇸🇬 Singapore(ChatGPT) 15 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_10
-      - Relay 🇯🇵 Japan 18 TG:@nodpai
-      - 中国【付费推荐：suo.yt/ssrsub】100
-      - Relay 🇨🇦 Canada(ChatGPT) 03 TG:@nodpai
-      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - United States(ChatGPT) 65 TG:@nodpai
-      - United States(ChatGPT) 34 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_12
-      - 二爷翻墙网 https://1808.ga  节点_6
-      - Relay 🇯🇵 Japan(ChatGPT) 07 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 21 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_15
-      - _CN_中国
-      - 二爷翻墙网 https://1808.ga  节点_11
-      - United States(ChatGPT) 68 TG:@nodpai
-      - Singapore(ChatGPT) 14 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_5
-      - United States(ChatGPT) 19 TG:@nodpai
-      - BuyVM2
-      - United States(ChatGPT) 32 TG:@nodpai
-      - _JP_日本
-      - SW
-      - United States(ChatGPT) 39 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】5
-      - DP1@yxjnode
-      - github.com/freefq - 美国华盛顿州西雅图市亚马逊(Amazon)公司数据中心 6
-      - _TW_台湾
-      - Relay 🇭🇰 Hong Kong 23 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】34
-      - Relay 🇸🇬 Singapore 22 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 20 TG:@nodpai
-      - V002--US-付费推荐:suo.yt/ssrsub
-      - Netherlands 01 TG:@nodpai
-      - BuyVM1@yxjnode
+      - JP-20.63.179.215-2216
+      - JP-52.194.125.16-2006
       - United States(ChatGPT) 28 TG:@nodpai
-      - _CN_中国 5
-      - India(ChatGPT) 01 TG:@nodpai
-      - github.com/freefq - 美国阿里云 5
-      - Taiwan 14 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 24 TG:@nodpai
+      - "[peasoft/NoMoreWalls]13,16,22|🇺🇸 United States(ChatGPT) 68 T..."
+      - Relay 🇭🇰 Hong Kong 21 TG:@nodpai
+      - US-163.123.192.152-0222
+      - RELAY-104.21.82.246-0205
+      - Telegram@极客分享_5
+      - Telegram@极客分享_3
+      - 二爷翻墙网 https://1808.ga  节点_6
       - India(ChatGPT) 02 TG:@nodpai
+      - United States(ChatGPT) 39 TG:@nodpai
+      - 二爷翻墙网 https://1808.ga  节点_12
+      - SW
+      - Telegram@极客分享_8
+      - 二爷翻墙网 https://1808.ga  节点_5
+      - RELAY-104.21.8.54-16862
+      - Relay 🇺🇸 United States(ChatGPT) 58 TG:@nodpai
+      - RELAY-104.21.88.167-2073
+      - "[Rawdroid/Free-servers]美国 CloudFlare节点"
       - 美国 CloudFlare节点
-      - 美国【付费推荐：https://v1.mk/vip】10
-      - 美国 CloudFlare节点 2
-      - Viet Nam 03 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】22
-      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
-      - 罗马尼亚【付费推荐：https://v1.mk/vip】12
-      - v2rayfree.eu.org - 欧盟  7
-      - Taiwan(ChatGPT) 20 TG:@nodpai
-      - DP2@yxjnode
-      - _TW_台湾 2
-      - v2rayfree.eu.org - 美国  14
-      - 欧盟 V2CROSS.COM
-      - 美国 CloudFlare公司CDN节点(shopify)
-      - 美国【付费推荐：https://v1.mk/vip】28
-      - github.com/freefq - 北京市移动 27
-      - 美国【付费推荐：https://v1.mk/vip】33
-      - 美国【付费推荐：https://v1.mk/vip】35
-      - DP3
-      - 美国【付费推荐：https://v1.mk/vip】45
-      - github.com/freefq - 俄罗斯新西伯利亚ADMAN数据中心 22
+      - +日本+384
+      - 二爷翻墙网 https://1808.ga  节点_15
       - Luxembourg(ChatGPT) 01 TG:@nodpai
+      - RELAY-198.41.223.126-0453
+      - "[xrayfree]美国32"
+      - Relay 🇨🇦 Canada(ChatGPT) 03 TG:@nodpai
+      - RELAY-104.21.53.35-0085
+      - "[peasoft/NoMoreWalls]0,1,7,8,9,10,12,12,12,12,12,12,13,13,13,13,13,13,15,17,19,19,19,20,25,26,27,28,29,30|🇺🇸 _US_美国_____________"
+      - 二爷翻墙网 https://1808.ga  节点_11
+      - JP-43.206.152.124-0105
+      - "[peasoft/NoMoreWalls]20|日本2-ChatGPT"
+      - RELAY-162.159.152.153-1251
+      - 二爷翻墙网 https://1808.ga  节点_10
+      - SG-8.222.192.30-0450
+      - RELAY-23.227.39.1-5455
+      - SG-4.194.140.223-14816
+      - RELAY-172.67.207.208-0190
+      - Relay 🇭🇰 Hong Kong 16 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 15 TG:@nodpai
+      - "[aiboboxx/v2rayfree]美国CloudFlare节点 13"
+      - 二爷翻墙网 https://1808.ga  节点_13
+      - Telegram@极客分享_7
+      - JP-43.206.152.124-2481
+      - Relay 🇨🇳 China(ChatGPT) 07 TG:@nodpai
+      - "[peasoft/NoMoreWalls]16|哥伦比亚 001"
+      - Relay 🇭🇰 Hong Kong 20 TG:@nodpai
+      - SG-4.193.229.204-14789
+      - "[aiboboxx/v2rayfree]美国CloudFlare公司CDN节点(shopify) 14"
+      - 美国 CloudFlare公司CDN节点(shopify)
+      - RELAY-45.131.210.221-5388
+      - "[xrayfree]美国33"
+      - "[xrayfree]美国28"
+      - "[peasoft/NoMoreWalls]16|塞浦路斯 004"
+      - "[xrayfree]美国48"
+      - "[xrayfree]美国27"
+      - "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_顺丰_8"
+      - "[peasoft/NoMoreWalls]15,16|澳大利亚  17"
+      - "[aiboboxx/v2rayfree]美国  9"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay 🇸🇬 Singapore(ChatGPT) 15 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_10
-      - Relay 🇯🇵 Japan 18 TG:@nodpai
-      - 中国【付费推荐：suo.yt/ssrsub】100
-      - Relay 🇨🇦 Canada(ChatGPT) 03 TG:@nodpai
-      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - United States(ChatGPT) 65 TG:@nodpai
-      - United States(ChatGPT) 34 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_12
-      - 二爷翻墙网 https://1808.ga  节点_6
-      - Relay 🇯🇵 Japan(ChatGPT) 07 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 21 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_15
-      - _CN_中国
-      - 二爷翻墙网 https://1808.ga  节点_11
-      - United States(ChatGPT) 68 TG:@nodpai
-      - Singapore(ChatGPT) 14 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_5
-      - United States(ChatGPT) 19 TG:@nodpai
-      - BuyVM2
-      - United States(ChatGPT) 32 TG:@nodpai
-      - _JP_日本
-      - SW
-      - United States(ChatGPT) 39 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】5
-      - DP1@yxjnode
-      - github.com/freefq - 美国华盛顿州西雅图市亚马逊(Amazon)公司数据中心 6
-      - _TW_台湾
-      - Relay 🇭🇰 Hong Kong 23 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】34
-      - Relay 🇸🇬 Singapore 22 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 20 TG:@nodpai
-      - V002--US-付费推荐:suo.yt/ssrsub
-      - Netherlands 01 TG:@nodpai
-      - BuyVM1@yxjnode
+      - JP-20.63.179.215-2216
+      - JP-52.194.125.16-2006
       - United States(ChatGPT) 28 TG:@nodpai
-      - _CN_中国 5
-      - India(ChatGPT) 01 TG:@nodpai
-      - github.com/freefq - 美国阿里云 5
-      - Taiwan 14 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 24 TG:@nodpai
+      - "[peasoft/NoMoreWalls]13,16,22|🇺🇸 United States(ChatGPT) 68 T..."
+      - Relay 🇭🇰 Hong Kong 21 TG:@nodpai
+      - US-163.123.192.152-0222
+      - RELAY-104.21.82.246-0205
+      - Telegram@极客分享_5
+      - Telegram@极客分享_3
+      - 二爷翻墙网 https://1808.ga  节点_6
       - India(ChatGPT) 02 TG:@nodpai
+      - United States(ChatGPT) 39 TG:@nodpai
+      - 二爷翻墙网 https://1808.ga  节点_12
+      - SW
+      - Telegram@极客分享_8
+      - 二爷翻墙网 https://1808.ga  节点_5
+      - RELAY-104.21.8.54-16862
+      - Relay 🇺🇸 United States(ChatGPT) 58 TG:@nodpai
+      - RELAY-104.21.88.167-2073
+      - "[Rawdroid/Free-servers]美国 CloudFlare节点"
       - 美国 CloudFlare节点
-      - 美国【付费推荐：https://v1.mk/vip】10
-      - 美国 CloudFlare节点 2
-      - Viet Nam 03 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】22
-      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
-      - 罗马尼亚【付费推荐：https://v1.mk/vip】12
-      - v2rayfree.eu.org - 欧盟  7
-      - Taiwan(ChatGPT) 20 TG:@nodpai
-      - DP2@yxjnode
-      - _TW_台湾 2
-      - v2rayfree.eu.org - 美国  14
-      - 欧盟 V2CROSS.COM
-      - 美国 CloudFlare公司CDN节点(shopify)
-      - 美国【付费推荐：https://v1.mk/vip】28
-      - github.com/freefq - 北京市移动 27
-      - 美国【付费推荐：https://v1.mk/vip】33
-      - 美国【付费推荐：https://v1.mk/vip】35
-      - DP3
-      - 美国【付费推荐：https://v1.mk/vip】45
-      - github.com/freefq - 俄罗斯新西伯利亚ADMAN数据中心 22
+      - +日本+384
+      - 二爷翻墙网 https://1808.ga  节点_15
       - Luxembourg(ChatGPT) 01 TG:@nodpai
+      - RELAY-198.41.223.126-0453
+      - "[xrayfree]美国32"
+      - Relay 🇨🇦 Canada(ChatGPT) 03 TG:@nodpai
+      - RELAY-104.21.53.35-0085
+      - "[peasoft/NoMoreWalls]0,1,7,8,9,10,12,12,12,12,12,12,13,13,13,13,13,13,15,17,19,19,19,20,25,26,27,28,29,30|🇺🇸 _US_美国_____________"
+      - 二爷翻墙网 https://1808.ga  节点_11
+      - JP-43.206.152.124-0105
+      - "[peasoft/NoMoreWalls]20|日本2-ChatGPT"
+      - RELAY-162.159.152.153-1251
+      - 二爷翻墙网 https://1808.ga  节点_10
+      - SG-8.222.192.30-0450
+      - RELAY-23.227.39.1-5455
+      - SG-4.194.140.223-14816
+      - RELAY-172.67.207.208-0190
+      - Relay 🇭🇰 Hong Kong 16 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 15 TG:@nodpai
+      - "[aiboboxx/v2rayfree]美国CloudFlare节点 13"
+      - 二爷翻墙网 https://1808.ga  节点_13
+      - Telegram@极客分享_7
+      - JP-43.206.152.124-2481
+      - Relay 🇨🇳 China(ChatGPT) 07 TG:@nodpai
+      - "[peasoft/NoMoreWalls]16|哥伦比亚 001"
+      - Relay 🇭🇰 Hong Kong 20 TG:@nodpai
+      - SG-4.193.229.204-14789
+      - "[aiboboxx/v2rayfree]美国CloudFlare公司CDN节点(shopify) 14"
+      - 美国 CloudFlare公司CDN节点(shopify)
+      - RELAY-45.131.210.221-5388
+      - "[xrayfree]美国33"
+      - "[xrayfree]美国28"
+      - "[peasoft/NoMoreWalls]16|塞浦路斯 004"
+      - "[xrayfree]美国48"
+      - "[xrayfree]美国27"
+      - "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_顺丰_8"
+      - "[peasoft/NoMoreWalls]15,16|澳大利亚  17"
+      - "[aiboboxx/v2rayfree]美国  9"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -590,70 +548,65 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay 🇸🇬 Singapore(ChatGPT) 15 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_10
-      - Relay 🇯🇵 Japan 18 TG:@nodpai
-      - 中国【付费推荐：suo.yt/ssrsub】100
-      - Relay 🇨🇦 Canada(ChatGPT) 03 TG:@nodpai
-      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - United States(ChatGPT) 65 TG:@nodpai
-      - United States(ChatGPT) 34 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_12
-      - 二爷翻墙网 https://1808.ga  节点_6
-      - Relay 🇯🇵 Japan(ChatGPT) 07 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 21 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_15
-      - _CN_中国
-      - 二爷翻墙网 https://1808.ga  节点_11
-      - United States(ChatGPT) 68 TG:@nodpai
-      - Singapore(ChatGPT) 14 TG:@nodpai
-      - 二爷翻墙网 https://1808.ga  节点_5
-      - United States(ChatGPT) 19 TG:@nodpai
-      - BuyVM2
-      - United States(ChatGPT) 32 TG:@nodpai
-      - _JP_日本
-      - SW
-      - United States(ChatGPT) 39 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】5
-      - DP1@yxjnode
-      - github.com/freefq - 美国华盛顿州西雅图市亚马逊(Amazon)公司数据中心 6
-      - _TW_台湾
-      - Relay 🇭🇰 Hong Kong 23 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】34
-      - Relay 🇸🇬 Singapore 22 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 20 TG:@nodpai
-      - V002--US-付费推荐:suo.yt/ssrsub
-      - Netherlands 01 TG:@nodpai
-      - BuyVM1@yxjnode
+      - JP-20.63.179.215-2216
+      - JP-52.194.125.16-2006
       - United States(ChatGPT) 28 TG:@nodpai
-      - _CN_中国 5
-      - India(ChatGPT) 01 TG:@nodpai
-      - github.com/freefq - 美国阿里云 5
-      - Taiwan 14 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 24 TG:@nodpai
+      - "[peasoft/NoMoreWalls]13,16,22|🇺🇸 United States(ChatGPT) 68 T..."
+      - Relay 🇭🇰 Hong Kong 21 TG:@nodpai
+      - US-163.123.192.152-0222
+      - RELAY-104.21.82.246-0205
+      - Telegram@极客分享_5
+      - Telegram@极客分享_3
+      - 二爷翻墙网 https://1808.ga  节点_6
       - India(ChatGPT) 02 TG:@nodpai
+      - United States(ChatGPT) 39 TG:@nodpai
+      - 二爷翻墙网 https://1808.ga  节点_12
+      - SW
+      - Telegram@极客分享_8
+      - 二爷翻墙网 https://1808.ga  节点_5
+      - RELAY-104.21.8.54-16862
+      - Relay 🇺🇸 United States(ChatGPT) 58 TG:@nodpai
+      - RELAY-104.21.88.167-2073
+      - "[Rawdroid/Free-servers]美国 CloudFlare节点"
       - 美国 CloudFlare节点
-      - 美国【付费推荐：https://v1.mk/vip】10
-      - 美国 CloudFlare节点 2
-      - Viet Nam 03 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】22
-      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
-      - 罗马尼亚【付费推荐：https://v1.mk/vip】12
-      - v2rayfree.eu.org - 欧盟  7
-      - Taiwan(ChatGPT) 20 TG:@nodpai
-      - DP2@yxjnode
-      - _TW_台湾 2
-      - v2rayfree.eu.org - 美国  14
-      - 欧盟 V2CROSS.COM
-      - 美国 CloudFlare公司CDN节点(shopify)
-      - 美国【付费推荐：https://v1.mk/vip】28
-      - github.com/freefq - 北京市移动 27
-      - 美国【付费推荐：https://v1.mk/vip】33
-      - 美国【付费推荐：https://v1.mk/vip】35
-      - DP3
-      - 美国【付费推荐：https://v1.mk/vip】45
-      - github.com/freefq - 俄罗斯新西伯利亚ADMAN数据中心 22
+      - +日本+384
+      - 二爷翻墙网 https://1808.ga  节点_15
       - Luxembourg(ChatGPT) 01 TG:@nodpai
+      - RELAY-198.41.223.126-0453
+      - "[xrayfree]美国32"
+      - Relay 🇨🇦 Canada(ChatGPT) 03 TG:@nodpai
+      - RELAY-104.21.53.35-0085
+      - "[peasoft/NoMoreWalls]0,1,7,8,9,10,12,12,12,12,12,12,13,13,13,13,13,13,15,17,19,19,19,20,25,26,27,28,29,30|🇺🇸 _US_美国_____________"
+      - 二爷翻墙网 https://1808.ga  节点_11
+      - JP-43.206.152.124-0105
+      - "[peasoft/NoMoreWalls]20|日本2-ChatGPT"
+      - RELAY-162.159.152.153-1251
+      - 二爷翻墙网 https://1808.ga  节点_10
+      - SG-8.222.192.30-0450
+      - RELAY-23.227.39.1-5455
+      - SG-4.194.140.223-14816
+      - RELAY-172.67.207.208-0190
+      - Relay 🇭🇰 Hong Kong 16 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 15 TG:@nodpai
+      - "[aiboboxx/v2rayfree]美国CloudFlare节点 13"
+      - 二爷翻墙网 https://1808.ga  节点_13
+      - Telegram@极客分享_7
+      - JP-43.206.152.124-2481
+      - Relay 🇨🇳 China(ChatGPT) 07 TG:@nodpai
+      - "[peasoft/NoMoreWalls]16|哥伦比亚 001"
+      - Relay 🇭🇰 Hong Kong 20 TG:@nodpai
+      - SG-4.193.229.204-14789
+      - "[aiboboxx/v2rayfree]美国CloudFlare公司CDN节点(shopify) 14"
+      - 美国 CloudFlare公司CDN节点(shopify)
+      - RELAY-45.131.210.221-5388
+      - "[xrayfree]美国33"
+      - "[xrayfree]美国28"
+      - "[peasoft/NoMoreWalls]16|塞浦路斯 004"
+      - "[xrayfree]美国48"
+      - "[xrayfree]美国27"
+      - "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_顺丰_8"
+      - "[peasoft/NoMoreWalls]15,16|澳大利亚  17"
+      - "[aiboboxx/v2rayfree]美国  9"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

@@ -5,407 +5,223 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 台湾01 | New Bing, server: 8t6w01.abzoones.xyz, port: 36301, type: trojan, password: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, sni: 8t6w01.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本01, server: 1j8p01.abzoones.xyz, port: 36116, type: trojan, password: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, sni: 1j8p01.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本03, server: 1j8p03.abzoones.xyz, port: 36111, type: trojan, password: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, sni: 1j8p03.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本05, server: 1j8p05.abzoones.xyz, port: 36106, type: vmess, uuid: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 新加坡04, server: 9s5g04.abzoones.xyz, port: 36201, type: vmess, uuid: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 韩国04, server: 8k2r04.abzoones.xyz, port: 36401, type: vmess, uuid: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 新加坡06, server: 9s5g06.abzoones.xyz, port: 36211, type: vmess, uuid: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 香港02, server: 8h2k02.abzoones.xyz, port: 36606, type: trojan, password: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, sni: 8h2k02.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡02, server: 9s5g02.abzoones.xyz, port: 36206, type: trojan, password: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, sni: 9s5g02.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡01, server: 9s5g01.abzoones.xyz, port: 36201, type: trojan, password: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, sni: 9s5g01.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾05, server: 8t6w05.abzoones.xyz, port: 36306, type: vmess, uuid: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 香港05, server: 8h2k05.abzoones.xyz, port: 36606, type: vmess, uuid: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 台湾04, server: 8t6w04.abzoones.xyz, port: 36301, type: vmess, uuid: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 台湾02, server: 8t6w02.abzoones.xyz, port: 36306, type: trojan, password: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, sni: 8t6w02.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本06, server: 1j8p06.abzoones.xyz, port: 36111, type: vmess, uuid: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 日本02, server: 1j8p02.abzoones.xyz, port: 36106, type: trojan, password: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, sni: 1j8p02.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港01, server: 8h2k01.abzoones.xyz, port: 36601, type: trojan, password: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, sni: 8h2k01.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国05, server: 3u1s05.abzoones.xyz, port: 36506, type: vmess, uuid: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 美国01, server: 3u1s01.abzoones.xyz, port: 36501, type: trojan, password: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, sni: 3u1s01.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: 印度01, server: 7i4n01.abzoones.xyz, port: 36831, type: trojan, password: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, sni: 7i4n01.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国02, server: 3u1s02.abzoones.xyz, port: 36506, type: trojan, password: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, sni: 3u1s02.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡05, server: 9s5g05.abzoones.xyz, port: 36206, type: vmess, uuid: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 美国03, server: 3u1s03.abzoones.xyz, port: 36511, type: trojan, password: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, sni: 3u1s03.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国04, server: 3u1s04.abzoones.xyz, port: 36501, type: vmess, uuid: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 韩国01 | New Bing, server: 8k2r01.abzoones.xyz, port: 36401, type: trojan, password: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, sni: 8k2r01.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: 菲律宾04, server: 7p3h04.abzoones.xyz, port: 36801, type: vmess, uuid: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 香港06, server: 8h2k06.abzoones.xyz, port: 36611, type: vmess, uuid: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 澳大利亚01, server: 5a4u01.abzoones.xyz, port: 36821, type: trojan, password: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, sni: 5a4u01.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国06, server: 3u1s06.abzoones.xyz, port: 36511, type: vmess, uuid: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 菲律宾01 | New Bing, server: 7p3h01.abzoones.xyz, port: 36801, type: trojan, password: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, sni: 7p3h01.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港03, server: 8h2k03.abzoones.xyz, port: 36611, type: trojan, password: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, sni: 8h2k03.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: Telegram@极客分享_2, server: cf.woc.my.id, port: 80, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: dedipath.iiio.wiki}, udp: true}
-  - {name: 中国【付费推荐：v1.mk/vip】46, server: free.themars.top, port: 32102, type: ss, cipher: chacha20-ietf-poly1305, password: b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2, udp: true}
-  - {name: 澳大利亚04, server: 5a4u04.abzoones.xyz, port: 36821, type: vmess, uuid: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 印度04, server: 7i4n04.abzoones.xyz, port: 36831, type: vmess, uuid: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 加拿大01, server: 5c1a01.abzoones.xyz, port: 36701, type: trojan, password: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, sni: 5c1a01.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: 加拿大04, server: 5c1a04.abzoones.xyz, port: 36701, type: vmess, uuid: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Telegram@极客分享_3, server: cf.woc.my.id, port: 8080, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: buyvm.iiio.wiki}, udp: true}
-  - {name: "[freefq]以色列  6", server: us1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: us1.chuqiangtou.net, skip-cert-verify: true, udp: true}
-  - {name: "[peasoft/NoMoreWalls]16,22|香港 002", server: hk2.downloadvip.cfd, port: 443, type: trojan, password: 4d35e3e1-1aee-422a-b99a-6e33fd22ca3c, sni: hk2.downloadvip.cfd, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯01, server: 8r5u01.abzoones.xyz, port: 36851, type: trojan, password: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, sni: 8r5u01.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: LU卢森堡(youtube阿伟科技), server: cf.noaries.de, port: 8080, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: buyvm.iiio.wiki}, udp: true}
-  - {name: 英国01, server: 2u3k01.abzoones.xyz, port: 36811, type: trojan, password: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, sni: 2u3k01.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国4号-0.1x, server: 163.123.192.156, port: 443, type: trojan, password: 5f70213f-4681-4f70-a31b-42f37402cd66, skip-cert-verify: true, udp: true}
-  - {name: "[ermaozi/get_subscribe]🇰🇷_KR_韩国", server: kr3.microsoft-orgwly.vip, port: 443, type: trojan, password: 169e7740-a73d-49ff-b838-eec2bab35f82, sni: kr3.microsoft-orgwly.vip, skip-cert-verify: true, udp: true}
+  - {name: "[freefq]以色列  6", server: us3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: us3.chuqiangtou.net, skip-cert-verify: true, udp: true}
   - {name: Telegram@极客分享_9, server: beta.noaries.de, port: 8880, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: contabo-de2.iiio.wiki}, udp: true}
-  - {name: 匈牙利01, server: 2h4u01.abzoones.xyz, port: 36864, type: trojan, password: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, sni: 2h4u01.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: US-138.197.5.103-0313, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, sni: us.blazeppn.info, skip-cert-verify: true, udp: true}
-  - {name: "[xrayfree]美国119", server: 140.99.59.253, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡", server: cdn-xjp3.cqjsl.xyz, port: 443, type: vmess, uuid: d155a539-c3ff-4430-b389-fe3ce4a81900, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn-xjp3.cqjsl.xyz}, udp: true}
-  - {name: 乌克兰01, server: 8u9a01.abzoones.xyz, port: 36871, type: trojan, password: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, sni: 8u9a01.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: 乌克兰04, server: 8u9a04.abzoones.xyz, port: 36871, type: vmess, uuid: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Telegram@极客分享_4, server: linkedin.disnet.gq, port: 443, type: vmess, uuid: a869c557-5c7d-426f-9039-0279c16352bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmessws, ws-headers: {Host: linkedin.disnet.gq}, udp: true}
-  - {name: 匈牙利04, server: 2h4u04.abzoones.xyz, port: 36864, type: vmess, uuid: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: "[freefq]日本东京Amazon数据中心 11", server: fscjp.fscloud123456789.com, port: 443, type: trojan, password: 3d927416-3e74-45ce-ac16-df69c33c725a, sni: fscjp.fscloud123456789.com, skip-cert-verify: true, udp: true}
-  - {name: 阿根廷01, server: 9a8r01.abzoones.xyz, port: 36861, type: trojan, password: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, sni: 9a8r01.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: RELAY-172.67.151.107-0154, server: cdn-xjp4.cqjsl.xyz, port: 443, type: vmess, uuid: d155a539-c3ff-4430-b389-fe3ce4a81900, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn-xjp4.cqjsl.xyz}, udp: true}
+  - {name: AU-149.50.66.65-11956, server: au3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: au3.chuqiangtou.net, skip-cert-verify: true, udp: true}
+  - {name: 中国【付费推荐：suo.yt/ssrsub】100, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Telegram@极客分享_11, server: meetzoom.disnet.gq, port: 443, type: vmess, uuid: a869c557-5c7d-426f-9039-0279c16352bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmessws, ws-headers: {Host: meetzoom.disnet.gq}, udp: true}
-  - {name: Telegram@极客分享_5, server: beta.noaries.de, port: 8080, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: contabo-sg.iiio.wiki}, udp: true}
-  - {name: "[Rawdroid/Free-servers]美国 CloudFlare节点", server: beta.noaries.de, port: 8880, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: contabo-uk.iiio.wiki}, udp: true}
-  - {name: 日本04, server: 1j8p04.abzoones.xyz, port: 36116, type: vmess, uuid: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RELAY-104.16.160.41-1291, server: beta.noaries.de, port: 2082, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: contabo-jp-win.iiio.wiki}, udp: true}
-  - {name: 土耳其04, server: 2t1u04.abzoones.xyz, port: 36868, type: vmess, uuid: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 土耳其01, server: 2t1u01.abzoones.xyz, port: 36868, type: trojan, password: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, sni: 2t1u01.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: "[peasoft/NoMoreWalls]7,8,9,10,11,27,28,29,30|_US_美国->🇸🇬_SG_新加坡", server: cdn-xjp3.cqjsl.xyz, port: 443, type: vmess, uuid: d155a539-c3ff-4430-b389-fe3ce4a81900, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn-xjp3.cqjsl.xyz}, udp: true}
+  - {name: "[freefq]以色列  6 2", server: us1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: us1.chuqiangtou.net, skip-cert-verify: true, udp: true}
+  - {name: "[freefq]澳大利亚  4", server: oracle02.jiting.space, port: 25494, type: vmess, uuid: 960040e9-ad9b-4e39-fb90-f9ba90c4b7a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: "[xrayfree]美国144", server: beta.noaries.de, port: 2052, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: ovh.iiio.wiki}, udp: true}
+  - {name: _CN_中国, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[NodeFree]_US_美国->🇱🇺_LU_卢森堡", server: beta.noaries.de, port: 2052, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: buyvm.iiio.wiki}, udp: true}
+  - {name: LU卢森堡(youtube阿伟科技), server: cf.noaries.de, port: 8080, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: buyvm.iiio.wiki}, udp: true}
+  - {name: "[xrayfree]美国138", server: beta.noaries.de, port: 8880, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: ovh.iiio.wiki}, udp: true}
+  - {name: Telegram@极客分享_3, server: cf.woc.my.id, port: 8080, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: buyvm.iiio.wiki}, udp: true}
+  - {name: "[Rawdroid/Free-servers]美国 CloudFlare节点", server: cdn-xjp5.cqjsl.xyz, port: 443, type: vmess, uuid: 85c27619-fd14-4893-a56e-05944326c6f9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn-xjp5.cqjsl.xyz}, udp: true}
+  - {name: Telegram@极客分享_8, server: 108.166.203.135, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: RELAY-104.16.181.166-0118, server: beta.noaries.de, port: 2052, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: buyvm.iiio.wiki}, udp: true}
+  - {name: RELAY-172.64.84.1-0340, server: cf.noaries.de, port: 8080, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: buyvm.iiio.wiki}, udp: true}
+  - {name: RELAY-104.21.88.167-0299, server: cdn-xjp5.cqjsl.xyz, port: 443, type: vmess, uuid: 85c27619-fd14-4893-a56e-05944326c6f9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn-xjp5.cqjsl.xyz}, udp: true}
+  - {name: _🇺🇸_US_美国_顺丰_132, server: beta.noaries.de, port: 2052, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: contabo-us2.iiio.wiki}, udp: true}
+  - {name: US-38.63.0.69-3927, server: 38.63.0.69, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/1683955693848, ws-headers: {Host: 38.63.0.69}, udp: true}
+  - {name: RELAY-196.13.241.56-5369, server: sgtippos.76898102.xyz, port: 2052, type: vmess, uuid: 0ee79445-85a0-38fe-be38-58035ad10530, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /miao, ws-headers: {Host: sgtippos.76898102.xyz}, udp: true}
+  - {name: "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡", server: cdn-xjp4.cqjsl.xyz, port: 443, type: vmess, uuid: 85c27619-fd14-4893-a56e-05944326c6f9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn-xjp4.cqjsl.xyz}, udp: true}
+  - {name: "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡 2", server: cdn-xjp3.cqjsl.xyz, port: 443, type: vmess, uuid: 85c27619-fd14-4893-a56e-05944326c6f9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn-xjp3.cqjsl.xyz}, udp: true}
+  - {name: Telegram@极客分享_4, server: linkedin.disnet.gq, port: 443, type: vmess, uuid: a869c557-5c7d-426f-9039-0279c16352bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmessws, ws-headers: {Host: linkedin.disnet.gq}, udp: true}
+  - {name: "[freefq]丹麦  25", server: jpwadnca.114514782.xyz, port: 2052, type: vmess, uuid: 5f9c7bda-33f9-3dd0-bcf5-aca324418e31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /miaoshen, ws-headers: {Host: jpwadnca.114514782.xyz}, udp: true}
+  - {name: Telegram@极客分享_2, server: cf.woc.my.id, port: 80, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: dedipath.iiio.wiki}, udp: true}
   - {name: "[peasoft/NoMoreWalls]0,1,4,5,7,8,9,10,19,20,25,27,28,29,30|🇺🇸 _US_美国______________", server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: dp4.yxjnode.com}, udp: true}
-  - {name: "[peasoft/NoMoreWalls]11|🇺🇸_US_美国->🇸🇬_SG_新加坡", server: cdn-xjp4.cqjsl.xyz, port: 443, type: vmess, uuid: d155a539-c3ff-4430-b389-fe3ce4a81900, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn-xjp4.cqjsl.xyz}, udp: true}
-  - {name: "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡 2", server: cdn-xjp5.cqjsl.xyz, port: 443, type: vmess, uuid: d155a539-c3ff-4430-b389-fe3ce4a81900, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn-xjp5.cqjsl.xyz}, udp: true}
-  - {name: "[ermaozi/get_subscribe]🇰🇷_KR_韩国 2", server: kr2.microsoft-orgwly.vip, port: 443, type: trojan, password: 169e7740-a73d-49ff-b838-eec2bab35f82, sni: kr2.microsoft-orgwly.vip, skip-cert-verify: true, udp: true}
-  - {name: "[freefq]荷兰  9", server: 206.189.98.76, port: 8080, type: vmess, uuid: 85c3ff6a-bb5c-4615-97fe-ac75bbce7c66, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /telegram:UCIRANIR, ws-headers: {Host: 206.189.98.76}, udp: true}
-  - {name: RELAY-172.67.151.107-2055, server: cdn-xjp3.cqjsl.xyz, port: 443, type: vmess, uuid: d155a539-c3ff-4430-b389-fe3ce4a81900, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn-xjp3.cqjsl.xyz}, udp: true}
-  - {name: "[peasoft/NoMoreWalls]0,1,19|🇺🇸 _US_美国________________________", server: 172.67.141.248, port: 8080, type: vmess, uuid: 9588cb0f-5102-4e66-d5fb-f96cba9acdda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qazxcv03, ws-headers: {Host: tou.vtcss.top}, udp: true}
-  - {name: "[Rawdroid/Free-servers]荷兰 V2CROSS.COM", server: 206.189.98.76, port: 8080, type: vmess, uuid: 85c3ff6a-bb5c-4615-97fe-ac75bbce7c66, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /telegram:UCIRANIR, ws-headers: {Host: 206.189.98.76}, udp: true}
-  - {name: RELAY-104.21.82.246-0102, server: yd1.01dj.sbs, port: 443, type: vmess, uuid: 95b2dc83-a476-4a82-93b2-0d77b4c30c18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sometimesnaive, ws-headers: {Host: yd1.01dj.sbs}, udp: true}
-  - {name: TW-36.227.197.175-5192, server: hinet2.downloadvip.cfd, port: 443, type: trojan, password: fa40d562-c9de-4023-afb7-33929f2774f7, sni: hinet2.downloadvip.cfd, skip-cert-verify: true, udp: true}
-  - {name: Telegram@极客分享_6, server: beta.noaries.de, port: 2052, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: contabo-uk.iiio.wiki}, udp: true}
-  - {name: HK-47.243.162.49-5335, server: cf1.lzjss.eu.org, port: 443, type: vmess, uuid: d9417348-50da-4c5a-b698-030aacf2ce67, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: rb.dingtian.ml}, udp: true}
-  - {name: RELAY-172.64.167.237-12098, server: beta.noaries.de, port: 8880, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: contabo-uk.iiio.wiki}, udp: true}
-  - {name: "[freefq]美国Microsoft数据中心 4", server: fscsg.fscloud123456789.com, port: 443, type: trojan, password: 6e050f42-84ae-448b-b602-48e0d5747a4d, sni: fscsg.fscloud123456789.com, skip-cert-verify: true, udp: true}
-  - {name: 德国1号, server: 217.79.184.18, port: 443, type: trojan, password: 5f70213f-4681-4f70-a31b-42f37402cd66, skip-cert-verify: true, udp: true}
-  - {name: "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_由零開始_30_", server: 198.41.221.87, port: 8880, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qazxcv05, ws-headers: {Host: tou.vtcss.top}, udp: true}
-  - {name: 台湾03, server: 8t6w03.abzoones.xyz, port: 36311, type: trojan, password: 7c8c006e-dec0-4f8d-b557-7c07ceb511b3, sni: 8t6w03.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: "[peasoft/NoMoreWalls]4,5|美国70", server: yd1.01dj.sbs, port: 443, type: vmess, uuid: 95b2dc83-a476-4a82-93b2-0d77b4c30c18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sometimesnaive, ws-headers: {Host: yd1.01dj.sbs}, udp: true}
-  - {name: RELAY-172.67.208.87-0178, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: dp4.yxjnode.com}, udp: true}
-  - {name: "[freefq]以色列  3", server: au1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: au1.chuqiangtou.net, skip-cert-verify: true, udp: true}
-  - {name: "[freefq]美国CloudFlare节点 16", server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 998fed0b-6958-4998-ae60-86ccf8d37447, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: dallas.starsea.vip}, udp: true}
-  - {name: "[peasoft/NoMoreWalls]14,17|🇮🇳 India(ChatGPT) 01 TG:@nodpa...", server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
-  - {name: US_140.99.59.253_053120236a22-458vmess, server: 140.99.59.253, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 韩国2|@ripaojiedian, server: hkdsubv.114514782.xyz, port: 2082, type: vmess, uuid: 0ee79445-85a0-38fe-be38-58035ad10530, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sdubfc, ws-headers: {Host: hkdsubv.114514782.xyz}, udp: true}
+  - {name: "[xrayfree]美国121", server: beta.noaries.de, port: 2086, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: ovh.iiio.wiki}, udp: true}
+  - {name: "[ermaozi/get_subscribe]🇯🇵_JP_日本", server: aws-jp.aikun.online, port: 443, type: trojan, password: 0d234e81-52f2-44a7-8bcc-b9e737c3830f, sni: aws-jp.aikun.online, skip-cert-verify: true, udp: true}
+  - {name: "[peasoft/NoMoreWalls]7,8,25,27,28,29,30|_US_美国->🇸🇬_SG_新加坡", server: cdn-xjp5.cqjsl.xyz, port: 443, type: vmess, uuid: 85c27619-fd14-4893-a56e-05944326c6f9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn-xjp5.cqjsl.xyz}, udp: true}
+  - {name: Telegram@极客分享_9 2, server: 209.38.196.78.sslip.io, port: 443, type: vmess, uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /oSiR4t7dQow0J9ea3kKkF, ws-headers: {Host: 209.38.196.78.sslip.io}, udp: true}
   - {name: "[xrayfree]美国50", server: beta.noaries.de, port: 2082, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: contabo-jp-win.iiio.wiki}, udp: true}
-  - {name: "[peasoft/NoMoreWalls]7,8,9,10,27,28,29,30|_US_美国________", server: 104.20.126.209, port: 8880, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qazxcv05, ws-headers: {Host: tou.vtcss.top}, udp: true}
-  - {name: "[Rawdroid/Free-servers]美国 CloudFlare节点 2", server: cdn.noice.id, port: 80, type: vmess, uuid: 8bb07c55-0ef5-4d69-b131-fd9bab420ae8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 8fhq6a.aiossh.my.id}, udp: true}
-  - {name: 新加坡=tg频道:@bpjzx2=25, server: dejs.stablize.top, port: 443, type: trojan, password: cf1df355-e505-44a5-9c80-3fe732de1c71, sni: dejs.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: 美国 Datability, server: 140.99.59.253, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡=tg频道:@bpjzx2=21, server: aujs.stablize.top, port: 443, type: trojan, password: 03604138-c4b4-481a-bc82-52a41189415a, sni: aujs.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: "[peasoft/NoMoreWalls]22,23|🇯🇵 日本A|@ripaojiedian", server: cf1.lzjss.eu.org, port: 443, type: vmess, uuid: d9417348-50da-4c5a-b698-030aacf2ce67, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: rb.dingtian.ml}, udp: true}
+  - {name: "[peasoft/NoMoreWalls]16|美国CloudFla...___", server: 104.16.22.196, port: 8880, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qazxcv05, ws-headers: {Host: tou.vtcss.top}, udp: true}
+  - {name: HK-156.245.8.224-0155, server: 156.245.8.224, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/1685439562518, ws-headers: {Host: www.75544744.xyz}, udp: true}
+  - {name: "[peasoft/NoMoreWalls]18,19|_🇭🇰_HK_香港_科网_31", server: 156.245.8.224, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/1685439562518, ws-headers: {Host: www.75544744.xyz}, udp: true}
+  - {name: "[Rawdroid/Free-servers]美国 CloudFlare节点 2", server: beta.noaries.de, port: 8880, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: contabo-uk.iiio.wiki}, udp: true}
+  - {name: "[freefq]以色列  3", server: au1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: au1.chuqiangtou.net, skip-cert-verify: true, udp: true}
+  - {name: "[freefq]美国CloudFlare公司CDN节点 28", server: 104.16.22.196, port: 8880, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qazxcv05, ws-headers: {Host: tou.vtcss.top}, udp: true}
+  - {name: RELAY-172.67.208.87-0178, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: dp4.yxjnode.com}, udp: true}
+  - {name: "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_由零開始_30_", server: 198.41.221.87, port: 8880, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qazxcv05, ws-headers: {Host: tou.vtcss.top}, udp: true}
+  - {name: Telegram@极客分享_4 2, server: as.steamdownload.top, port: 36616, type: trojan, password: 5f15c618-09ff-41a4-8227-e77739bfae2d, sni: as.steamdownload.top, skip-cert-verify: true, udp: true}
+  - {name: Telegram@极客分享_5, server: beta.noaries.de, port: 8080, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: contabo-sg.iiio.wiki}, udp: true}
+  - {name: "[ermaozi/get_subscribe]🇺🇸_US_美国", server: 104.24.24.48, port: 8880, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qazxcv05, ws-headers: {Host: tou.vtcss.top}, udp: true}
+  - {name: "[Rawdroid/Free-servers]美国 CloudFlare节点 3", server: cdn.noice.id, port: 80, type: vmess, uuid: 8bb07c55-0ef5-4d69-b131-fd9bab420ae8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 8fhq6a.aiossh.my.id}, udp: true}
   - {name: "[xrayfree]美国109", server: cdn.noice.id, port: 80, type: vmess, uuid: 8bb07c55-0ef5-4d69-b131-fd9bab420ae8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 8fhq6a.aiossh.my.id}, udp: true}
+  - {name: RELAY-104.16.160.41-1291, server: beta.noaries.de, port: 2082, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: contabo-jp-win.iiio.wiki}, udp: true}
+  - {name: "[peasoft/NoMoreWalls]0,1,19|🇺🇸 _US_美国________________________", server: 172.67.141.248, port: 8080, type: vmess, uuid: 9588cb0f-5102-4e66-d5fb-f96cba9acdda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qazxcv03, ws-headers: {Host: tou.vtcss.top}, udp: true}
+  - {name: RELAY-104.21.15.32-2906, server: 104.21.15.32, port: 8080, type: vmess, uuid: 9588cb0f-5102-4e66-d5fb-f96cba9acdda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qazxcv03, ws-headers: {Host: tou.vtcss.top}, udp: true}
+  - {name: 69@oneclickvpnkeys, server: 164.92.233.17, port: 33269, type: vmess, uuid: f461a17e-1b42-4625-a8c2-6abbce9575a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 台湾01 | New Bing
-      - 日本01
-      - 日本03
-      - 日本05
-      - 新加坡04
-      - 韩国04
-      - 新加坡06
-      - 香港02
-      - 新加坡02
-      - 新加坡01
-      - 台湾05
-      - 香港05
-      - 台湾04
-      - 台湾02
-      - 日本06
-      - 日本02
-      - 香港01
-      - 美国05
-      - 美国01
-      - 印度01
-      - 美国02
-      - 新加坡05
-      - 美国03
-      - 美国04
-      - 韩国01 | New Bing
-      - 菲律宾04
-      - 香港06
-      - 澳大利亚01
-      - 美国06
-      - 菲律宾01 | New Bing
-      - 香港03
-      - Telegram@极客分享_2
-      - 中国【付费推荐：v1.mk/vip】46
-      - 澳大利亚04
-      - 印度04
-      - 加拿大01
-      - 加拿大04
-      - Telegram@极客分享_3
       - "[freefq]以色列  6"
-      - "[peasoft/NoMoreWalls]16,22|香港 002"
-      - 俄罗斯01
-      - LU卢森堡(youtube阿伟科技)
-      - 英国01
-      - 美国4号-0.1x
-      - "[ermaozi/get_subscribe]🇰🇷_KR_韩国"
       - Telegram@极客分享_9
-      - 匈牙利01
-      - US-138.197.5.103-0313
-      - "[xrayfree]美国119"
-      - "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡"
-      - 乌克兰01
-      - 乌克兰04
-      - Telegram@极客分享_4
-      - 匈牙利04
-      - "[freefq]日本东京Amazon数据中心 11"
-      - 阿根廷01
-      - RELAY-172.67.151.107-0154
+      - AU-149.50.66.65-11956
+      - 中国【付费推荐：suo.yt/ssrsub】100
       - Telegram@极客分享_11
-      - Telegram@极客分享_5
+      - "[freefq]以色列  6 2"
+      - "[freefq]澳大利亚  4"
+      - "[xrayfree]美国144"
+      - _CN_中国
+      - "[NodeFree]_US_美国->🇱🇺_LU_卢森堡"
+      - LU卢森堡(youtube阿伟科技)
+      - "[xrayfree]美国138"
+      - Telegram@极客分享_3
       - "[Rawdroid/Free-servers]美国 CloudFlare节点"
-      - 日本04
-      - RELAY-104.16.160.41-1291
-      - 土耳其04
-      - 土耳其01
-      - "[peasoft/NoMoreWalls]7,8,9,10,11,27,28,29,30|_US_美国->🇸🇬_SG_新加坡"
-      - "[peasoft/NoMoreWalls]0,1,4,5,7,8,9,10,19,20,25,27,28,29,30|🇺🇸 _US_美国______________"
-      - "[peasoft/NoMoreWalls]11|🇺🇸_US_美国->🇸🇬_SG_新加坡"
+      - Telegram@极客分享_8
+      - RELAY-104.16.181.166-0118
+      - RELAY-172.64.84.1-0340
+      - RELAY-104.21.88.167-0299
+      - _🇺🇸_US_美国_顺丰_132
+      - US-38.63.0.69-3927
+      - RELAY-196.13.241.56-5369
+      - "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡"
       - "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡 2"
-      - "[ermaozi/get_subscribe]🇰🇷_KR_韩国 2"
-      - "[freefq]荷兰  9"
-      - RELAY-172.67.151.107-2055
-      - "[peasoft/NoMoreWalls]0,1,19|🇺🇸 _US_美国________________________"
-      - "[Rawdroid/Free-servers]荷兰 V2CROSS.COM"
-      - RELAY-104.21.82.246-0102
-      - TW-36.227.197.175-5192
-      - Telegram@极客分享_6
-      - HK-47.243.162.49-5335
-      - RELAY-172.64.167.237-12098
-      - "[freefq]美国Microsoft数据中心 4"
-      - 德国1号
-      - "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_由零開始_30_"
-      - 台湾03
-      - "[peasoft/NoMoreWalls]4,5|美国70"
-      - RELAY-172.67.208.87-0178
-      - "[freefq]以色列  3"
-      - "[freefq]美国CloudFlare节点 16"
-      - "[peasoft/NoMoreWalls]14,17|🇮🇳 India(ChatGPT) 01 TG:@nodpa..."
-      - US_140.99.59.253_053120236a22-458vmess
+      - Telegram@极客分享_4
+      - "[freefq]丹麦  25"
+      - Telegram@极客分享_2
+      - "[peasoft/NoMoreWalls]0,1,4,5,7,8,9,10,19,20,25,27,28,29,30|🇺🇸 _US_美国______________"
+      - 韩国2|@ripaojiedian
+      - "[xrayfree]美国121"
+      - "[ermaozi/get_subscribe]🇯🇵_JP_日本"
+      - "[peasoft/NoMoreWalls]7,8,25,27,28,29,30|_US_美国->🇸🇬_SG_新加坡"
+      - Telegram@极客分享_9 2
       - "[xrayfree]美国50"
-      - "[peasoft/NoMoreWalls]7,8,9,10,27,28,29,30|_US_美国________"
+      - "[peasoft/NoMoreWalls]16|美国CloudFla...___"
+      - HK-156.245.8.224-0155
+      - "[peasoft/NoMoreWalls]18,19|_🇭🇰_HK_香港_科网_31"
       - "[Rawdroid/Free-servers]美国 CloudFlare节点 2"
-      - 新加坡=tg频道:@bpjzx2=25
-      - 美国 Datability
-      - 新加坡=tg频道:@bpjzx2=21
-      - "[peasoft/NoMoreWalls]22,23|🇯🇵 日本A|@ripaojiedian"
+      - "[freefq]以色列  3"
+      - "[freefq]美国CloudFlare公司CDN节点 28"
+      - RELAY-172.67.208.87-0178
+      - "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_由零開始_30_"
+      - Telegram@极客分享_4 2
+      - Telegram@极客分享_5
+      - "[ermaozi/get_subscribe]🇺🇸_US_美国"
+      - "[Rawdroid/Free-servers]美国 CloudFlare节点 3"
       - "[xrayfree]美国109"
+      - RELAY-104.16.160.41-1291
+      - "[peasoft/NoMoreWalls]0,1,19|🇺🇸 _US_美国________________________"
+      - RELAY-104.21.15.32-2906
+      - 69@oneclickvpnkeys
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 台湾01 | New Bing
-      - 日本01
-      - 日本03
-      - 日本05
-      - 新加坡04
-      - 韩国04
-      - 新加坡06
-      - 香港02
-      - 新加坡02
-      - 新加坡01
-      - 台湾05
-      - 香港05
-      - 台湾04
-      - 台湾02
-      - 日本06
-      - 日本02
-      - 香港01
-      - 美国05
-      - 美国01
-      - 印度01
-      - 美国02
-      - 新加坡05
-      - 美国03
-      - 美国04
-      - 韩国01 | New Bing
-      - 菲律宾04
-      - 香港06
-      - 澳大利亚01
-      - 美国06
-      - 菲律宾01 | New Bing
-      - 香港03
-      - Telegram@极客分享_2
-      - 中国【付费推荐：v1.mk/vip】46
-      - 澳大利亚04
-      - 印度04
-      - 加拿大01
-      - 加拿大04
-      - Telegram@极客分享_3
       - "[freefq]以色列  6"
-      - "[peasoft/NoMoreWalls]16,22|香港 002"
-      - 俄罗斯01
-      - LU卢森堡(youtube阿伟科技)
-      - 英国01
-      - 美国4号-0.1x
-      - "[ermaozi/get_subscribe]🇰🇷_KR_韩国"
       - Telegram@极客分享_9
-      - 匈牙利01
-      - US-138.197.5.103-0313
-      - "[xrayfree]美国119"
-      - "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡"
-      - 乌克兰01
-      - 乌克兰04
-      - Telegram@极客分享_4
-      - 匈牙利04
-      - "[freefq]日本东京Amazon数据中心 11"
-      - 阿根廷01
-      - RELAY-172.67.151.107-0154
+      - AU-149.50.66.65-11956
+      - 中国【付费推荐：suo.yt/ssrsub】100
       - Telegram@极客分享_11
-      - Telegram@极客分享_5
+      - "[freefq]以色列  6 2"
+      - "[freefq]澳大利亚  4"
+      - "[xrayfree]美国144"
+      - _CN_中国
+      - "[NodeFree]_US_美国->🇱🇺_LU_卢森堡"
+      - LU卢森堡(youtube阿伟科技)
+      - "[xrayfree]美国138"
+      - Telegram@极客分享_3
       - "[Rawdroid/Free-servers]美国 CloudFlare节点"
-      - 日本04
-      - RELAY-104.16.160.41-1291
-      - 土耳其04
-      - 土耳其01
-      - "[peasoft/NoMoreWalls]7,8,9,10,11,27,28,29,30|_US_美国->🇸🇬_SG_新加坡"
-      - "[peasoft/NoMoreWalls]0,1,4,5,7,8,9,10,19,20,25,27,28,29,30|🇺🇸 _US_美国______________"
-      - "[peasoft/NoMoreWalls]11|🇺🇸_US_美国->🇸🇬_SG_新加坡"
+      - Telegram@极客分享_8
+      - RELAY-104.16.181.166-0118
+      - RELAY-172.64.84.1-0340
+      - RELAY-104.21.88.167-0299
+      - _🇺🇸_US_美国_顺丰_132
+      - US-38.63.0.69-3927
+      - RELAY-196.13.241.56-5369
+      - "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡"
       - "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡 2"
-      - "[ermaozi/get_subscribe]🇰🇷_KR_韩国 2"
-      - "[freefq]荷兰  9"
-      - RELAY-172.67.151.107-2055
-      - "[peasoft/NoMoreWalls]0,1,19|🇺🇸 _US_美国________________________"
-      - "[Rawdroid/Free-servers]荷兰 V2CROSS.COM"
-      - RELAY-104.21.82.246-0102
-      - TW-36.227.197.175-5192
-      - Telegram@极客分享_6
-      - HK-47.243.162.49-5335
-      - RELAY-172.64.167.237-12098
-      - "[freefq]美国Microsoft数据中心 4"
-      - 德国1号
-      - "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_由零開始_30_"
-      - 台湾03
-      - "[peasoft/NoMoreWalls]4,5|美国70"
-      - RELAY-172.67.208.87-0178
-      - "[freefq]以色列  3"
-      - "[freefq]美国CloudFlare节点 16"
-      - "[peasoft/NoMoreWalls]14,17|🇮🇳 India(ChatGPT) 01 TG:@nodpa..."
-      - US_140.99.59.253_053120236a22-458vmess
+      - Telegram@极客分享_4
+      - "[freefq]丹麦  25"
+      - Telegram@极客分享_2
+      - "[peasoft/NoMoreWalls]0,1,4,5,7,8,9,10,19,20,25,27,28,29,30|🇺🇸 _US_美国______________"
+      - 韩国2|@ripaojiedian
+      - "[xrayfree]美国121"
+      - "[ermaozi/get_subscribe]🇯🇵_JP_日本"
+      - "[peasoft/NoMoreWalls]7,8,25,27,28,29,30|_US_美国->🇸🇬_SG_新加坡"
+      - Telegram@极客分享_9 2
       - "[xrayfree]美国50"
-      - "[peasoft/NoMoreWalls]7,8,9,10,27,28,29,30|_US_美国________"
+      - "[peasoft/NoMoreWalls]16|美国CloudFla...___"
+      - HK-156.245.8.224-0155
+      - "[peasoft/NoMoreWalls]18,19|_🇭🇰_HK_香港_科网_31"
       - "[Rawdroid/Free-servers]美国 CloudFlare节点 2"
-      - 新加坡=tg频道:@bpjzx2=25
-      - 美国 Datability
-      - 新加坡=tg频道:@bpjzx2=21
-      - "[peasoft/NoMoreWalls]22,23|🇯🇵 日本A|@ripaojiedian"
+      - "[freefq]以色列  3"
+      - "[freefq]美国CloudFlare公司CDN节点 28"
+      - RELAY-172.67.208.87-0178
+      - "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_由零開始_30_"
+      - Telegram@极客分享_4 2
+      - Telegram@极客分享_5
+      - "[ermaozi/get_subscribe]🇺🇸_US_美国"
+      - "[Rawdroid/Free-servers]美国 CloudFlare节点 3"
       - "[xrayfree]美国109"
+      - RELAY-104.16.160.41-1291
+      - "[peasoft/NoMoreWalls]0,1,19|🇺🇸 _US_美国________________________"
+      - RELAY-104.21.15.32-2906
+      - 69@oneclickvpnkeys
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 台湾01 | New Bing
-      - 日本01
-      - 日本03
-      - 日本05
-      - 新加坡04
-      - 韩国04
-      - 新加坡06
-      - 香港02
-      - 新加坡02
-      - 新加坡01
-      - 台湾05
-      - 香港05
-      - 台湾04
-      - 台湾02
-      - 日本06
-      - 日本02
-      - 香港01
-      - 美国05
-      - 美国01
-      - 印度01
-      - 美国02
-      - 新加坡05
-      - 美国03
-      - 美国04
-      - 韩国01 | New Bing
-      - 菲律宾04
-      - 香港06
-      - 澳大利亚01
-      - 美国06
-      - 菲律宾01 | New Bing
-      - 香港03
-      - Telegram@极客分享_2
-      - 中国【付费推荐：v1.mk/vip】46
-      - 澳大利亚04
-      - 印度04
-      - 加拿大01
-      - 加拿大04
-      - Telegram@极客分享_3
       - "[freefq]以色列  6"
-      - "[peasoft/NoMoreWalls]16,22|香港 002"
-      - 俄罗斯01
-      - LU卢森堡(youtube阿伟科技)
-      - 英国01
-      - 美国4号-0.1x
-      - "[ermaozi/get_subscribe]🇰🇷_KR_韩国"
       - Telegram@极客分享_9
-      - 匈牙利01
-      - US-138.197.5.103-0313
-      - "[xrayfree]美国119"
-      - "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡"
-      - 乌克兰01
-      - 乌克兰04
-      - Telegram@极客分享_4
-      - 匈牙利04
-      - "[freefq]日本东京Amazon数据中心 11"
-      - 阿根廷01
-      - RELAY-172.67.151.107-0154
+      - AU-149.50.66.65-11956
+      - 中国【付费推荐：suo.yt/ssrsub】100
       - Telegram@极客分享_11
-      - Telegram@极客分享_5
+      - "[freefq]以色列  6 2"
+      - "[freefq]澳大利亚  4"
+      - "[xrayfree]美国144"
+      - _CN_中国
+      - "[NodeFree]_US_美国->🇱🇺_LU_卢森堡"
+      - LU卢森堡(youtube阿伟科技)
+      - "[xrayfree]美国138"
+      - Telegram@极客分享_3
       - "[Rawdroid/Free-servers]美国 CloudFlare节点"
-      - 日本04
-      - RELAY-104.16.160.41-1291
-      - 土耳其04
-      - 土耳其01
-      - "[peasoft/NoMoreWalls]7,8,9,10,11,27,28,29,30|_US_美国->🇸🇬_SG_新加坡"
-      - "[peasoft/NoMoreWalls]0,1,4,5,7,8,9,10,19,20,25,27,28,29,30|🇺🇸 _US_美国______________"
-      - "[peasoft/NoMoreWalls]11|🇺🇸_US_美国->🇸🇬_SG_新加坡"
+      - Telegram@极客分享_8
+      - RELAY-104.16.181.166-0118
+      - RELAY-172.64.84.1-0340
+      - RELAY-104.21.88.167-0299
+      - _🇺🇸_US_美国_顺丰_132
+      - US-38.63.0.69-3927
+      - RELAY-196.13.241.56-5369
+      - "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡"
       - "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡 2"
-      - "[ermaozi/get_subscribe]🇰🇷_KR_韩国 2"
-      - "[freefq]荷兰  9"
-      - RELAY-172.67.151.107-2055
-      - "[peasoft/NoMoreWalls]0,1,19|🇺🇸 _US_美国________________________"
-      - "[Rawdroid/Free-servers]荷兰 V2CROSS.COM"
-      - RELAY-104.21.82.246-0102
-      - TW-36.227.197.175-5192
-      - Telegram@极客分享_6
-      - HK-47.243.162.49-5335
-      - RELAY-172.64.167.237-12098
-      - "[freefq]美国Microsoft数据中心 4"
-      - 德国1号
-      - "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_由零開始_30_"
-      - 台湾03
-      - "[peasoft/NoMoreWalls]4,5|美国70"
-      - RELAY-172.67.208.87-0178
-      - "[freefq]以色列  3"
-      - "[freefq]美国CloudFlare节点 16"
-      - "[peasoft/NoMoreWalls]14,17|🇮🇳 India(ChatGPT) 01 TG:@nodpa..."
-      - US_140.99.59.253_053120236a22-458vmess
+      - Telegram@极客分享_4
+      - "[freefq]丹麦  25"
+      - Telegram@极客分享_2
+      - "[peasoft/NoMoreWalls]0,1,4,5,7,8,9,10,19,20,25,27,28,29,30|🇺🇸 _US_美国______________"
+      - 韩国2|@ripaojiedian
+      - "[xrayfree]美国121"
+      - "[ermaozi/get_subscribe]🇯🇵_JP_日本"
+      - "[peasoft/NoMoreWalls]7,8,25,27,28,29,30|_US_美国->🇸🇬_SG_新加坡"
+      - Telegram@极客分享_9 2
       - "[xrayfree]美国50"
-      - "[peasoft/NoMoreWalls]7,8,9,10,27,28,29,30|_US_美国________"
+      - "[peasoft/NoMoreWalls]16|美国CloudFla...___"
+      - HK-156.245.8.224-0155
+      - "[peasoft/NoMoreWalls]18,19|_🇭🇰_HK_香港_科网_31"
       - "[Rawdroid/Free-servers]美国 CloudFlare节点 2"
-      - 新加坡=tg频道:@bpjzx2=25
-      - 美国 Datability
-      - 新加坡=tg频道:@bpjzx2=21
-      - "[peasoft/NoMoreWalls]22,23|🇯🇵 日本A|@ripaojiedian"
+      - "[freefq]以色列  3"
+      - "[freefq]美国CloudFlare公司CDN节点 28"
+      - RELAY-172.67.208.87-0178
+      - "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_由零開始_30_"
+      - Telegram@极客分享_4 2
+      - Telegram@极客分享_5
+      - "[ermaozi/get_subscribe]🇺🇸_US_美国"
+      - "[Rawdroid/Free-servers]美国 CloudFlare节点 3"
       - "[xrayfree]美国109"
+      - RELAY-104.16.160.41-1291
+      - "[peasoft/NoMoreWalls]0,1,19|🇺🇸 _US_美国________________________"
+      - RELAY-104.21.15.32-2906
+      - 69@oneclickvpnkeys
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -424,422 +240,228 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 台湾01 | New Bing
-      - 日本01
-      - 日本03
-      - 日本05
-      - 新加坡04
-      - 韩国04
-      - 新加坡06
-      - 香港02
-      - 新加坡02
-      - 新加坡01
-      - 台湾05
-      - 香港05
-      - 台湾04
-      - 台湾02
-      - 日本06
-      - 日本02
-      - 香港01
-      - 美国05
-      - 美国01
-      - 印度01
-      - 美国02
-      - 新加坡05
-      - 美国03
-      - 美国04
-      - 韩国01 | New Bing
-      - 菲律宾04
-      - 香港06
-      - 澳大利亚01
-      - 美国06
-      - 菲律宾01 | New Bing
-      - 香港03
-      - Telegram@极客分享_2
-      - 中国【付费推荐：v1.mk/vip】46
-      - 澳大利亚04
-      - 印度04
-      - 加拿大01
-      - 加拿大04
-      - Telegram@极客分享_3
       - "[freefq]以色列  6"
-      - "[peasoft/NoMoreWalls]16,22|香港 002"
-      - 俄罗斯01
-      - LU卢森堡(youtube阿伟科技)
-      - 英国01
-      - 美国4号-0.1x
-      - "[ermaozi/get_subscribe]🇰🇷_KR_韩国"
       - Telegram@极客分享_9
-      - 匈牙利01
-      - US-138.197.5.103-0313
-      - "[xrayfree]美国119"
-      - "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡"
-      - 乌克兰01
-      - 乌克兰04
-      - Telegram@极客分享_4
-      - 匈牙利04
-      - "[freefq]日本东京Amazon数据中心 11"
-      - 阿根廷01
-      - RELAY-172.67.151.107-0154
+      - AU-149.50.66.65-11956
+      - 中国【付费推荐：suo.yt/ssrsub】100
       - Telegram@极客分享_11
-      - Telegram@极客分享_5
+      - "[freefq]以色列  6 2"
+      - "[freefq]澳大利亚  4"
+      - "[xrayfree]美国144"
+      - _CN_中国
+      - "[NodeFree]_US_美国->🇱🇺_LU_卢森堡"
+      - LU卢森堡(youtube阿伟科技)
+      - "[xrayfree]美国138"
+      - Telegram@极客分享_3
       - "[Rawdroid/Free-servers]美国 CloudFlare节点"
-      - 日本04
-      - RELAY-104.16.160.41-1291
-      - 土耳其04
-      - 土耳其01
-      - "[peasoft/NoMoreWalls]7,8,9,10,11,27,28,29,30|_US_美国->🇸🇬_SG_新加坡"
-      - "[peasoft/NoMoreWalls]0,1,4,5,7,8,9,10,19,20,25,27,28,29,30|🇺🇸 _US_美国______________"
-      - "[peasoft/NoMoreWalls]11|🇺🇸_US_美国->🇸🇬_SG_新加坡"
+      - Telegram@极客分享_8
+      - RELAY-104.16.181.166-0118
+      - RELAY-172.64.84.1-0340
+      - RELAY-104.21.88.167-0299
+      - _🇺🇸_US_美国_顺丰_132
+      - US-38.63.0.69-3927
+      - RELAY-196.13.241.56-5369
+      - "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡"
       - "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡 2"
-      - "[ermaozi/get_subscribe]🇰🇷_KR_韩国 2"
-      - "[freefq]荷兰  9"
-      - RELAY-172.67.151.107-2055
-      - "[peasoft/NoMoreWalls]0,1,19|🇺🇸 _US_美国________________________"
-      - "[Rawdroid/Free-servers]荷兰 V2CROSS.COM"
-      - RELAY-104.21.82.246-0102
-      - TW-36.227.197.175-5192
-      - Telegram@极客分享_6
-      - HK-47.243.162.49-5335
-      - RELAY-172.64.167.237-12098
-      - "[freefq]美国Microsoft数据中心 4"
-      - 德国1号
-      - "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_由零開始_30_"
-      - 台湾03
-      - "[peasoft/NoMoreWalls]4,5|美国70"
-      - RELAY-172.67.208.87-0178
-      - "[freefq]以色列  3"
-      - "[freefq]美国CloudFlare节点 16"
-      - "[peasoft/NoMoreWalls]14,17|🇮🇳 India(ChatGPT) 01 TG:@nodpa..."
-      - US_140.99.59.253_053120236a22-458vmess
+      - Telegram@极客分享_4
+      - "[freefq]丹麦  25"
+      - Telegram@极客分享_2
+      - "[peasoft/NoMoreWalls]0,1,4,5,7,8,9,10,19,20,25,27,28,29,30|🇺🇸 _US_美国______________"
+      - 韩国2|@ripaojiedian
+      - "[xrayfree]美国121"
+      - "[ermaozi/get_subscribe]🇯🇵_JP_日本"
+      - "[peasoft/NoMoreWalls]7,8,25,27,28,29,30|_US_美国->🇸🇬_SG_新加坡"
+      - Telegram@极客分享_9 2
       - "[xrayfree]美国50"
-      - "[peasoft/NoMoreWalls]7,8,9,10,27,28,29,30|_US_美国________"
+      - "[peasoft/NoMoreWalls]16|美国CloudFla...___"
+      - HK-156.245.8.224-0155
+      - "[peasoft/NoMoreWalls]18,19|_🇭🇰_HK_香港_科网_31"
       - "[Rawdroid/Free-servers]美国 CloudFlare节点 2"
-      - 新加坡=tg频道:@bpjzx2=25
-      - 美国 Datability
-      - 新加坡=tg频道:@bpjzx2=21
-      - "[peasoft/NoMoreWalls]22,23|🇯🇵 日本A|@ripaojiedian"
+      - "[freefq]以色列  3"
+      - "[freefq]美国CloudFlare公司CDN节点 28"
+      - RELAY-172.67.208.87-0178
+      - "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_由零開始_30_"
+      - Telegram@极客分享_4 2
+      - Telegram@极客分享_5
+      - "[ermaozi/get_subscribe]🇺🇸_US_美国"
+      - "[Rawdroid/Free-servers]美国 CloudFlare节点 3"
       - "[xrayfree]美国109"
+      - RELAY-104.16.160.41-1291
+      - "[peasoft/NoMoreWalls]0,1,19|🇺🇸 _US_美国________________________"
+      - RELAY-104.21.15.32-2906
+      - 69@oneclickvpnkeys
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾01 | New Bing
-      - 香港02
-      - 台湾05
-      - 香港05
-      - 台湾04
-      - 台湾02
-      - 香港01
-      - 香港06
-      - 香港03
-      - "[peasoft/NoMoreWalls]16,22|香港 002"
-      - 台湾03
+      - "[peasoft/NoMoreWalls]18,19|_🇭🇰_HK_香港_科网_31"
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 台湾01 | New Bing
-      - 日本01
-      - 日本03
-      - 日本05
-      - 新加坡04
-      - 韩国04
-      - 新加坡06
-      - 香港02
-      - 新加坡02
-      - 新加坡01
-      - 台湾05
-      - 香港05
-      - 台湾04
-      - 台湾02
-      - 日本06
-      - 日本02
-      - 香港01
-      - 美国05
-      - 美国01
-      - 印度01
-      - 美国02
-      - 新加坡05
-      - 美国03
-      - 美国04
-      - 韩国01 | New Bing
-      - 菲律宾04
-      - 香港06
-      - 澳大利亚01
-      - 美国06
-      - 菲律宾01 | New Bing
-      - 香港03
-      - Telegram@极客分享_2
-      - 中国【付费推荐：v1.mk/vip】46
-      - 澳大利亚04
-      - 印度04
-      - 加拿大01
-      - 加拿大04
-      - Telegram@极客分享_3
       - "[freefq]以色列  6"
-      - "[peasoft/NoMoreWalls]16,22|香港 002"
-      - 俄罗斯01
-      - LU卢森堡(youtube阿伟科技)
-      - 英国01
-      - 美国4号-0.1x
-      - "[ermaozi/get_subscribe]🇰🇷_KR_韩国"
       - Telegram@极客分享_9
-      - 匈牙利01
-      - US-138.197.5.103-0313
-      - "[xrayfree]美国119"
-      - "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡"
-      - 乌克兰01
-      - 乌克兰04
-      - Telegram@极客分享_4
-      - 匈牙利04
-      - "[freefq]日本东京Amazon数据中心 11"
-      - 阿根廷01
-      - RELAY-172.67.151.107-0154
+      - AU-149.50.66.65-11956
+      - 中国【付费推荐：suo.yt/ssrsub】100
       - Telegram@极客分享_11
-      - Telegram@极客分享_5
+      - "[freefq]以色列  6 2"
+      - "[freefq]澳大利亚  4"
+      - "[xrayfree]美国144"
+      - _CN_中国
+      - "[NodeFree]_US_美国->🇱🇺_LU_卢森堡"
+      - LU卢森堡(youtube阿伟科技)
+      - "[xrayfree]美国138"
+      - Telegram@极客分享_3
       - "[Rawdroid/Free-servers]美国 CloudFlare节点"
-      - 日本04
-      - RELAY-104.16.160.41-1291
-      - 土耳其04
-      - 土耳其01
-      - "[peasoft/NoMoreWalls]7,8,9,10,11,27,28,29,30|_US_美国->🇸🇬_SG_新加坡"
-      - "[peasoft/NoMoreWalls]0,1,4,5,7,8,9,10,19,20,25,27,28,29,30|🇺🇸 _US_美国______________"
-      - "[peasoft/NoMoreWalls]11|🇺🇸_US_美国->🇸🇬_SG_新加坡"
+      - Telegram@极客分享_8
+      - RELAY-104.16.181.166-0118
+      - RELAY-172.64.84.1-0340
+      - RELAY-104.21.88.167-0299
+      - _🇺🇸_US_美国_顺丰_132
+      - US-38.63.0.69-3927
+      - RELAY-196.13.241.56-5369
+      - "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡"
       - "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡 2"
-      - "[ermaozi/get_subscribe]🇰🇷_KR_韩国 2"
-      - "[freefq]荷兰  9"
-      - RELAY-172.67.151.107-2055
-      - "[peasoft/NoMoreWalls]0,1,19|🇺🇸 _US_美国________________________"
-      - "[Rawdroid/Free-servers]荷兰 V2CROSS.COM"
-      - RELAY-104.21.82.246-0102
-      - TW-36.227.197.175-5192
-      - Telegram@极客分享_6
-      - HK-47.243.162.49-5335
-      - RELAY-172.64.167.237-12098
-      - "[freefq]美国Microsoft数据中心 4"
-      - 德国1号
-      - "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_由零開始_30_"
-      - 台湾03
-      - "[peasoft/NoMoreWalls]4,5|美国70"
-      - RELAY-172.67.208.87-0178
-      - "[freefq]以色列  3"
-      - "[freefq]美国CloudFlare节点 16"
-      - "[peasoft/NoMoreWalls]14,17|🇮🇳 India(ChatGPT) 01 TG:@nodpa..."
-      - US_140.99.59.253_053120236a22-458vmess
+      - Telegram@极客分享_4
+      - "[freefq]丹麦  25"
+      - Telegram@极客分享_2
+      - "[peasoft/NoMoreWalls]0,1,4,5,7,8,9,10,19,20,25,27,28,29,30|🇺🇸 _US_美国______________"
+      - 韩国2|@ripaojiedian
+      - "[xrayfree]美国121"
+      - "[ermaozi/get_subscribe]🇯🇵_JP_日本"
+      - "[peasoft/NoMoreWalls]7,8,25,27,28,29,30|_US_美国->🇸🇬_SG_新加坡"
+      - Telegram@极客分享_9 2
       - "[xrayfree]美国50"
-      - "[peasoft/NoMoreWalls]7,8,9,10,27,28,29,30|_US_美国________"
+      - "[peasoft/NoMoreWalls]16|美国CloudFla...___"
+      - HK-156.245.8.224-0155
+      - "[peasoft/NoMoreWalls]18,19|_🇭🇰_HK_香港_科网_31"
       - "[Rawdroid/Free-servers]美国 CloudFlare节点 2"
-      - 新加坡=tg频道:@bpjzx2=25
-      - 美国 Datability
-      - 新加坡=tg频道:@bpjzx2=21
-      - "[peasoft/NoMoreWalls]22,23|🇯🇵 日本A|@ripaojiedian"
+      - "[freefq]以色列  3"
+      - "[freefq]美国CloudFlare公司CDN节点 28"
+      - RELAY-172.67.208.87-0178
+      - "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_由零開始_30_"
+      - Telegram@极客分享_4 2
+      - Telegram@极客分享_5
+      - "[ermaozi/get_subscribe]🇺🇸_US_美国"
+      - "[Rawdroid/Free-servers]美国 CloudFlare节点 3"
       - "[xrayfree]美国109"
+      - RELAY-104.16.160.41-1291
+      - "[peasoft/NoMoreWalls]0,1,19|🇺🇸 _US_美国________________________"
+      - RELAY-104.21.15.32-2906
+      - 69@oneclickvpnkeys
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 台湾01 | New Bing
-      - 日本01
-      - 日本03
-      - 日本05
-      - 新加坡04
-      - 韩国04
-      - 新加坡06
-      - 香港02
-      - 新加坡02
-      - 新加坡01
-      - 台湾05
-      - 香港05
-      - 台湾04
-      - 台湾02
-      - 日本06
-      - 日本02
-      - 香港01
-      - 美国05
-      - 美国01
-      - 印度01
-      - 美国02
-      - 新加坡05
-      - 美国03
-      - 美国04
-      - 韩国01 | New Bing
-      - 菲律宾04
-      - 香港06
-      - 澳大利亚01
-      - 美国06
-      - 菲律宾01 | New Bing
-      - 香港03
-      - Telegram@极客分享_2
-      - 中国【付费推荐：v1.mk/vip】46
-      - 澳大利亚04
-      - 印度04
-      - 加拿大01
-      - 加拿大04
-      - Telegram@极客分享_3
       - "[freefq]以色列  6"
-      - "[peasoft/NoMoreWalls]16,22|香港 002"
-      - 俄罗斯01
-      - LU卢森堡(youtube阿伟科技)
-      - 英国01
-      - 美国4号-0.1x
-      - "[ermaozi/get_subscribe]🇰🇷_KR_韩国"
       - Telegram@极客分享_9
-      - 匈牙利01
-      - US-138.197.5.103-0313
-      - "[xrayfree]美国119"
-      - "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡"
-      - 乌克兰01
-      - 乌克兰04
-      - Telegram@极客分享_4
-      - 匈牙利04
-      - "[freefq]日本东京Amazon数据中心 11"
-      - 阿根廷01
-      - RELAY-172.67.151.107-0154
+      - AU-149.50.66.65-11956
+      - 中国【付费推荐：suo.yt/ssrsub】100
       - Telegram@极客分享_11
-      - Telegram@极客分享_5
+      - "[freefq]以色列  6 2"
+      - "[freefq]澳大利亚  4"
+      - "[xrayfree]美国144"
+      - _CN_中国
+      - "[NodeFree]_US_美国->🇱🇺_LU_卢森堡"
+      - LU卢森堡(youtube阿伟科技)
+      - "[xrayfree]美国138"
+      - Telegram@极客分享_3
       - "[Rawdroid/Free-servers]美国 CloudFlare节点"
-      - 日本04
-      - RELAY-104.16.160.41-1291
-      - 土耳其04
-      - 土耳其01
-      - "[peasoft/NoMoreWalls]7,8,9,10,11,27,28,29,30|_US_美国->🇸🇬_SG_新加坡"
-      - "[peasoft/NoMoreWalls]0,1,4,5,7,8,9,10,19,20,25,27,28,29,30|🇺🇸 _US_美国______________"
-      - "[peasoft/NoMoreWalls]11|🇺🇸_US_美国->🇸🇬_SG_新加坡"
+      - Telegram@极客分享_8
+      - RELAY-104.16.181.166-0118
+      - RELAY-172.64.84.1-0340
+      - RELAY-104.21.88.167-0299
+      - _🇺🇸_US_美国_顺丰_132
+      - US-38.63.0.69-3927
+      - RELAY-196.13.241.56-5369
+      - "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡"
       - "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡 2"
-      - "[ermaozi/get_subscribe]🇰🇷_KR_韩国 2"
-      - "[freefq]荷兰  9"
-      - RELAY-172.67.151.107-2055
-      - "[peasoft/NoMoreWalls]0,1,19|🇺🇸 _US_美国________________________"
-      - "[Rawdroid/Free-servers]荷兰 V2CROSS.COM"
-      - RELAY-104.21.82.246-0102
-      - TW-36.227.197.175-5192
-      - Telegram@极客分享_6
-      - HK-47.243.162.49-5335
-      - RELAY-172.64.167.237-12098
-      - "[freefq]美国Microsoft数据中心 4"
-      - 德国1号
-      - "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_由零開始_30_"
-      - 台湾03
-      - "[peasoft/NoMoreWalls]4,5|美国70"
-      - RELAY-172.67.208.87-0178
-      - "[freefq]以色列  3"
-      - "[freefq]美国CloudFlare节点 16"
-      - "[peasoft/NoMoreWalls]14,17|🇮🇳 India(ChatGPT) 01 TG:@nodpa..."
-      - US_140.99.59.253_053120236a22-458vmess
+      - Telegram@极客分享_4
+      - "[freefq]丹麦  25"
+      - Telegram@极客分享_2
+      - "[peasoft/NoMoreWalls]0,1,4,5,7,8,9,10,19,20,25,27,28,29,30|🇺🇸 _US_美国______________"
+      - 韩国2|@ripaojiedian
+      - "[xrayfree]美国121"
+      - "[ermaozi/get_subscribe]🇯🇵_JP_日本"
+      - "[peasoft/NoMoreWalls]7,8,25,27,28,29,30|_US_美国->🇸🇬_SG_新加坡"
+      - Telegram@极客分享_9 2
       - "[xrayfree]美国50"
-      - "[peasoft/NoMoreWalls]7,8,9,10,27,28,29,30|_US_美国________"
+      - "[peasoft/NoMoreWalls]16|美国CloudFla...___"
+      - HK-156.245.8.224-0155
+      - "[peasoft/NoMoreWalls]18,19|_🇭🇰_HK_香港_科网_31"
       - "[Rawdroid/Free-servers]美国 CloudFlare节点 2"
-      - 新加坡=tg频道:@bpjzx2=25
-      - 美国 Datability
-      - 新加坡=tg频道:@bpjzx2=21
-      - "[peasoft/NoMoreWalls]22,23|🇯🇵 日本A|@ripaojiedian"
+      - "[freefq]以色列  3"
+      - "[freefq]美国CloudFlare公司CDN节点 28"
+      - RELAY-172.67.208.87-0178
+      - "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_由零開始_30_"
+      - Telegram@极客分享_4 2
+      - Telegram@极客分享_5
+      - "[ermaozi/get_subscribe]🇺🇸_US_美国"
+      - "[Rawdroid/Free-servers]美国 CloudFlare节点 3"
       - "[xrayfree]美国109"
+      - RELAY-104.16.160.41-1291
+      - "[peasoft/NoMoreWalls]0,1,19|🇺🇸 _US_美国________________________"
+      - RELAY-104.21.15.32-2906
+      - 69@oneclickvpnkeys
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 台湾01 | New Bing
-      - 日本01
-      - 日本03
-      - 日本05
-      - 新加坡04
-      - 韩国04
-      - 新加坡06
-      - 香港02
-      - 新加坡02
-      - 新加坡01
-      - 台湾05
-      - 香港05
-      - 台湾04
-      - 台湾02
-      - 日本06
-      - 日本02
-      - 香港01
-      - 美国05
-      - 美国01
-      - 印度01
-      - 美国02
-      - 新加坡05
-      - 美国03
-      - 美国04
-      - 韩国01 | New Bing
-      - 菲律宾04
-      - 香港06
-      - 澳大利亚01
-      - 美国06
-      - 菲律宾01 | New Bing
-      - 香港03
-      - Telegram@极客分享_2
-      - 中国【付费推荐：v1.mk/vip】46
-      - 澳大利亚04
-      - 印度04
-      - 加拿大01
-      - 加拿大04
-      - Telegram@极客分享_3
       - "[freefq]以色列  6"
-      - "[peasoft/NoMoreWalls]16,22|香港 002"
-      - 俄罗斯01
-      - LU卢森堡(youtube阿伟科技)
-      - 英国01
-      - 美国4号-0.1x
-      - "[ermaozi/get_subscribe]🇰🇷_KR_韩国"
       - Telegram@极客分享_9
-      - 匈牙利01
-      - US-138.197.5.103-0313
-      - "[xrayfree]美国119"
-      - "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡"
-      - 乌克兰01
-      - 乌克兰04
-      - Telegram@极客分享_4
-      - 匈牙利04
-      - "[freefq]日本东京Amazon数据中心 11"
-      - 阿根廷01
-      - RELAY-172.67.151.107-0154
+      - AU-149.50.66.65-11956
+      - 中国【付费推荐：suo.yt/ssrsub】100
       - Telegram@极客分享_11
-      - Telegram@极客分享_5
+      - "[freefq]以色列  6 2"
+      - "[freefq]澳大利亚  4"
+      - "[xrayfree]美国144"
+      - _CN_中国
+      - "[NodeFree]_US_美国->🇱🇺_LU_卢森堡"
+      - LU卢森堡(youtube阿伟科技)
+      - "[xrayfree]美国138"
+      - Telegram@极客分享_3
       - "[Rawdroid/Free-servers]美国 CloudFlare节点"
-      - 日本04
-      - RELAY-104.16.160.41-1291
-      - 土耳其04
-      - 土耳其01
-      - "[peasoft/NoMoreWalls]7,8,9,10,11,27,28,29,30|_US_美国->🇸🇬_SG_新加坡"
-      - "[peasoft/NoMoreWalls]0,1,4,5,7,8,9,10,19,20,25,27,28,29,30|🇺🇸 _US_美国______________"
-      - "[peasoft/NoMoreWalls]11|🇺🇸_US_美国->🇸🇬_SG_新加坡"
+      - Telegram@极客分享_8
+      - RELAY-104.16.181.166-0118
+      - RELAY-172.64.84.1-0340
+      - RELAY-104.21.88.167-0299
+      - _🇺🇸_US_美国_顺丰_132
+      - US-38.63.0.69-3927
+      - RELAY-196.13.241.56-5369
+      - "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡"
       - "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡 2"
-      - "[ermaozi/get_subscribe]🇰🇷_KR_韩国 2"
-      - "[freefq]荷兰  9"
-      - RELAY-172.67.151.107-2055
-      - "[peasoft/NoMoreWalls]0,1,19|🇺🇸 _US_美国________________________"
-      - "[Rawdroid/Free-servers]荷兰 V2CROSS.COM"
-      - RELAY-104.21.82.246-0102
-      - TW-36.227.197.175-5192
-      - Telegram@极客分享_6
-      - HK-47.243.162.49-5335
-      - RELAY-172.64.167.237-12098
-      - "[freefq]美国Microsoft数据中心 4"
-      - 德国1号
-      - "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_由零開始_30_"
-      - 台湾03
-      - "[peasoft/NoMoreWalls]4,5|美国70"
-      - RELAY-172.67.208.87-0178
-      - "[freefq]以色列  3"
-      - "[freefq]美国CloudFlare节点 16"
-      - "[peasoft/NoMoreWalls]14,17|🇮🇳 India(ChatGPT) 01 TG:@nodpa..."
-      - US_140.99.59.253_053120236a22-458vmess
+      - Telegram@极客分享_4
+      - "[freefq]丹麦  25"
+      - Telegram@极客分享_2
+      - "[peasoft/NoMoreWalls]0,1,4,5,7,8,9,10,19,20,25,27,28,29,30|🇺🇸 _US_美国______________"
+      - 韩国2|@ripaojiedian
+      - "[xrayfree]美国121"
+      - "[ermaozi/get_subscribe]🇯🇵_JP_日本"
+      - "[peasoft/NoMoreWalls]7,8,25,27,28,29,30|_US_美国->🇸🇬_SG_新加坡"
+      - Telegram@极客分享_9 2
       - "[xrayfree]美国50"
-      - "[peasoft/NoMoreWalls]7,8,9,10,27,28,29,30|_US_美国________"
+      - "[peasoft/NoMoreWalls]16|美国CloudFla...___"
+      - HK-156.245.8.224-0155
+      - "[peasoft/NoMoreWalls]18,19|_🇭🇰_HK_香港_科网_31"
       - "[Rawdroid/Free-servers]美国 CloudFlare节点 2"
-      - 新加坡=tg频道:@bpjzx2=25
-      - 美国 Datability
-      - 新加坡=tg频道:@bpjzx2=21
-      - "[peasoft/NoMoreWalls]22,23|🇯🇵 日本A|@ripaojiedian"
+      - "[freefq]以色列  3"
+      - "[freefq]美国CloudFlare公司CDN节点 28"
+      - RELAY-172.67.208.87-0178
+      - "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_由零開始_30_"
+      - Telegram@极客分享_4 2
+      - Telegram@极客分享_5
+      - "[ermaozi/get_subscribe]🇺🇸_US_美国"
+      - "[Rawdroid/Free-servers]美国 CloudFlare节点 3"
       - "[xrayfree]美国109"
+      - RELAY-104.16.160.41-1291
+      - "[peasoft/NoMoreWalls]0,1,19|🇺🇸 _US_美国________________________"
+      - RELAY-104.21.15.32-2906
+      - 69@oneclickvpnkeys
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -855,102 +477,56 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 台湾01 | New Bing
-      - 日本01
-      - 日本03
-      - 日本05
-      - 新加坡04
-      - 韩国04
-      - 新加坡06
-      - 香港02
-      - 新加坡02
-      - 新加坡01
-      - 台湾05
-      - 香港05
-      - 台湾04
-      - 台湾02
-      - 日本06
-      - 日本02
-      - 香港01
-      - 美国05
-      - 美国01
-      - 印度01
-      - 美国02
-      - 新加坡05
-      - 美国03
-      - 美国04
-      - 韩国01 | New Bing
-      - 菲律宾04
-      - 香港06
-      - 澳大利亚01
-      - 美国06
-      - 菲律宾01 | New Bing
-      - 香港03
-      - Telegram@极客分享_2
-      - 中国【付费推荐：v1.mk/vip】46
-      - 澳大利亚04
-      - 印度04
-      - 加拿大01
-      - 加拿大04
-      - Telegram@极客分享_3
       - "[freefq]以色列  6"
-      - "[peasoft/NoMoreWalls]16,22|香港 002"
-      - 俄罗斯01
-      - LU卢森堡(youtube阿伟科技)
-      - 英国01
-      - 美国4号-0.1x
-      - "[ermaozi/get_subscribe]🇰🇷_KR_韩国"
       - Telegram@极客分享_9
-      - 匈牙利01
-      - US-138.197.5.103-0313
-      - "[xrayfree]美国119"
-      - "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡"
-      - 乌克兰01
-      - 乌克兰04
-      - Telegram@极客分享_4
-      - 匈牙利04
-      - "[freefq]日本东京Amazon数据中心 11"
-      - 阿根廷01
-      - RELAY-172.67.151.107-0154
+      - AU-149.50.66.65-11956
+      - 中国【付费推荐：suo.yt/ssrsub】100
       - Telegram@极客分享_11
-      - Telegram@极客分享_5
+      - "[freefq]以色列  6 2"
+      - "[freefq]澳大利亚  4"
+      - "[xrayfree]美国144"
+      - _CN_中国
+      - "[NodeFree]_US_美国->🇱🇺_LU_卢森堡"
+      - LU卢森堡(youtube阿伟科技)
+      - "[xrayfree]美国138"
+      - Telegram@极客分享_3
       - "[Rawdroid/Free-servers]美国 CloudFlare节点"
-      - 日本04
-      - RELAY-104.16.160.41-1291
-      - 土耳其04
-      - 土耳其01
-      - "[peasoft/NoMoreWalls]7,8,9,10,11,27,28,29,30|_US_美国->🇸🇬_SG_新加坡"
-      - "[peasoft/NoMoreWalls]0,1,4,5,7,8,9,10,19,20,25,27,28,29,30|🇺🇸 _US_美国______________"
-      - "[peasoft/NoMoreWalls]11|🇺🇸_US_美国->🇸🇬_SG_新加坡"
+      - Telegram@极客分享_8
+      - RELAY-104.16.181.166-0118
+      - RELAY-172.64.84.1-0340
+      - RELAY-104.21.88.167-0299
+      - _🇺🇸_US_美国_顺丰_132
+      - US-38.63.0.69-3927
+      - RELAY-196.13.241.56-5369
+      - "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡"
       - "[ermaozi/get_subscribe]🇺🇸_US_美国->🇸🇬_SG_新加坡 2"
-      - "[ermaozi/get_subscribe]🇰🇷_KR_韩国 2"
-      - "[freefq]荷兰  9"
-      - RELAY-172.67.151.107-2055
-      - "[peasoft/NoMoreWalls]0,1,19|🇺🇸 _US_美国________________________"
-      - "[Rawdroid/Free-servers]荷兰 V2CROSS.COM"
-      - RELAY-104.21.82.246-0102
-      - TW-36.227.197.175-5192
-      - Telegram@极客分享_6
-      - HK-47.243.162.49-5335
-      - RELAY-172.64.167.237-12098
-      - "[freefq]美国Microsoft数据中心 4"
-      - 德国1号
-      - "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_由零開始_30_"
-      - 台湾03
-      - "[peasoft/NoMoreWalls]4,5|美国70"
-      - RELAY-172.67.208.87-0178
-      - "[freefq]以色列  3"
-      - "[freefq]美国CloudFlare节点 16"
-      - "[peasoft/NoMoreWalls]14,17|🇮🇳 India(ChatGPT) 01 TG:@nodpa..."
-      - US_140.99.59.253_053120236a22-458vmess
+      - Telegram@极客分享_4
+      - "[freefq]丹麦  25"
+      - Telegram@极客分享_2
+      - "[peasoft/NoMoreWalls]0,1,4,5,7,8,9,10,19,20,25,27,28,29,30|🇺🇸 _US_美国______________"
+      - 韩国2|@ripaojiedian
+      - "[xrayfree]美国121"
+      - "[ermaozi/get_subscribe]🇯🇵_JP_日本"
+      - "[peasoft/NoMoreWalls]7,8,25,27,28,29,30|_US_美国->🇸🇬_SG_新加坡"
+      - Telegram@极客分享_9 2
       - "[xrayfree]美国50"
-      - "[peasoft/NoMoreWalls]7,8,9,10,27,28,29,30|_US_美国________"
+      - "[peasoft/NoMoreWalls]16|美国CloudFla...___"
+      - HK-156.245.8.224-0155
+      - "[peasoft/NoMoreWalls]18,19|_🇭🇰_HK_香港_科网_31"
       - "[Rawdroid/Free-servers]美国 CloudFlare节点 2"
-      - 新加坡=tg频道:@bpjzx2=25
-      - 美国 Datability
-      - 新加坡=tg频道:@bpjzx2=21
-      - "[peasoft/NoMoreWalls]22,23|🇯🇵 日本A|@ripaojiedian"
+      - "[freefq]以色列  3"
+      - "[freefq]美国CloudFlare公司CDN节点 28"
+      - RELAY-172.67.208.87-0178
+      - "[peasoft/NoMoreWalls]19|_🇺🇸_US_美国_由零開始_30_"
+      - Telegram@极客分享_4 2
+      - Telegram@极客分享_5
+      - "[ermaozi/get_subscribe]🇺🇸_US_美国"
+      - "[Rawdroid/Free-servers]美国 CloudFlare节点 3"
       - "[xrayfree]美国109"
+      - RELAY-104.16.160.41-1291
+      - "[peasoft/NoMoreWalls]0,1,19|🇺🇸 _US_美国________________________"
+      - RELAY-104.21.15.32-2906
+      - 69@oneclickvpnkeys
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

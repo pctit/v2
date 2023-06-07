@@ -5,111 +5,82 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 中国=tg频道:@bpjzx2=3, server: free.themars.top, port: 32102, type: ss, cipher: chacha20-ietf-poly1305, password: b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2, udp: true}
   - {name: US-149.50.69.88-1882, server: us3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: us3.chuqiangtou.net, skip-cert-verify: true, udp: true}
   - {name: _IL_以色列->🇺🇸_US_美国, server: us1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: us1.chuqiangtou.net, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2), server: 163.123.192.59, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, skip-cert-verify: true, udp: true}
-  - {name: "[freefq]以色列  32", server: us2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: us2.chuqiangtou.net, skip-cert-verify: true, udp: true}
   - {name: JP-149.50.70.69-0096, server: jp3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: jp3.chuqiangtou.net, skip-cert-verify: true, udp: true}
-  - {name: RELAY-104.18.2.198-2812, server: www.noice.id, port: 443, type: vmess, uuid: 37776019-07ea-4a1d-94e7-88e5e133ad5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /worryfree, ws-headers: {Host: v2ray1.udpgw.com}, udp: true}
-  - {name: "@SSRSUB-V48-付费推荐:dlj.tf/ssrsub", server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: in.sharecentrepro.com}, udp: true}
-  - {name: 二爷翻墙 节点_6, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: uk1.scproxy.top}, udp: true}
-  - {name: "@SSRSUB-V05-付费推荐:dlj.tf/ssrsub", server: cf-dx-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: in.sharecentrepro.com}, udp: true}
-  - {name: "@SSRSUB-V02-付费推荐:dlj.tf/ssrsub", server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GB-149.50.77.93-0808, server: uk1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: uk1.chuqiangtou.net, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 上海市联通 4, server: h961359.waihuizhibiaowang.com, port: 13543, type: trojan, password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66, sni: h961359.waihuizhibiaowang.com, skip-cert-verify: true, udp: true}
   - {name: Telegram@极客分享_6, server: 8x69c3-8080.csb.app, port: 443, type: vmess, uuid: 42bedd62-b62d-4681-a6b2-c9f3669a8454, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmabcd, ws-headers: {Host: 8x69c3-8080.csb.app}, udp: true}
-  - {name: United Kingdom(ChatGPT) 01 TG:@nodpai, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: uk1.scproxy.top}, udp: true}
+  - {name: Telegram@极客分享_4, server: 183.237.20.147, port: 40095, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[freefq]以色列  32", server: us2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: us2.chuqiangtou.net, skip-cert-verify: true, udp: true}
+  - {name: AU-149.50.83.90-1754, server: au1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: au1.chuqiangtou.net, skip-cert-verify: true, udp: true}
   - {name: AU-149.50.66.83-1868, server: au3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: au3.chuqiangtou.net, skip-cert-verify: true, udp: true}
+  - {name: 美国=tg频道:@bpjzx2=14, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp3.scproxy.top}, udp: true}
+  - {name: 美国3号-0.1x, server: 163.123.192.153, port: 443, type: trojan, password: de58c68b-a35f-4d38-a999-4094453c3e44, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2), server: 163.123.192.59, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, skip-cert-verify: true, udp: true}
+  - {name: United Kingdom(ChatGPT) 01 TG:@nodpai, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: uk1.scproxy.top}, udp: true}
   - {name: "[freefq]以色列  9", server: nl1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: nl1.chuqiangtou.net, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: nl.sharecentrepro.com}, udp: true}
-  - {name: _IL_以色列->🇳🇱_NL_荷兰, server: nl3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: nl3.chuqiangtou.net, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 以色列  22, server: nl2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: nl2.chuqiangtou.net, skip-cert-verify: true, udp: true}
-  - {name: RELAY-172.67.208.87-1074, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: dp3.yxjnode.com}, udp: true}
-  - {name: _US_美国, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: dp3.yxjnode.com}, udp: true}
+  - {name: 二爷翻墙 节点_6, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: uk1.scproxy.top}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国=tg频道:@bpjzx2=3
       - US-149.50.69.88-1882
       - _IL_以色列->🇺🇸_US_美国
-      - US美国(youtube阿伟科技2)
-      - "[freefq]以色列  32"
       - JP-149.50.70.69-0096
-      - RELAY-104.18.2.198-2812
-      - "@SSRSUB-V48-付费推荐:dlj.tf/ssrsub"
-      - 二爷翻墙 节点_6
-      - "@SSRSUB-V05-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-V02-付费推荐:dlj.tf/ssrsub"
-      - GB-149.50.77.93-0808
-      - github.com/freefq - 上海市联通 4
       - Telegram@极客分享_6
-      - United Kingdom(ChatGPT) 01 TG:@nodpai
+      - Telegram@极客分享_4
+      - "[freefq]以色列  32"
+      - AU-149.50.83.90-1754
       - AU-149.50.66.83-1868
+      - 美国=tg频道:@bpjzx2=14
+      - 美国3号-0.1x
+
+      - US美国(youtube阿伟科技2)
+      - United Kingdom(ChatGPT) 01 TG:@nodpai
       - "[freefq]以色列  9"
-      - _US_美国->🇳🇱_NL_荷兰
-      - _IL_以色列->🇳🇱_NL_荷兰
-      - github.com/freefq - 以色列  22
-      - RELAY-172.67.208.87-1074
-      - _US_美国
+      - 二爷翻墙 节点_6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 中国=tg频道:@bpjzx2=3
       - US-149.50.69.88-1882
       - _IL_以色列->🇺🇸_US_美国
-      - US美国(youtube阿伟科技2)
-      - "[freefq]以色列  32"
       - JP-149.50.70.69-0096
-      - RELAY-104.18.2.198-2812
-      - "@SSRSUB-V48-付费推荐:dlj.tf/ssrsub"
-      - 二爷翻墙 节点_6
-      - "@SSRSUB-V05-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-V02-付费推荐:dlj.tf/ssrsub"
-      - GB-149.50.77.93-0808
-      - github.com/freefq - 上海市联通 4
       - Telegram@极客分享_6
-      - United Kingdom(ChatGPT) 01 TG:@nodpai
+      - Telegram@极客分享_4
+      - "[freefq]以色列  32"
+      - AU-149.50.83.90-1754
       - AU-149.50.66.83-1868
+      - 美国=tg频道:@bpjzx2=14
+      - 美国3号-0.1x
+
+      - US美国(youtube阿伟科技2)
+      - United Kingdom(ChatGPT) 01 TG:@nodpai
       - "[freefq]以色列  9"
-      - _US_美国->🇳🇱_NL_荷兰
-      - _IL_以色列->🇳🇱_NL_荷兰
-      - github.com/freefq - 以色列  22
-      - RELAY-172.67.208.87-1074
-      - _US_美国
+      - 二爷翻墙 节点_6
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国=tg频道:@bpjzx2=3
       - US-149.50.69.88-1882
       - _IL_以色列->🇺🇸_US_美国
-      - US美国(youtube阿伟科技2)
-      - "[freefq]以色列  32"
       - JP-149.50.70.69-0096
-      - RELAY-104.18.2.198-2812
-      - "@SSRSUB-V48-付费推荐:dlj.tf/ssrsub"
-      - 二爷翻墙 节点_6
-      - "@SSRSUB-V05-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-V02-付费推荐:dlj.tf/ssrsub"
-      - GB-149.50.77.93-0808
-      - github.com/freefq - 上海市联通 4
       - Telegram@极客分享_6
-      - United Kingdom(ChatGPT) 01 TG:@nodpai
+      - Telegram@极客分享_4
+      - "[freefq]以色列  32"
+      - AU-149.50.83.90-1754
       - AU-149.50.66.83-1868
+      - 美国=tg频道:@bpjzx2=14
+      - 美国3号-0.1x
+
+      - US美国(youtube阿伟科技2)
+      - United Kingdom(ChatGPT) 01 TG:@nodpai
       - "[freefq]以色列  9"
-      - _US_美国->🇳🇱_NL_荷兰
-      - _IL_以色列->🇳🇱_NL_荷兰
-      - github.com/freefq - 以色列  22
-      - RELAY-172.67.208.87-1074
-      - _US_美国
+      - 二爷翻墙 节点_6
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -128,28 +99,21 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国=tg频道:@bpjzx2=3
       - US-149.50.69.88-1882
       - _IL_以色列->🇺🇸_US_美国
-      - US美国(youtube阿伟科技2)
-      - "[freefq]以色列  32"
       - JP-149.50.70.69-0096
-      - RELAY-104.18.2.198-2812
-      - "@SSRSUB-V48-付费推荐:dlj.tf/ssrsub"
-      - 二爷翻墙 节点_6
-      - "@SSRSUB-V05-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-V02-付费推荐:dlj.tf/ssrsub"
-      - GB-149.50.77.93-0808
-      - github.com/freefq - 上海市联通 4
       - Telegram@极客分享_6
-      - United Kingdom(ChatGPT) 01 TG:@nodpai
+      - Telegram@极客分享_4
+      - "[freefq]以色列  32"
+      - AU-149.50.83.90-1754
       - AU-149.50.66.83-1868
+      - 美国=tg频道:@bpjzx2=14
+      - 美国3号-0.1x
+
+      - US美国(youtube阿伟科技2)
+      - United Kingdom(ChatGPT) 01 TG:@nodpai
       - "[freefq]以色列  9"
-      - _US_美国->🇳🇱_NL_荷兰
-      - _IL_以色列->🇳🇱_NL_荷兰
-      - github.com/freefq - 以色列  22
-      - RELAY-172.67.208.87-1074
-      - _US_美国
+      - 二爷翻墙 节点_6
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -160,83 +124,62 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 中国=tg频道:@bpjzx2=3
       - US-149.50.69.88-1882
       - _IL_以色列->🇺🇸_US_美国
-      - US美国(youtube阿伟科技2)
-      - "[freefq]以色列  32"
       - JP-149.50.70.69-0096
-      - RELAY-104.18.2.198-2812
-      - "@SSRSUB-V48-付费推荐:dlj.tf/ssrsub"
-      - 二爷翻墙 节点_6
-      - "@SSRSUB-V05-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-V02-付费推荐:dlj.tf/ssrsub"
-      - GB-149.50.77.93-0808
-      - github.com/freefq - 上海市联通 4
       - Telegram@极客分享_6
-      - United Kingdom(ChatGPT) 01 TG:@nodpai
+      - Telegram@极客分享_4
+      - "[freefq]以色列  32"
+      - AU-149.50.83.90-1754
       - AU-149.50.66.83-1868
+      - 美国=tg频道:@bpjzx2=14
+      - 美国3号-0.1x
+
+      - US美国(youtube阿伟科技2)
+      - United Kingdom(ChatGPT) 01 TG:@nodpai
       - "[freefq]以色列  9"
-      - _US_美国->🇳🇱_NL_荷兰
-      - _IL_以色列->🇳🇱_NL_荷兰
-      - github.com/freefq - 以色列  22
-      - RELAY-172.67.208.87-1074
-      - _US_美国
+      - 二爷翻墙 节点_6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 中国=tg频道:@bpjzx2=3
       - US-149.50.69.88-1882
       - _IL_以色列->🇺🇸_US_美国
-      - US美国(youtube阿伟科技2)
-      - "[freefq]以色列  32"
       - JP-149.50.70.69-0096
-      - RELAY-104.18.2.198-2812
-      - "@SSRSUB-V48-付费推荐:dlj.tf/ssrsub"
-      - 二爷翻墙 节点_6
-      - "@SSRSUB-V05-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-V02-付费推荐:dlj.tf/ssrsub"
-      - GB-149.50.77.93-0808
-      - github.com/freefq - 上海市联通 4
       - Telegram@极客分享_6
-      - United Kingdom(ChatGPT) 01 TG:@nodpai
+      - Telegram@极客分享_4
+      - "[freefq]以色列  32"
+      - AU-149.50.83.90-1754
       - AU-149.50.66.83-1868
+      - 美国=tg频道:@bpjzx2=14
+      - 美国3号-0.1x
+
+      - US美国(youtube阿伟科技2)
+      - United Kingdom(ChatGPT) 01 TG:@nodpai
       - "[freefq]以色列  9"
-      - _US_美国->🇳🇱_NL_荷兰
-      - _IL_以色列->🇳🇱_NL_荷兰
-      - github.com/freefq - 以色列  22
-      - RELAY-172.67.208.87-1074
-      - _US_美国
+      - 二爷翻墙 节点_6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中国=tg频道:@bpjzx2=3
       - US-149.50.69.88-1882
       - _IL_以色列->🇺🇸_US_美国
-      - US美国(youtube阿伟科技2)
-      - "[freefq]以色列  32"
       - JP-149.50.70.69-0096
-      - RELAY-104.18.2.198-2812
-      - "@SSRSUB-V48-付费推荐:dlj.tf/ssrsub"
-      - 二爷翻墙 节点_6
-      - "@SSRSUB-V05-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-V02-付费推荐:dlj.tf/ssrsub"
-      - GB-149.50.77.93-0808
-      - github.com/freefq - 上海市联通 4
       - Telegram@极客分享_6
-      - United Kingdom(ChatGPT) 01 TG:@nodpai
+      - Telegram@极客分享_4
+      - "[freefq]以色列  32"
+      - AU-149.50.83.90-1754
       - AU-149.50.66.83-1868
+      - 美国=tg频道:@bpjzx2=14
+      - 美国3号-0.1x
+
+      - US美国(youtube阿伟科技2)
+      - United Kingdom(ChatGPT) 01 TG:@nodpai
       - "[freefq]以色列  9"
-      - _US_美国->🇳🇱_NL_荷兰
-      - _IL_以色列->🇳🇱_NL_荷兰
-      - github.com/freefq - 以色列  22
-      - RELAY-172.67.208.87-1074
-      - _US_美国
+      - 二爷翻墙 节点_6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -252,28 +195,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中国=tg频道:@bpjzx2=3
       - US-149.50.69.88-1882
       - _IL_以色列->🇺🇸_US_美国
-      - US美国(youtube阿伟科技2)
-      - "[freefq]以色列  32"
       - JP-149.50.70.69-0096
-      - RELAY-104.18.2.198-2812
-      - "@SSRSUB-V48-付费推荐:dlj.tf/ssrsub"
-      - 二爷翻墙 节点_6
-      - "@SSRSUB-V05-付费推荐:dlj.tf/ssrsub"
-      - "@SSRSUB-V02-付费推荐:dlj.tf/ssrsub"
-      - GB-149.50.77.93-0808
-      - github.com/freefq - 上海市联通 4
       - Telegram@极客分享_6
-      - United Kingdom(ChatGPT) 01 TG:@nodpai
+      - Telegram@极客分享_4
+      - "[freefq]以色列  32"
+      - AU-149.50.83.90-1754
       - AU-149.50.66.83-1868
+      - 美国=tg频道:@bpjzx2=14
+      - 美国3号-0.1x
+
+      - US美国(youtube阿伟科技2)
+      - United Kingdom(ChatGPT) 01 TG:@nodpai
       - "[freefq]以色列  9"
-      - _US_美国->🇳🇱_NL_荷兰
-      - _IL_以色列->🇳🇱_NL_荷兰
-      - github.com/freefq - 以色列  22
-      - RELAY-172.67.208.87-1074
-      - _US_美国
+      - 二爷翻墙 节点_6
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

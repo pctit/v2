@@ -5,207 +5,83 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 日本 01 | 1x JP, server: 6w7j3p01.mcfront.xyz, port: 31116, type: trojan, password: c65621e2-32a1-4043-8c72-404c8c326c20, sni: 6w7j3p01.mcfront.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本 03  | 1x JP, server: 6w7j3p03.mcfront.xyz, port: 31111, type: trojan, password: c65621e2-32a1-4043-8c72-404c8c326c20, sni: 6w7j3p03.mcfront.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡 02 | 1x SG, server: 1c7s2g02.mcfront.xyz, port: 31206, type: trojan, password: c65621e2-32a1-4043-8c72-404c8c326c20, sni: 1c7s2g02.mcfront.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡 03 | 1x SG, server: 1c7s2g03.mcfront.xyz, port: 31211, type: trojan, password: c65621e2-32a1-4043-8c72-404c8c326c20, sni: 1c7s2g03.mcfront.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾 01  | 1x TWN | New Bing, server: 2d1t5w01.mcfront.xyz, port: 31301, type: trojan, password: c65621e2-32a1-4043-8c72-404c8c326c20, sni: 2d1t5w01.mcfront.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国 02 | 1x US, server: 4a2u0a02.mcfront.xyz, port: 31506, type: trojan, password: c65621e2-32a1-4043-8c72-404c8c326c20, sni: 4a2u0a02.mcfront.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 04 | 1x HK, server: 5m4h0k04.mcfront.xyz, port: 31601, type: vmess, uuid: c65621e2-32a1-4043-8c72-404c8c326c20, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 新加坡 06 | 1x SG, server: 1c7s2g06.mcfront.xyz, port: 31211, type: vmess, uuid: c65621e2-32a1-4043-8c72-404c8c326c20, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 越南 04 | 1x VN, server: 2w8u2a04.mcfront.xyz, port: 31874, type: vmess, uuid: c65621e2-32a1-4043-8c72-404c8c326c20, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 香港 01 | 1x HK, server: 5m4h0k01.mcfront.xyz, port: 31601, type: trojan, password: c65621e2-32a1-4043-8c72-404c8c326c20, sni: 5m4h0k01.mcfront.xyz, skip-cert-verify: true, udp: true}
-  - {name: RELAY-162.159.152.2-0216, server: visa.cn, port: 80, type: vmess, uuid: 8a694cfb-d143-4378-cb85-faacdc69e5e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ass.669990.xyz}, udp: true}
-  - {name: 香港 03 | 1x HK, server: 5m4h0k03.mcfront.xyz, port: 31611, type: trojan, password: c65621e2-32a1-4043-8c72-404c8c326c20, sni: 5m4h0k03.mcfront.xyz, skip-cert-verify: true, udp: true}
-  - {name: 印度 01 | 1x IN, server: 6q3i1n01.mcfront.xyz, port: 31831, type: trojan, password: c65621e2-32a1-4043-8c72-404c8c326c20, sni: 6q3i1n01.mcfront.xyz, skip-cert-verify: true, udp: true}
-  - {name: 印度 04 | 1x IN, server: 6q3i1n04.mcfront.xyz, port: 31831, type: vmess, uuid: c65621e2-32a1-4043-8c72-404c8c326c20, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Telegram@极客分享_4, server: 183.237.20.147, port: 40095, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "[peasoft/NoMoreWalls]22|🇹🇼 台湾B|@ripaojiedian", server: hinet.mjt001.com, port: 443, type: trojan, password: a1956156-b1d6-468e-b22f-59765172b07d, sni: hinet.mjt001.com, skip-cert-verify: true, udp: true}
-  - {name: _IL_以色列->🇺🇸_US_美国, server: us1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: us1.chuqiangtou.net, skip-cert-verify: true, udp: true}
-  - {name: 美国 06 | 1x US, server: 4a2u0a06.mcfront.xyz, port: 31511, type: vmess, uuid: c65621e2-32a1-4043-8c72-404c8c326c20, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: "[peasoft/NoMoreWalls]26|🇸🇬_SG_新加坡_由快嘴科技提供;kkzui.com3", server: sg.stablize.top, port: 443, type: trojan, password: a2dc16a1-b60e-4e40-860e-4f8a560795ca, sni: sg.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: 长期更新节点@mftizi, server: 142.0.132.92, port: 55502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: RELAY-104.21.53.35-0069, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: dp4.yxjnode.com}, udp: true}
+  - {name: RELAY-162.159.152.2-0216, server: visa.cn, port: 80, type: vmess, uuid: 8a694cfb-d143-4378-cb85-faacdc69e5e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ass.669990.xyz}, udp: true}
   - {name: "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_", server: visa.cn, port: 80, type: vmess, uuid: 8a694cfb-d143-4378-cb85-faacdc69e5e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ass.669990.xyz}, udp: true}
   - {name: United States(ChatGPT) 08 TG:@nodpai, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv1.sharecentrepro.org}, udp: true}
-  - {name: 韩国 02 | 1x KR, server: 8l2k1r04.mcfront.xyz, port: 31401, type: vmess, uuid: c65621e2-32a1-4043-8c72-404c8c326c20, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: "[peasoft/NoMoreWalls]20|🇺🇸US美国(youtube阿伟科技2)", server: 137.175.1.11, port: 53403, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: RELAY-104.21.53.35-0069, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: dp4.yxjnode.com}, udp: true}
-  - {name: 二爷翻墙 节点_6, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: uk1.scproxy.top}, udp: true}
-  - {name: 英国 01 | 1x UK, server: 3a4u0k01.mcfront.xyz, port: 31811, type: trojan, password: c65621e2-32a1-4043-8c72-404c8c326c20, sni: 3a4u0k01.mcfront.xyz, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯 04 | 1x RU, server: 4t1r5u04.mcfront.xyz, port: 31851, type: vmess, uuid: c65621e2-32a1-4043-8c72-404c8c326c20, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: CA_youtube@资源分享师_39, server: shopify.com, port: 8080, type: vmess, uuid: 0ca55e83-f155-4eed-98ff-43b9c575b08c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: vceu.1688888888.eu.org}, udp: true}
-  - {name: DE-217.79.184.18-13444, server: 217.79.184.18, port: 443, type: trojan, password: de58c68b-a35f-4d38-a999-4094453c3e44, skip-cert-verify: true, udp: true}
-  - {name: RELAY-23.227.38.33-0148, server: shopify.com, port: 8080, type: vmess, uuid: 0ca55e83-f155-4eed-98ff-43b9c575b08c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: vceu.1688888888.eu.org}, udp: true}
-  - {name: 乌克兰 04 | 1x UA, server: 4w7u4a04.mcfront.xyz, port: 31871, type: vmess, uuid: c65621e2-32a1-4043-8c72-404c8c326c20, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2), server: 137.175.1.11, port: 53403, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: United Kingdom(ChatGPT) 01 TG:@nodpai, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: uk1.scproxy.top}, udp: true}
-  - {name: "[NodeFree]_US_美国", server: 38.26.191.98, port: 49920, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: AU-149.50.83.90-1754, server: au1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: au1.chuqiangtou.net, skip-cert-verify: true, udp: true}
   - {name: 美国【付费推荐：v1.mk/vip】1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv1.sharecentrepro.org}, udp: true}
-  - {name: "[freefq]以色列  9", server: nl1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: nl1.chuqiangtou.net, skip-cert-verify: true, udp: true}
-  - {name: "[ClashNode]🇪🇪 _IL_以色列->🇪🇪_EE_爱沙尼亚", server: ee1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: ee1.chuqiangtou.net, skip-cert-verify: true, udp: true}
-  - {name: BuyVM1@yxjnode, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: buyvm1.yxjnode.com}, udp: true}
+  - {name: 71@oneclickvpnkeys, server: 199.247.22.114, port: 47171, type: vmess, uuid: d90e4d6a-fe82-42a9-c7e1-8b6a0910b49d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: India(ChatGPT) 01 TG:@nodpai, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: in.sharecentrepro.com}, udp: true}
-  - {name: RELAY-104.21.53.35-1019, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: buyvm1.yxjnode.com}, udp: true}
-  - {name: SG-143.198.94.243-0193, server: 8fhq6a.aiossh.my.id, port: 80, type: vmess, uuid: 89ba7768-a83a-4c01-8012-8fdf0847d2ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 8fhq6a.aiossh.my.id}, udp: true}
-  - {name: SG-143.198.94.243-1172, server: 143.198.94.243, port: 80, type: vmess, uuid: 89ba7768-a83a-4c01-8012-8fdf0847d2ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 143.198.94.243}, udp: true}
+  - {name: 美国=tg频道:@bpjzx2=17, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: dp3.yxjnode.com}, udp: true}
   - {name: RELAY-104.21.53.35-0426, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: buyvm1.yxjnode.com}, udp: true}
+  - {name: 二爷翻墙 节点_6, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: uk1.scproxy.top}, udp: true}
   - {name: "[xrayfree]美国13", server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: buyvm1.yxjnode.com}, udp: true}
-  - {name: "[peasoft/NoMoreWalls]22|🇺🇸 美国A|@ripaojiedian", server: douzius.ovogreat.com, port: 443, type: trojan, password: de5b186e-fc2c-4967-9471-bb6cba1c17de, sni: douzius.ovogreat.com, skip-cert-verify: true, udp: true}
+  - {name: SG-143.198.94.243-1172, server: 143.198.94.243, port: 80, type: vmess, uuid: 89ba7768-a83a-4c01-8012-8fdf0847d2ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 143.198.94.243}, udp: true}
+  - {name: SG-143.198.94.243-0193, server: 8fhq6a.aiossh.my.id, port: 80, type: vmess, uuid: 89ba7768-a83a-4c01-8012-8fdf0847d2ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 8fhq6a.aiossh.my.id}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本 01 | 1x JP
-      - 日本 03  | 1x JP
-      - 新加坡 02 | 1x SG
-      - 新加坡 03 | 1x SG
-      - 台湾 01  | 1x TWN | New Bing
-      - 美国 02 | 1x US
-      - 香港 04 | 1x HK
-      - 新加坡 06 | 1x SG
-      - 越南 04 | 1x VN
-      - 香港 01 | 1x HK
-      - RELAY-162.159.152.2-0216
-      - 香港 03 | 1x HK
-      - 印度 01 | 1x IN
-      - 印度 04 | 1x IN
+      - Telegram@极客分享_4
       - "[peasoft/NoMoreWalls]22|🇹🇼 台湾B|@ripaojiedian"
-      - _IL_以色列->🇺🇸_US_美国
-      - 美国 06 | 1x US
-      - "[peasoft/NoMoreWalls]26|🇸🇬_SG_新加坡_由快嘴科技提供;kkzui.com3"
-      - 长期更新节点@mftizi
+      - RELAY-104.21.53.35-0069
+      - RELAY-162.159.152.2-0216
       - "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_"
       - United States(ChatGPT) 08 TG:@nodpai
-      - 韩国 02 | 1x KR
-      - "[peasoft/NoMoreWalls]20|🇺🇸US美国(youtube阿伟科技2)"
-      - RELAY-104.21.53.35-0069
-      - 二爷翻墙 节点_6
-      - 英国 01 | 1x UK
-      - 俄罗斯 04 | 1x RU
-      - CA_youtube@资源分享师_39
-      - DE-217.79.184.18-13444
-      - RELAY-23.227.38.33-0148
-      - 乌克兰 04 | 1x UA
-      - US美国(youtube阿伟科技2)
-      - United Kingdom(ChatGPT) 01 TG:@nodpai
-      - "[NodeFree]_US_美国"
-      - AU-149.50.83.90-1754
       - 美国【付费推荐：v1.mk/vip】1
-      - "[freefq]以色列  9"
-      - "[ClashNode]🇪🇪 _IL_以色列->🇪🇪_EE_爱沙尼亚"
-      - BuyVM1@yxjnode
+      - 71@oneclickvpnkeys
       - India(ChatGPT) 01 TG:@nodpai
-      - RELAY-104.21.53.35-1019
-      - SG-143.198.94.243-0193
-      - SG-143.198.94.243-1172
+      - 美国=tg频道:@bpjzx2=17
       - RELAY-104.21.53.35-0426
+      - 二爷翻墙 节点_6
       - "[xrayfree]美国13"
-      - "[peasoft/NoMoreWalls]22|🇺🇸 美国A|@ripaojiedian"
+      - SG-143.198.94.243-1172
+      - SG-143.198.94.243-0193
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 日本 01 | 1x JP
-      - 日本 03  | 1x JP
-      - 新加坡 02 | 1x SG
-      - 新加坡 03 | 1x SG
-      - 台湾 01  | 1x TWN | New Bing
-      - 美国 02 | 1x US
-      - 香港 04 | 1x HK
-      - 新加坡 06 | 1x SG
-      - 越南 04 | 1x VN
-      - 香港 01 | 1x HK
-      - RELAY-162.159.152.2-0216
-      - 香港 03 | 1x HK
-      - 印度 01 | 1x IN
-      - 印度 04 | 1x IN
+      - Telegram@极客分享_4
       - "[peasoft/NoMoreWalls]22|🇹🇼 台湾B|@ripaojiedian"
-      - _IL_以色列->🇺🇸_US_美国
-      - 美国 06 | 1x US
-      - "[peasoft/NoMoreWalls]26|🇸🇬_SG_新加坡_由快嘴科技提供;kkzui.com3"
-      - 长期更新节点@mftizi
+      - RELAY-104.21.53.35-0069
+      - RELAY-162.159.152.2-0216
       - "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_"
       - United States(ChatGPT) 08 TG:@nodpai
-      - 韩国 02 | 1x KR
-      - "[peasoft/NoMoreWalls]20|🇺🇸US美国(youtube阿伟科技2)"
-      - RELAY-104.21.53.35-0069
-      - 二爷翻墙 节点_6
-      - 英国 01 | 1x UK
-      - 俄罗斯 04 | 1x RU
-      - CA_youtube@资源分享师_39
-      - DE-217.79.184.18-13444
-      - RELAY-23.227.38.33-0148
-      - 乌克兰 04 | 1x UA
-      - US美国(youtube阿伟科技2)
-      - United Kingdom(ChatGPT) 01 TG:@nodpai
-      - "[NodeFree]_US_美国"
-      - AU-149.50.83.90-1754
       - 美国【付费推荐：v1.mk/vip】1
-      - "[freefq]以色列  9"
-      - "[ClashNode]🇪🇪 _IL_以色列->🇪🇪_EE_爱沙尼亚"
-      - BuyVM1@yxjnode
+      - 71@oneclickvpnkeys
       - India(ChatGPT) 01 TG:@nodpai
-      - RELAY-104.21.53.35-1019
-      - SG-143.198.94.243-0193
-      - SG-143.198.94.243-1172
+      - 美国=tg频道:@bpjzx2=17
       - RELAY-104.21.53.35-0426
+      - 二爷翻墙 节点_6
       - "[xrayfree]美国13"
-      - "[peasoft/NoMoreWalls]22|🇺🇸 美国A|@ripaojiedian"
+      - SG-143.198.94.243-1172
+      - SG-143.198.94.243-0193
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本 01 | 1x JP
-      - 日本 03  | 1x JP
-      - 新加坡 02 | 1x SG
-      - 新加坡 03 | 1x SG
-      - 台湾 01  | 1x TWN | New Bing
-      - 美国 02 | 1x US
-      - 香港 04 | 1x HK
-      - 新加坡 06 | 1x SG
-      - 越南 04 | 1x VN
-      - 香港 01 | 1x HK
-      - RELAY-162.159.152.2-0216
-      - 香港 03 | 1x HK
-      - 印度 01 | 1x IN
-      - 印度 04 | 1x IN
+      - Telegram@极客分享_4
       - "[peasoft/NoMoreWalls]22|🇹🇼 台湾B|@ripaojiedian"
-      - _IL_以色列->🇺🇸_US_美国
-      - 美国 06 | 1x US
-      - "[peasoft/NoMoreWalls]26|🇸🇬_SG_新加坡_由快嘴科技提供;kkzui.com3"
-      - 长期更新节点@mftizi
+      - RELAY-104.21.53.35-0069
+      - RELAY-162.159.152.2-0216
       - "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_"
       - United States(ChatGPT) 08 TG:@nodpai
-      - 韩国 02 | 1x KR
-      - "[peasoft/NoMoreWalls]20|🇺🇸US美国(youtube阿伟科技2)"
-      - RELAY-104.21.53.35-0069
-      - 二爷翻墙 节点_6
-      - 英国 01 | 1x UK
-      - 俄罗斯 04 | 1x RU
-      - CA_youtube@资源分享师_39
-      - DE-217.79.184.18-13444
-      - RELAY-23.227.38.33-0148
-      - 乌克兰 04 | 1x UA
-      - US美国(youtube阿伟科技2)
-      - United Kingdom(ChatGPT) 01 TG:@nodpai
-      - "[NodeFree]_US_美国"
-      - AU-149.50.83.90-1754
       - 美国【付费推荐：v1.mk/vip】1
-      - "[freefq]以色列  9"
-      - "[ClashNode]🇪🇪 _IL_以色列->🇪🇪_EE_爱沙尼亚"
-      - BuyVM1@yxjnode
+      - 71@oneclickvpnkeys
       - India(ChatGPT) 01 TG:@nodpai
-      - RELAY-104.21.53.35-1019
-      - SG-143.198.94.243-0193
-      - SG-143.198.94.243-1172
+      - 美国=tg频道:@bpjzx2=17
       - RELAY-104.21.53.35-0426
+      - 二爷翻墙 节点_6
       - "[xrayfree]美国13"
-      - "[peasoft/NoMoreWalls]22|🇺🇸 美国A|@ripaojiedian"
+      - SG-143.198.94.243-1172
+      - SG-143.198.94.243-0193
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -224,60 +100,25 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本 01 | 1x JP
-      - 日本 03  | 1x JP
-      - 新加坡 02 | 1x SG
-      - 新加坡 03 | 1x SG
-      - 台湾 01  | 1x TWN | New Bing
-      - 美国 02 | 1x US
-      - 香港 04 | 1x HK
-      - 新加坡 06 | 1x SG
-      - 越南 04 | 1x VN
-      - 香港 01 | 1x HK
-      - RELAY-162.159.152.2-0216
-      - 香港 03 | 1x HK
-      - 印度 01 | 1x IN
-      - 印度 04 | 1x IN
+      - Telegram@极客分享_4
       - "[peasoft/NoMoreWalls]22|🇹🇼 台湾B|@ripaojiedian"
-      - _IL_以色列->🇺🇸_US_美国
-      - 美国 06 | 1x US
-      - "[peasoft/NoMoreWalls]26|🇸🇬_SG_新加坡_由快嘴科技提供;kkzui.com3"
-      - 长期更新节点@mftizi
+      - RELAY-104.21.53.35-0069
+      - RELAY-162.159.152.2-0216
       - "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_"
       - United States(ChatGPT) 08 TG:@nodpai
-      - 韩国 02 | 1x KR
-      - "[peasoft/NoMoreWalls]20|🇺🇸US美国(youtube阿伟科技2)"
-      - RELAY-104.21.53.35-0069
-      - 二爷翻墙 节点_6
-      - 英国 01 | 1x UK
-      - 俄罗斯 04 | 1x RU
-      - CA_youtube@资源分享师_39
-      - DE-217.79.184.18-13444
-      - RELAY-23.227.38.33-0148
-      - 乌克兰 04 | 1x UA
-      - US美国(youtube阿伟科技2)
-      - United Kingdom(ChatGPT) 01 TG:@nodpai
-      - "[NodeFree]_US_美国"
-      - AU-149.50.83.90-1754
       - 美国【付费推荐：v1.mk/vip】1
-      - "[freefq]以色列  9"
-      - "[ClashNode]🇪🇪 _IL_以色列->🇪🇪_EE_爱沙尼亚"
-      - BuyVM1@yxjnode
+      - 71@oneclickvpnkeys
       - India(ChatGPT) 01 TG:@nodpai
-      - RELAY-104.21.53.35-1019
-      - SG-143.198.94.243-0193
-      - SG-143.198.94.243-1172
+      - 美国=tg频道:@bpjzx2=17
       - RELAY-104.21.53.35-0426
+      - 二爷翻墙 节点_6
       - "[xrayfree]美国13"
-      - "[peasoft/NoMoreWalls]22|🇺🇸 美国A|@ripaojiedian"
+      - SG-143.198.94.243-1172
+      - SG-143.198.94.243-0193
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾 01  | 1x TWN | New Bing
-      - 香港 04 | 1x HK
-      - 香港 01 | 1x HK
-      - 香港 03 | 1x HK
       - "[peasoft/NoMoreWalls]22|🇹🇼 台湾B|@ripaojiedian"
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -285,155 +126,62 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 日本 01 | 1x JP
-      - 日本 03  | 1x JP
-      - 新加坡 02 | 1x SG
-      - 新加坡 03 | 1x SG
-      - 台湾 01  | 1x TWN | New Bing
-      - 美国 02 | 1x US
-      - 香港 04 | 1x HK
-      - 新加坡 06 | 1x SG
-      - 越南 04 | 1x VN
-      - 香港 01 | 1x HK
-      - RELAY-162.159.152.2-0216
-      - 香港 03 | 1x HK
-      - 印度 01 | 1x IN
-      - 印度 04 | 1x IN
+      - Telegram@极客分享_4
       - "[peasoft/NoMoreWalls]22|🇹🇼 台湾B|@ripaojiedian"
-      - _IL_以色列->🇺🇸_US_美国
-      - 美国 06 | 1x US
-      - "[peasoft/NoMoreWalls]26|🇸🇬_SG_新加坡_由快嘴科技提供;kkzui.com3"
-      - 长期更新节点@mftizi
+      - RELAY-104.21.53.35-0069
+      - RELAY-162.159.152.2-0216
       - "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_"
       - United States(ChatGPT) 08 TG:@nodpai
-      - 韩国 02 | 1x KR
-      - "[peasoft/NoMoreWalls]20|🇺🇸US美国(youtube阿伟科技2)"
-      - RELAY-104.21.53.35-0069
-      - 二爷翻墙 节点_6
-      - 英国 01 | 1x UK
-      - 俄罗斯 04 | 1x RU
-      - CA_youtube@资源分享师_39
-      - DE-217.79.184.18-13444
-      - RELAY-23.227.38.33-0148
-      - 乌克兰 04 | 1x UA
-      - US美国(youtube阿伟科技2)
-      - United Kingdom(ChatGPT) 01 TG:@nodpai
-      - "[NodeFree]_US_美国"
-      - AU-149.50.83.90-1754
       - 美国【付费推荐：v1.mk/vip】1
-      - "[freefq]以色列  9"
-      - "[ClashNode]🇪🇪 _IL_以色列->🇪🇪_EE_爱沙尼亚"
-      - BuyVM1@yxjnode
+      - 71@oneclickvpnkeys
       - India(ChatGPT) 01 TG:@nodpai
-      - RELAY-104.21.53.35-1019
-      - SG-143.198.94.243-0193
-      - SG-143.198.94.243-1172
+      - 美国=tg频道:@bpjzx2=17
       - RELAY-104.21.53.35-0426
+      - 二爷翻墙 节点_6
       - "[xrayfree]美国13"
-      - "[peasoft/NoMoreWalls]22|🇺🇸 美国A|@ripaojiedian"
+      - SG-143.198.94.243-1172
+      - SG-143.198.94.243-0193
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 日本 01 | 1x JP
-      - 日本 03  | 1x JP
-      - 新加坡 02 | 1x SG
-      - 新加坡 03 | 1x SG
-      - 台湾 01  | 1x TWN | New Bing
-      - 美国 02 | 1x US
-      - 香港 04 | 1x HK
-      - 新加坡 06 | 1x SG
-      - 越南 04 | 1x VN
-      - 香港 01 | 1x HK
-      - RELAY-162.159.152.2-0216
-      - 香港 03 | 1x HK
-      - 印度 01 | 1x IN
-      - 印度 04 | 1x IN
+      - Telegram@极客分享_4
       - "[peasoft/NoMoreWalls]22|🇹🇼 台湾B|@ripaojiedian"
-      - _IL_以色列->🇺🇸_US_美国
-      - 美国 06 | 1x US
-      - "[peasoft/NoMoreWalls]26|🇸🇬_SG_新加坡_由快嘴科技提供;kkzui.com3"
-      - 长期更新节点@mftizi
+      - RELAY-104.21.53.35-0069
+      - RELAY-162.159.152.2-0216
       - "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_"
       - United States(ChatGPT) 08 TG:@nodpai
-      - 韩国 02 | 1x KR
-      - "[peasoft/NoMoreWalls]20|🇺🇸US美国(youtube阿伟科技2)"
-      - RELAY-104.21.53.35-0069
-      - 二爷翻墙 节点_6
-      - 英国 01 | 1x UK
-      - 俄罗斯 04 | 1x RU
-      - CA_youtube@资源分享师_39
-      - DE-217.79.184.18-13444
-      - RELAY-23.227.38.33-0148
-      - 乌克兰 04 | 1x UA
-      - US美国(youtube阿伟科技2)
-      - United Kingdom(ChatGPT) 01 TG:@nodpai
-      - "[NodeFree]_US_美国"
-      - AU-149.50.83.90-1754
       - 美国【付费推荐：v1.mk/vip】1
-      - "[freefq]以色列  9"
-      - "[ClashNode]🇪🇪 _IL_以色列->🇪🇪_EE_爱沙尼亚"
-      - BuyVM1@yxjnode
+      - 71@oneclickvpnkeys
       - India(ChatGPT) 01 TG:@nodpai
-      - RELAY-104.21.53.35-1019
-      - SG-143.198.94.243-0193
-      - SG-143.198.94.243-1172
+      - 美国=tg频道:@bpjzx2=17
       - RELAY-104.21.53.35-0426
+      - 二爷翻墙 节点_6
       - "[xrayfree]美国13"
-      - "[peasoft/NoMoreWalls]22|🇺🇸 美国A|@ripaojiedian"
+      - SG-143.198.94.243-1172
+      - SG-143.198.94.243-0193
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本 01 | 1x JP
-      - 日本 03  | 1x JP
-      - 新加坡 02 | 1x SG
-      - 新加坡 03 | 1x SG
-      - 台湾 01  | 1x TWN | New Bing
-      - 美国 02 | 1x US
-      - 香港 04 | 1x HK
-      - 新加坡 06 | 1x SG
-      - 越南 04 | 1x VN
-      - 香港 01 | 1x HK
-      - RELAY-162.159.152.2-0216
-      - 香港 03 | 1x HK
-      - 印度 01 | 1x IN
-      - 印度 04 | 1x IN
+      - Telegram@极客分享_4
       - "[peasoft/NoMoreWalls]22|🇹🇼 台湾B|@ripaojiedian"
-      - _IL_以色列->🇺🇸_US_美国
-      - 美国 06 | 1x US
-      - "[peasoft/NoMoreWalls]26|🇸🇬_SG_新加坡_由快嘴科技提供;kkzui.com3"
-      - 长期更新节点@mftizi
+      - RELAY-104.21.53.35-0069
+      - RELAY-162.159.152.2-0216
       - "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_"
       - United States(ChatGPT) 08 TG:@nodpai
-      - 韩国 02 | 1x KR
-      - "[peasoft/NoMoreWalls]20|🇺🇸US美国(youtube阿伟科技2)"
-      - RELAY-104.21.53.35-0069
-      - 二爷翻墙 节点_6
-      - 英国 01 | 1x UK
-      - 俄罗斯 04 | 1x RU
-      - CA_youtube@资源分享师_39
-      - DE-217.79.184.18-13444
-      - RELAY-23.227.38.33-0148
-      - 乌克兰 04 | 1x UA
-      - US美国(youtube阿伟科技2)
-      - United Kingdom(ChatGPT) 01 TG:@nodpai
-      - "[NodeFree]_US_美国"
-      - AU-149.50.83.90-1754
       - 美国【付费推荐：v1.mk/vip】1
-      - "[freefq]以色列  9"
-      - "[ClashNode]🇪🇪 _IL_以色列->🇪🇪_EE_爱沙尼亚"
-      - BuyVM1@yxjnode
+      - 71@oneclickvpnkeys
       - India(ChatGPT) 01 TG:@nodpai
-      - RELAY-104.21.53.35-1019
-      - SG-143.198.94.243-0193
-      - SG-143.198.94.243-1172
+      - 美国=tg频道:@bpjzx2=17
       - RELAY-104.21.53.35-0426
+      - 二爷翻墙 节点_6
       - "[xrayfree]美国13"
-      - "[peasoft/NoMoreWalls]22|🇺🇸 美国A|@ripaojiedian"
+      - SG-143.198.94.243-1172
+      - SG-143.198.94.243-0193
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -449,52 +197,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本 01 | 1x JP
-      - 日本 03  | 1x JP
-      - 新加坡 02 | 1x SG
-      - 新加坡 03 | 1x SG
-      - 台湾 01  | 1x TWN | New Bing
-      - 美国 02 | 1x US
-      - 香港 04 | 1x HK
-      - 新加坡 06 | 1x SG
-      - 越南 04 | 1x VN
-      - 香港 01 | 1x HK
-      - RELAY-162.159.152.2-0216
-      - 香港 03 | 1x HK
-      - 印度 01 | 1x IN
-      - 印度 04 | 1x IN
+      - Telegram@极客分享_4
       - "[peasoft/NoMoreWalls]22|🇹🇼 台湾B|@ripaojiedian"
-      - _IL_以色列->🇺🇸_US_美国
-      - 美国 06 | 1x US
-      - "[peasoft/NoMoreWalls]26|🇸🇬_SG_新加坡_由快嘴科技提供;kkzui.com3"
-      - 长期更新节点@mftizi
+      - RELAY-104.21.53.35-0069
+      - RELAY-162.159.152.2-0216
       - "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_"
       - United States(ChatGPT) 08 TG:@nodpai
-      - 韩国 02 | 1x KR
-      - "[peasoft/NoMoreWalls]20|🇺🇸US美国(youtube阿伟科技2)"
-      - RELAY-104.21.53.35-0069
-      - 二爷翻墙 节点_6
-      - 英国 01 | 1x UK
-      - 俄罗斯 04 | 1x RU
-      - CA_youtube@资源分享师_39
-      - DE-217.79.184.18-13444
-      - RELAY-23.227.38.33-0148
-      - 乌克兰 04 | 1x UA
-      - US美国(youtube阿伟科技2)
-      - United Kingdom(ChatGPT) 01 TG:@nodpai
-      - "[NodeFree]_US_美国"
-      - AU-149.50.83.90-1754
       - 美国【付费推荐：v1.mk/vip】1
-      - "[freefq]以色列  9"
-      - "[ClashNode]🇪🇪 _IL_以色列->🇪🇪_EE_爱沙尼亚"
-      - BuyVM1@yxjnode
+      - 71@oneclickvpnkeys
       - India(ChatGPT) 01 TG:@nodpai
-      - RELAY-104.21.53.35-1019
-      - SG-143.198.94.243-0193
-      - SG-143.198.94.243-1172
+      - 美国=tg频道:@bpjzx2=17
       - RELAY-104.21.53.35-0426
+      - 二爷翻墙 节点_6
       - "[xrayfree]美国13"
-      - "[peasoft/NoMoreWalls]22|🇺🇸 美国A|@ripaojiedian"
+      - SG-143.198.94.243-1172
+      - SG-143.198.94.243-0193
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

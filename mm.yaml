@@ -5,83 +5,71 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Telegram@极客分享_4, server: 183.237.20.147, port: 40095, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "[peasoft/NoMoreWalls]22|🇹🇼 台湾B|@ripaojiedian", server: hinet.mjt001.com, port: 443, type: trojan, password: a1956156-b1d6-468e-b22f-59765172b07d, sni: hinet.mjt001.com, skip-cert-verify: true, udp: true}
-  - {name: RELAY-104.21.53.35-0069, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: dp4.yxjnode.com}, udp: true}
+  - {name: 中国【付费推荐：tt.vg/vip】16, server: lmvn.51unicorn.top, port: 19916, type: ss, cipher: aes-128-gcm, password: 8e493724-782c-4cf9-a332-89943175d7fa, udp: true}
   - {name: RELAY-162.159.152.2-0216, server: visa.cn, port: 80, type: vmess, uuid: 8a694cfb-d143-4378-cb85-faacdc69e5e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ass.669990.xyz}, udp: true}
-  - {name: "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_", server: visa.cn, port: 80, type: vmess, uuid: 8a694cfb-d143-4378-cb85-faacdc69e5e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ass.669990.xyz}, udp: true}
-  - {name: United States(ChatGPT) 08 TG:@nodpai, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv1.sharecentrepro.org}, udp: true}
   - {name: 美国【付费推荐：v1.mk/vip】1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv1.sharecentrepro.org}, udp: true}
-  - {name: 71@oneclickvpnkeys, server: 199.247.22.114, port: 47171, type: vmess, uuid: d90e4d6a-fe82-42a9-c7e1-8b6a0910b49d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: India(ChatGPT) 01 TG:@nodpai, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: in.sharecentrepro.com}, udp: true}
-  - {name: 美国=tg频道:@bpjzx2=17, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: dp3.yxjnode.com}, udp: true}
-  - {name: RELAY-104.21.53.35-0426, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: buyvm1.yxjnode.com}, udp: true}
-  - {name: 二爷翻墙 节点_6, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: uk1.scproxy.top}, udp: true}
-  - {name: "[xrayfree]美国13", server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: buyvm1.yxjnode.com}, udp: true}
-  - {name: SG-143.198.94.243-1172, server: 143.198.94.243, port: 80, type: vmess, uuid: 89ba7768-a83a-4c01-8012-8fdf0847d2ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 143.198.94.243}, udp: true}
-  - {name: SG-143.198.94.243-0193, server: 8fhq6a.aiossh.my.id, port: 80, type: vmess, uuid: 89ba7768-a83a-4c01-8012-8fdf0847d2ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 8fhq6a.aiossh.my.id}, udp: true}
+  - {name: United States(ChatGPT) 08 TG:@nodpai, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv1.sharecentrepro.org}, udp: true}
+  - {name: 二爷翻墙 节点_8, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca.ilovescp.com}, udp: true}
+  - {name: "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_", server: visa.cn, port: 80, type: vmess, uuid: 8a694cfb-d143-4378-cb85-faacdc69e5e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ass.669990.xyz}, udp: true}
+  - {name: "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub", server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca.ilovescp.com}, udp: true}
+  - {name: 中国【付费推荐：tt.vg/vip】52, server: iepljp.51unicorn.top, port: 21002, type: ss, cipher: aes-256-gcm, password: 8e493724-782c-4cf9-a332-89943175d7fa, udp: true}
+  - {name: "[peasoft/NoMoreWalls]6,8,20,26,28|_TW_台湾", server: tw7.microsoft-orgwly.vip, port: 10024, type: trojan, password: fcf74125-99de-4df3-af94-552a0b1ee021, sni: tw7.microsoft-orgwly.vip, skip-cert-verify: true, udp: true}
+  - {name: "[NodeFree]_NL_荷兰", server: 154.85.1.242, port: 45516, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国【付费推荐：tt.vg/vip】144, server: 26.v2-ray.cyou, port: 23626, type: vmess, uuid: 0dd19d20-ec86-3680-b256-87237bafa89e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 26.v2-ray.cyou}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Telegram@极客分享_4
       - "[peasoft/NoMoreWalls]22|🇹🇼 台湾B|@ripaojiedian"
-      - RELAY-104.21.53.35-0069
+      - 中国【付费推荐：tt.vg/vip】16
       - RELAY-162.159.152.2-0216
-      - "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_"
-      - United States(ChatGPT) 08 TG:@nodpai
       - 美国【付费推荐：v1.mk/vip】1
-      - 71@oneclickvpnkeys
-      - India(ChatGPT) 01 TG:@nodpai
-      - 美国=tg频道:@bpjzx2=17
-      - RELAY-104.21.53.35-0426
-      - 二爷翻墙 节点_6
-      - "[xrayfree]美国13"
-      - SG-143.198.94.243-1172
-      - SG-143.198.94.243-0193
+      - United States(ChatGPT) 08 TG:@nodpai
+      - 二爷翻墙 节点_8
+      - "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_"
+      - "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub"
+      - 中国【付费推荐：tt.vg/vip】52
+      - "[peasoft/NoMoreWalls]6,8,20,26,28|_TW_台湾"
+      - "[NodeFree]_NL_荷兰"
+      - 中国【付费推荐：tt.vg/vip】144
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Telegram@极客分享_4
       - "[peasoft/NoMoreWalls]22|🇹🇼 台湾B|@ripaojiedian"
-      - RELAY-104.21.53.35-0069
+      - 中国【付费推荐：tt.vg/vip】16
       - RELAY-162.159.152.2-0216
-      - "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_"
-      - United States(ChatGPT) 08 TG:@nodpai
       - 美国【付费推荐：v1.mk/vip】1
-      - 71@oneclickvpnkeys
-      - India(ChatGPT) 01 TG:@nodpai
-      - 美国=tg频道:@bpjzx2=17
-      - RELAY-104.21.53.35-0426
-      - 二爷翻墙 节点_6
-      - "[xrayfree]美国13"
-      - SG-143.198.94.243-1172
-      - SG-143.198.94.243-0193
+      - United States(ChatGPT) 08 TG:@nodpai
+      - 二爷翻墙 节点_8
+      - "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_"
+      - "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub"
+      - 中国【付费推荐：tt.vg/vip】52
+      - "[peasoft/NoMoreWalls]6,8,20,26,28|_TW_台湾"
+      - "[NodeFree]_NL_荷兰"
+      - 中国【付费推荐：tt.vg/vip】144
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Telegram@极客分享_4
       - "[peasoft/NoMoreWalls]22|🇹🇼 台湾B|@ripaojiedian"
-      - RELAY-104.21.53.35-0069
+      - 中国【付费推荐：tt.vg/vip】16
       - RELAY-162.159.152.2-0216
-      - "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_"
-      - United States(ChatGPT) 08 TG:@nodpai
       - 美国【付费推荐：v1.mk/vip】1
-      - 71@oneclickvpnkeys
-      - India(ChatGPT) 01 TG:@nodpai
-      - 美国=tg频道:@bpjzx2=17
-      - RELAY-104.21.53.35-0426
-      - 二爷翻墙 节点_6
-      - "[xrayfree]美国13"
-      - SG-143.198.94.243-1172
-      - SG-143.198.94.243-0193
+      - United States(ChatGPT) 08 TG:@nodpai
+      - 二爷翻墙 节点_8
+      - "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_"
+      - "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub"
+      - 中国【付费推荐：tt.vg/vip】52
+      - "[peasoft/NoMoreWalls]6,8,20,26,28|_TW_台湾"
+      - "[NodeFree]_NL_荷兰"
+      - 中国【付费推荐：tt.vg/vip】144
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -100,88 +88,77 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Telegram@极客分享_4
       - "[peasoft/NoMoreWalls]22|🇹🇼 台湾B|@ripaojiedian"
-      - RELAY-104.21.53.35-0069
+      - 中国【付费推荐：tt.vg/vip】16
       - RELAY-162.159.152.2-0216
-      - "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_"
-      - United States(ChatGPT) 08 TG:@nodpai
       - 美国【付费推荐：v1.mk/vip】1
-      - 71@oneclickvpnkeys
-      - India(ChatGPT) 01 TG:@nodpai
-      - 美国=tg频道:@bpjzx2=17
-      - RELAY-104.21.53.35-0426
-      - 二爷翻墙 节点_6
-      - "[xrayfree]美国13"
-      - SG-143.198.94.243-1172
-      - SG-143.198.94.243-0193
+      - United States(ChatGPT) 08 TG:@nodpai
+      - 二爷翻墙 节点_8
+      - "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_"
+      - "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub"
+      - 中国【付费推荐：tt.vg/vip】52
+      - "[peasoft/NoMoreWalls]6,8,20,26,28|_TW_台湾"
+      - "[NodeFree]_NL_荷兰"
+      - 中国【付费推荐：tt.vg/vip】144
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - "[peasoft/NoMoreWalls]22|🇹🇼 台湾B|@ripaojiedian"
+      - "[peasoft/NoMoreWalls]6,8,20,26,28|_TW_台湾"
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Telegram@极客分享_4
       - "[peasoft/NoMoreWalls]22|🇹🇼 台湾B|@ripaojiedian"
-      - RELAY-104.21.53.35-0069
+      - 中国【付费推荐：tt.vg/vip】16
       - RELAY-162.159.152.2-0216
-      - "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_"
-      - United States(ChatGPT) 08 TG:@nodpai
       - 美国【付费推荐：v1.mk/vip】1
-      - 71@oneclickvpnkeys
-      - India(ChatGPT) 01 TG:@nodpai
-      - 美国=tg频道:@bpjzx2=17
-      - RELAY-104.21.53.35-0426
-      - 二爷翻墙 节点_6
-      - "[xrayfree]美国13"
-      - SG-143.198.94.243-1172
-      - SG-143.198.94.243-0193
+      - United States(ChatGPT) 08 TG:@nodpai
+      - 二爷翻墙 节点_8
+      - "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_"
+      - "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub"
+      - 中国【付费推荐：tt.vg/vip】52
+      - "[peasoft/NoMoreWalls]6,8,20,26,28|_TW_台湾"
+      - "[NodeFree]_NL_荷兰"
+      - 中国【付费推荐：tt.vg/vip】144
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Telegram@极客分享_4
       - "[peasoft/NoMoreWalls]22|🇹🇼 台湾B|@ripaojiedian"
-      - RELAY-104.21.53.35-0069
+      - 中国【付费推荐：tt.vg/vip】16
       - RELAY-162.159.152.2-0216
-      - "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_"
-      - United States(ChatGPT) 08 TG:@nodpai
       - 美国【付费推荐：v1.mk/vip】1
-      - 71@oneclickvpnkeys
-      - India(ChatGPT) 01 TG:@nodpai
-      - 美国=tg频道:@bpjzx2=17
-      - RELAY-104.21.53.35-0426
-      - 二爷翻墙 节点_6
-      - "[xrayfree]美国13"
-      - SG-143.198.94.243-1172
-      - SG-143.198.94.243-0193
+      - United States(ChatGPT) 08 TG:@nodpai
+      - 二爷翻墙 节点_8
+      - "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_"
+      - "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub"
+      - 中国【付费推荐：tt.vg/vip】52
+      - "[peasoft/NoMoreWalls]6,8,20,26,28|_TW_台湾"
+      - "[NodeFree]_NL_荷兰"
+      - 中国【付费推荐：tt.vg/vip】144
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Telegram@极客分享_4
       - "[peasoft/NoMoreWalls]22|🇹🇼 台湾B|@ripaojiedian"
-      - RELAY-104.21.53.35-0069
+      - 中国【付费推荐：tt.vg/vip】16
       - RELAY-162.159.152.2-0216
-      - "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_"
-      - United States(ChatGPT) 08 TG:@nodpai
       - 美国【付费推荐：v1.mk/vip】1
-      - 71@oneclickvpnkeys
-      - India(ChatGPT) 01 TG:@nodpai
-      - 美国=tg频道:@bpjzx2=17
-      - RELAY-104.21.53.35-0426
-      - 二爷翻墙 节点_6
-      - "[xrayfree]美国13"
-      - SG-143.198.94.243-1172
-      - SG-143.198.94.243-0193
+      - United States(ChatGPT) 08 TG:@nodpai
+      - 二爷翻墙 节点_8
+      - "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_"
+      - "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub"
+      - 中国【付费推荐：tt.vg/vip】52
+      - "[peasoft/NoMoreWalls]6,8,20,26,28|_TW_台湾"
+      - "[NodeFree]_NL_荷兰"
+      - 中国【付费推荐：tt.vg/vip】144
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -197,21 +174,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Telegram@极客分享_4
       - "[peasoft/NoMoreWalls]22|🇹🇼 台湾B|@ripaojiedian"
-      - RELAY-104.21.53.35-0069
+      - 中国【付费推荐：tt.vg/vip】16
       - RELAY-162.159.152.2-0216
-      - "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_"
-      - United States(ChatGPT) 08 TG:@nodpai
       - 美国【付费推荐：v1.mk/vip】1
-      - 71@oneclickvpnkeys
-      - India(ChatGPT) 01 TG:@nodpai
-      - 美国=tg频道:@bpjzx2=17
-      - RELAY-104.21.53.35-0426
-      - 二爷翻墙 节点_6
-      - "[xrayfree]美国13"
-      - SG-143.198.94.243-1172
-      - SG-143.198.94.243-0193
+      - United States(ChatGPT) 08 TG:@nodpai
+      - 二爷翻墙 节点_8
+      - "[peasoft/NoMoreWalls]0,1,16,19,25,26|🇸🇬 _US_美国->🇸🇬_SG_新加坡_"
+      - "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub"
+      - 中国【付费推荐：tt.vg/vip】52
+      - "[peasoft/NoMoreWalls]6,8,20,26,28|_TW_台湾"
+      - "[NodeFree]_NL_荷兰"
+      - 中国【付费推荐：tt.vg/vip】144
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

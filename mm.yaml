@@ -5,87 +5,483 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "Telegram@极客分享_14科学上网,白嫖节点,免费节点,免费梯子,免费机场,白嫖机场,免费VPN,免费V2Ray,免费Trojan,免费SSR, 每日多次更新,  سرور های جدید V2Ray,  سرور فعال V2ray, سرورهای vmess, لینک v2ray رایگان", server: ovosg.ovogreat.com, port: 443, type: trojan, password: 0e40fe8c-23d2-4dee-a9a4-25006da2d0bf, sni: ovosg.ovogreat.com, skip-cert-verify: true, udp: true}
-  - {name: Singapore(ChatGPT) 01 TG:@nodpai, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: do.sharecentrepro.com}, udp: true}
-  - {name: Telegram@极客分享_12, server: ovous.ovogreat.com, port: 443, type: trojan, password: 749a1003-2dd6-4ea5-b964-2382b0ae99f7, sni: ovous.ovogreat.com, skip-cert-verify: true, udp: true}
-  - {name: 美国 V2CROSS.COM, server: 45.153.203.83, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【付费推荐：tt.vg/vip】245, server: 107.167.26.53, port: 54092, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_1, server: 107.167.29.145, port: 41092, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Telegram@极客分享_2, server: 51.195.35.151, port: 49982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub", server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca.ilovescp.com}, udp: true}
-  - {name: https://1808.cf  二爷翻墙_7, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca.ilovescp.com}, udp: true}
+  - {name: 日本 01 | 1x JP, server: 6w7j3p01.mcfront.xyz, port: 31116, type: trojan, password: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, sni: 6w7j3p01.mcfront.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾06, server: 8t6w06.abzoones.xyz, port: 36311, type: vmess, uuid: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 韩国01 | New Bing, server: 8k2r01.abzoones.xyz, port: 36401, type: trojan, password: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, sni: 8k2r01.abzoones.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本03, server: 1j8p03.abzoones.xyz, port: 36111, type: trojan, password: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, sni: 1j8p03.abzoones.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 03 | 1x SG, server: 1c7s2g03.mcfront.xyz, port: 31211, type: trojan, password: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, sni: 1c7s2g03.mcfront.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾01 | New Bing, server: 8t6w01.abzoones.xyz, port: 36301, type: trojan, password: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, sni: 8t6w01.abzoones.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本 06  | 1x JP, server: 6w7j3p06.mcfront.xyz, port: 31111, type: vmess, uuid: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 韩国04, server: 8k2r04.abzoones.xyz, port: 36401, type: vmess, uuid: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 日本04, server: 1j8p04.abzoones.xyz, port: 36116, type: vmess, uuid: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 台湾 06  | 1x TWN, server: 2d1t5w06.mcfront.xyz, port: 31311, type: vmess, uuid: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 香港 01 | 1x HK, server: 5m4h0k01.mcfront.xyz, port: 31601, type: trojan, password: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, sni: 5m4h0k01.mcfront.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本 04  | 1x JP, server: 6w7j3p04.mcfront.xyz, port: 31116, type: vmess, uuid: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 新加坡02, server: 9s5g02.abzoones.xyz, port: 36206, type: trojan, password: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, sni: 9s5g02.abzoones.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本06, server: 1j8p06.abzoones.xyz, port: 36111, type: vmess, uuid: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 新加坡01, server: 9s5g01.abzoones.xyz, port: 36201, type: trojan, password: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, sni: 9s5g01.abzoones.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡04, server: 9s5g04.abzoones.xyz, port: 36201, type: vmess, uuid: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 01  | 1x SG, server: 1c7s2g01.mcfront.xyz, port: 31201, type: trojan, password: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, sni: 1c7s2g01.mcfront.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾03, server: 8t6w03.abzoones.xyz, port: 36311, type: trojan, password: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, sni: 8t6w03.abzoones.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国01, server: 3u1s01.abzoones.xyz, port: 36501, type: trojan, password: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, sni: 3u1s01.abzoones.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾 01  | 1x TWN | New Bing, server: 2d1t5w01.mcfront.xyz, port: 31301, type: trojan, password: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, sni: 2d1t5w01.mcfront.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本 05  | 1x JP, server: 6w7j3p05.mcfront.xyz, port: 31106, type: vmess, uuid: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 香港01, server: 8h2k01.abzoones.xyz, port: 36601, type: trojan, password: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, sni: 8h2k01.abzoones.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港04, server: 8h2k04.abzoones.xyz, port: 36601, type: vmess, uuid: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 韩国 01 | 1x KR | New Bing, server: 8l2k1r01.mcfront.xyz, port: 31401, type: trojan, password: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, sni: 8l2k1r01.mcfront.xyz, skip-cert-verify: true, udp: true}
+  - {name: 韩国 02 | 1x KR, server: 8l2k1r04.mcfront.xyz, port: 31401, type: vmess, uuid: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 美国03, server: 3u1s03.abzoones.xyz, port: 36511, type: trojan, password: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, sni: 3u1s03.abzoones.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 04 | 1x HK, server: 5m4h0k04.mcfront.xyz, port: 31601, type: vmess, uuid: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 美国 06 | 1x US, server: 4a2u0a06.mcfront.xyz, port: 31511, type: vmess, uuid: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 香港 03 | 1x HK, server: 5m4h0k03.mcfront.xyz, port: 31611, type: trojan, password: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, sni: 5m4h0k03.mcfront.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国01 | 1x US, server: 4a2u0a01.mcfront.xyz, port: 31501, type: trojan, password: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, sni: 4a2u0a01.mcfront.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本 03  | 1x JP, server: 6w7j3p03.mcfront.xyz, port: 31111, type: trojan, password: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, sni: 6w7j3p03.mcfront.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 02 | 1x SG, server: 1c7s2g02.mcfront.xyz, port: 31206, type: trojan, password: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, sni: 1c7s2g02.mcfront.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾04, server: 8t6w04.abzoones.xyz, port: 36301, type: vmess, uuid: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 新加坡06, server: 9s5g06.abzoones.xyz, port: 36211, type: vmess, uuid: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 日本05, server: 1j8p05.abzoones.xyz, port: 36106, type: vmess, uuid: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 05 | 1x SG, server: 1c7s2g05.mcfront.xyz, port: 31206, type: vmess, uuid: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 新加坡05, server: 9s5g05.abzoones.xyz, port: 36206, type: vmess, uuid: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 美国02, server: 3u1s02.abzoones.xyz, port: 36506, type: trojan, password: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, sni: 3u1s02.abzoones.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾 04  | 1x TWN, server: 2d1t5w04.mcfront.xyz, port: 31301, type: vmess, uuid: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 美国04, server: 3u1s04.abzoones.xyz, port: 36501, type: vmess, uuid: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亚01, server: 5a4u01.abzoones.xyz, port: 36821, type: trojan, password: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, sni: 5a4u01.abzoones.xyz, skip-cert-verify: true, udp: true}
+  - {name: 印度01, server: 7i4n01.abzoones.xyz, port: 36831, type: trojan, password: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, sni: 7i4n01.abzoones.xyz, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亚 01 | 1x AU, server: 4o5a3u01.mcfront.xyz, port: 31821, type: trojan, password: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, sni: 4o5a3u01.mcfront.xyz, skip-cert-verify: true, udp: true}
+  - {name: 越南01, server: 3v4n01.abzoones.xyz, port: 36874, type: trojan, password: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, sni: 3v4n01.abzoones.xyz, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亚 04 | 1x AU, server: 4o5a3u04.mcfront.xyz, port: 31821, type: vmess, uuid: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 印度 01 | 1x IN, server: 6q3i1n01.mcfront.xyz, port: 31831, type: trojan, password: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, sni: 6q3i1n01.mcfront.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡03, server: 9s5g03.abzoones.xyz, port: 36211, type: trojan, password: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, sni: 9s5g03.abzoones.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国 05 | 1x US, server: 4a2u0a05.mcfront.xyz, port: 31506, type: vmess, uuid: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亚04, server: 5a4u04.abzoones.xyz, port: 36821, type: vmess, uuid: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 加拿大01, server: 5c1a01.abzoones.xyz, port: 36701, type: trojan, password: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, sni: 5c1a01.abzoones.xyz, skip-cert-verify: true, udp: true}
+  - {name: 越南 01 | 1x VN, server: 2w8u2a01.mcfront.xyz, port: 31874, type: trojan, password: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, sni: 2w8u2a01.mcfront.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国 04 | 1x US, server: 4a2u0a04.mcfront.xyz, port: 31501, type: vmess, uuid: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 越南 04 | 1x VN, server: 2w8u2a04.mcfront.xyz, port: 31874, type: vmess, uuid: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 印度 04 | 1x IN, server: 6q3i1n04.mcfront.xyz, port: 31831, type: vmess, uuid: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 加拿大 02 | 1x CA, server: 3d1c4a04.mcfront.xyz, port: 31701, type: vmess, uuid: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 加拿大 01 | 1x CA, server: 3d1c4a01.mcfront.xyz, port: 31701, type: trojan, password: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, sni: 3d1c4a01.mcfront.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国 02 | 1x US, server: 4a2u0a02.mcfront.xyz, port: 31506, type: trojan, password: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, sni: 4a2u0a02.mcfront.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国06, server: 3u1s06.abzoones.xyz, port: 36511, type: vmess, uuid: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: United States(ChatGPT) 08 TG:@nodpai, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv1.sharecentrepro.org}, udp: true}
+  - {name: 俄罗斯 01 | 1x RU, server: 4t1r5u01.mcfront.xyz, port: 31851, type: trojan, password: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, sni: 4t1r5u01.mcfront.xyz, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯04, server: 8r5u04.abzoones.xyz, port: 36851, type: vmess, uuid: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯01, server: 8r5u01.abzoones.xyz, port: 36851, type: trojan, password: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, sni: 8r5u01.abzoones.xyz, skip-cert-verify: true, udp: true}
+  - {name: 英国 01 | 1x UK, server: 3a4u0k01.mcfront.xyz, port: 31811, type: trojan, password: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, sni: 3a4u0k01.mcfront.xyz, skip-cert-verify: true, udp: true}
+  - {name: 英国01, server: 2u3k01.abzoones.xyz, port: 36811, type: trojan, password: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, sni: 2u3k01.abzoones.xyz, skip-cert-verify: true, udp: true}
+  - {name: 加拿大04, server: 5c1a04.abzoones.xyz, port: 36701, type: vmess, uuid: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Telegram@极客分享_3, server: cf.durov.ir, port: 443, type: vmess, uuid: c7654980-72fe-492d-8b6f-a4cb55c94c2e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: dedipath.iiio.wiki}, udp: true}
+  - {name: 英国 04 | 1x UK, server: 3a4u0k04.mcfront.xyz, port: 31811, type: vmess, uuid: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 香港03, server: 8h2k03.abzoones.xyz, port: 36611, type: trojan, password: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, sni: 8h2k03.abzoones.xyz, skip-cert-verify: true, udp: true}
+  - {name: 德国 01 | 1x DE, server: 9t1d5e01.mcfront.xyz, port: 31841, type: trojan, password: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, sni: 9t1d5e01.mcfront.xyz, skip-cert-verify: true, udp: true}
+  - {name: 乌克兰01, server: 8u9a01.abzoones.xyz, port: 36871, type: trojan, password: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, sni: 8u9a01.abzoones.xyz, skip-cert-verify: true, udp: true}
+  - {name: 乌克兰 04 | 1x UA, server: 4w7u4a04.mcfront.xyz, port: 31871, type: vmess, uuid: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 德国04, server: 3d6e04.abzoones.xyz, port: 36841, type: vmess, uuid: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 乌克兰 01 | 1x UA, server: 4w7u4a01.mcfront.xyz, port: 31871, type: trojan, password: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, sni: 4w7u4a01.mcfront.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国【付费推荐：tt.vg/vip】221, server: 142.0.139.213, port: 51522, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 匈牙利 01 | 1x HU, server: 3c2h4u01.mcfront.xyz, port: 31864, type: trojan, password: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, sni: 3c2h4u01.mcfront.xyz, skip-cert-verify: true, udp: true}
+  - {name: 土耳其 01 | 1x TR, server: 4t1u6r01.mcfront.xyz, port: 31868, type: trojan, password: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, sni: 4t1u6r01.mcfront.xyz, skip-cert-verify: true, udp: true}
+  - {name: 匈牙利01, server: 2h4u01.abzoones.xyz, port: 36864, type: trojan, password: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, sni: 2h4u01.abzoones.xyz, skip-cert-verify: true, udp: true}
+  - {name: 德国 04 | 1x AU, server: 9t1d5e04.mcfront.xyz, port: 31841, type: vmess, uuid: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 阿根廷01, server: 9a8r01.abzoones.xyz, port: 36861, type: trojan, password: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, sni: 9a8r01.abzoones.xyz, skip-cert-verify: true, udp: true}
+  - {name: 土耳其01, server: 2t1u01.abzoones.xyz, port: 36868, type: trojan, password: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, sni: 2t1u01.abzoones.xyz, skip-cert-verify: true, udp: true}
+  - {name: 阿根廷 04 | 1x AR, server: 7c1a1r04.mcfront.xyz, port: 31861, type: vmess, uuid: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 德国01, server: 3d6e01.abzoones.xyz, port: 36841, type: trojan, password: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, sni: 3d6e01.abzoones.xyz, skip-cert-verify: true, udp: true}
+  - {name: 阿根廷04, server: 9a8r04.abzoones.xyz, port: 36861, type: vmess, uuid: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V12-付费推荐:dlj.tf/ssrsub", server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca-do.sharecentrepro.org}, udp: true}
+  - {name: 阿根廷 01 | 1x AR, server: 7c1a1r01.mcfront.xyz, port: 31861, type: trojan, password: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, sni: 7c1a1r01.mcfront.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本01, server: 1j8p01.abzoones.xyz, port: 36116, type: trojan, password: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, sni: 1j8p01.abzoones.xyz, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: 198.2.205.118, port: 53042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 巴西 01 | 1x BR, server: 7c6i2r01.mcfront.xyz, port: 31877, type: trojan, password: c5f09ef9-17b7-4f55-b899-c695ed2ac8eb, sni: 7c6i2r01.mcfront.xyz, skip-cert-verify: true, udp: true}
+  - {name: 巴西04, server: 6i2r04.abzoones.xyz, port: 36877, type: vmess, uuid: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: V003--US-付费推荐:dlj.tf/ssrsub, server: cf-lt.sharecentre.online, port: 8080, type: vmess, uuid: d16c31a2-93a3-4f1a-954c-e383b14a4d26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: ssrsub.v02.ssrsub.com}, udp: true}
+  - {name: 美国【付费推荐：tt.vg/vip】163, server: 199.180.103.156, port: 59322, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Telegram@极客分享_10, server: beta.durov.ir, port: 8880, type: vmess, uuid: c7654980-72fe-492d-8b6f-a4cb55c94c2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: vnpt.iiio.wiki}, udp: true}
+  - {name: Telegram@极客分享_12, server: ovous.ovogreat.com, port: 443, type: trojan, password: 749a1003-2dd6-4ea5-b964-2382b0ae99f7, sni: ovous.ovogreat.com, skip-cert-verify: true, udp: true}
+  - {name: 美国【付费推荐：tt.vg/vip】90, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv1.sharecentrepro.org}, udp: true}
+  - {name: DE德国(youtube阿伟科技2), server: germany.newv2rayfree1.shop, port: 51957, type: vmess, uuid: b9f90971-af0b-4cde-b057-b1577a3e5f13, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _🇺🇸_US_美国_分享师_271, server: 107.167.29.145, port: 41092, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国【付费推荐：v1.mk/vip】1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv1.sharecentrepro.org}, udp: true}
-  - {name: US_speednode_0062, server: 107.148.194.237, port: 55504, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Hong Kong 04 TG:@nodpai, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-hytron.ilovescp.com}, udp: true}
-  - {name: 二爷翻墙 节点_6, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: uk1.scproxy.top}, udp: true}
-  - {name: 美国-2.61MB/s(Youtube:不良林), server: 38.54.250.61, port: 51444, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: United States(ChatGPT) 05 TG:@nodpai, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv2.sharecentrepro.org}, udp: true}
+  - {name: 美国 Datability, server: 140.99.94.42, port: 51338, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Telegram@极客分享_13, server: cf.durov.ir, port: 2082, type: vmess, uuid: c7654980-72fe-492d-8b6f-a4cb55c94c2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: dedipath2.iiio.wiki}, udp: true}
+  - {name: 美国【付费推荐：tt.vg/vip】58, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp3.scproxy.top}, udp: true}
+  - {name: JP-52.69.24.46-12816, server: jp1.downloadvip.cfd, port: 443, type: trojan, password: fddd2348-b67b-49aa-aaca-085d32f3f6fb, sni: jp1.downloadvip.cfd, skip-cert-verify: true, udp: true}
+  - {name: 美国【付费推荐：tt.vg/vip】208, server: 156.225.67.116, port: 44678, type: vmess, uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 荷兰 024, server: 156.245.8.224, port: 46955, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://1808.cf  二爷翻墙_7, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca.ilovescp.com}, udp: true}
+  - {name: V005--US-付费推荐:dlj.tf/ssrsub, server: cf-lt.sharecentre.online, port: 8080, type: vmess, uuid: d16c31a2-93a3-4f1a-954c-e383b14a4d26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: ssrsub.v03.ssrsub.com}, udp: true}
+  - {name: "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub", server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca.ilovescp.com}, udp: true}
+  - {name: 美国【付费推荐：tt.vg/vip】138, server: 38.63.0.73, port: 47002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 039, server: 51.195.35.151, port: 49982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 菲律宾04, server: 7p3h04.abzoones.xyz, port: 36801, type: vmess, uuid: 90b26e6f-15b3-43e2-bd61-4f663a2080e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V19-付费推荐:dlj.tf/ssrsub", server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: azure.sharecentrepro.org}, udp: true}
+  - {name: JP-133.242.55.38-0762, server: trs22.bolab.net, port: 443, type: trojan, password: 7a73f1dc97a70905870c0c0484b12145, sni: trs22.bolab.net, skip-cert-verify: true, udp: true}
+  - {name: _🇺🇸_US_美国_分享师_278, server: 142.4.115.246, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: RU-46.17.43.192-12754, server: 46.17.43.192, port: 31199, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
+  - {name: 美国【付费推荐：tt.vg/vip】214, server: 142.4.126.69, port: 31002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 045, server: 142.4.110.23, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Telegram@极客分享_14科学上网,白嫖节点,免费节点,免费梯子,免费机场,白嫖机场,免费VPN,免费V2Ray,免费Trojan,免费SSR, 每日多次更新,  سرور های جدید V2Ray,  سرور فعال V2ray, سرورهای vmess, لینک v2ray رایگان
-      - Singapore(ChatGPT) 01 TG:@nodpai
-      - Telegram@极客分享_12
-      - 美国 V2CROSS.COM
-      - 美国【付费推荐：tt.vg/vip】245
-      - _US_美国_1
-      - Telegram@极客分享_2
-      - "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub"
-      - https://1808.cf  二爷翻墙_7
+      - 日本 01 | 1x JP
+      - 台湾06
+      - 韩国01 | New Bing
+      - 日本03
+      - 新加坡 03 | 1x SG
+      - 台湾01 | New Bing
+      - 日本 06  | 1x JP
+      - 韩国04
+      - 日本04
+      - 台湾 06  | 1x TWN
+      - 香港 01 | 1x HK
+      - 日本 04  | 1x JP
+      - 新加坡02
+      - 日本06
+      - 新加坡01
+      - 新加坡04
+      - 新加坡 01  | 1x SG
+      - 台湾03
+      - 美国01
+      - 台湾 01  | 1x TWN | New Bing
+      - 日本 05  | 1x JP
+      - 香港01
+      - 香港04
+      - 韩国 01 | 1x KR | New Bing
+      - 韩国 02 | 1x KR
+      - 美国03
+      - 香港 04 | 1x HK
+      - 美国 06 | 1x US
+      - 香港 03 | 1x HK
+      - 美国01 | 1x US
+      - 日本 03  | 1x JP
+      - 新加坡 02 | 1x SG
+      - 台湾04
+      - 新加坡06
+      - 日本05
+      - 新加坡 05 | 1x SG
+      - 新加坡05
+      - 美国02
+      - 台湾 04  | 1x TWN
+      - 美国04
+      - 澳大利亚01
+      - 印度01
+      - 澳大利亚 01 | 1x AU
+      - 越南01
+      - 澳大利亚 04 | 1x AU
+      - 印度 01 | 1x IN
+      - 新加坡03
+      - 美国 05 | 1x US
+      - 澳大利亚04
+      - 加拿大01
+      - 越南 01 | 1x VN
+      - 美国 04 | 1x US
+      - 越南 04 | 1x VN
+      - 印度 04 | 1x IN
+      - 加拿大 02 | 1x CA
+      - 加拿大 01 | 1x CA
+      - 美国 02 | 1x US
+      - 美国06
       - United States(ChatGPT) 08 TG:@nodpai
+      - 俄罗斯 01 | 1x RU
+      - 俄罗斯04
+      - 俄罗斯01
+      - 英国 01 | 1x UK
+      - 英国01
+      - 加拿大04
+      - Telegram@极客分享_3
+      - 英国 04 | 1x UK
+      - 香港03
+      - 德国 01 | 1x DE
+      - 乌克兰01
+      - 乌克兰 04 | 1x UA
+      - 德国04
+      - 乌克兰 01 | 1x UA
+      - 美国【付费推荐：tt.vg/vip】221
+      - 匈牙利 01 | 1x HU
+      - 土耳其 01 | 1x TR
+      - 匈牙利01
+      - 德国 04 | 1x AU
+      - 阿根廷01
+      - 土耳其01
+      - 阿根廷 04 | 1x AR
+      - 德国01
+      - 阿根廷04
+      - "@SSRSUB-V12-付费推荐:dlj.tf/ssrsub"
+      - 阿根廷 01 | 1x AR
+      - 日本01
+      - _US_美国
+      - 巴西 01 | 1x BR
+      - 巴西04
+      - V003--US-付费推荐:dlj.tf/ssrsub
+      - 美国【付费推荐：tt.vg/vip】163
+      - Telegram@极客分享_10
+      - Telegram@极客分享_12
+      - 美国【付费推荐：tt.vg/vip】90
+      - DE德国(youtube阿伟科技2)
+      - _🇺🇸_US_美国_分享师_271
       - 美国【付费推荐：v1.mk/vip】1
-      - US_speednode_0062
-      - Hong Kong 04 TG:@nodpai
-      - 二爷翻墙 节点_6
-      - 美国-2.61MB/s(Youtube:不良林)
-      - United States(ChatGPT) 05 TG:@nodpai
+      - 美国 Datability
+      - Telegram@极客分享_13
+      - 美国【付费推荐：tt.vg/vip】58
+      - JP-52.69.24.46-12816
+      - 美国【付费推荐：tt.vg/vip】208
+      - 荷兰 024
+      - https://1808.cf  二爷翻墙_7
+      - V005--US-付费推荐:dlj.tf/ssrsub
+      - "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub"
+      - 美国【付费推荐：tt.vg/vip】138
+      - 美国 039
+      - 菲律宾04
+      - "@SSRSUB-V19-付费推荐:dlj.tf/ssrsub"
+      - JP-133.242.55.38-0762
+      - _🇺🇸_US_美国_分享师_278
+      - RU-46.17.43.192-12754
+      - 美国【付费推荐：tt.vg/vip】214
+      - 美国 045
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Telegram@极客分享_14科学上网,白嫖节点,免费节点,免费梯子,免费机场,白嫖机场,免费VPN,免费V2Ray,免费Trojan,免费SSR, 每日多次更新,  سرور های جدید V2Ray,  سرور فعال V2ray, سرورهای vmess, لینک v2ray رایگان
-      - Singapore(ChatGPT) 01 TG:@nodpai
-      - Telegram@极客分享_12
-      - 美国 V2CROSS.COM
-      - 美国【付费推荐：tt.vg/vip】245
-      - _US_美国_1
-      - Telegram@极客分享_2
-      - "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub"
-      - https://1808.cf  二爷翻墙_7
+      - 日本 01 | 1x JP
+      - 台湾06
+      - 韩国01 | New Bing
+      - 日本03
+      - 新加坡 03 | 1x SG
+      - 台湾01 | New Bing
+      - 日本 06  | 1x JP
+      - 韩国04
+      - 日本04
+      - 台湾 06  | 1x TWN
+      - 香港 01 | 1x HK
+      - 日本 04  | 1x JP
+      - 新加坡02
+      - 日本06
+      - 新加坡01
+      - 新加坡04
+      - 新加坡 01  | 1x SG
+      - 台湾03
+      - 美国01
+      - 台湾 01  | 1x TWN | New Bing
+      - 日本 05  | 1x JP
+      - 香港01
+      - 香港04
+      - 韩国 01 | 1x KR | New Bing
+      - 韩国 02 | 1x KR
+      - 美国03
+      - 香港 04 | 1x HK
+      - 美国 06 | 1x US
+      - 香港 03 | 1x HK
+      - 美国01 | 1x US
+      - 日本 03  | 1x JP
+      - 新加坡 02 | 1x SG
+      - 台湾04
+      - 新加坡06
+      - 日本05
+      - 新加坡 05 | 1x SG
+      - 新加坡05
+      - 美国02
+      - 台湾 04  | 1x TWN
+      - 美国04
+      - 澳大利亚01
+      - 印度01
+      - 澳大利亚 01 | 1x AU
+      - 越南01
+      - 澳大利亚 04 | 1x AU
+      - 印度 01 | 1x IN
+      - 新加坡03
+      - 美国 05 | 1x US
+      - 澳大利亚04
+      - 加拿大01
+      - 越南 01 | 1x VN
+      - 美国 04 | 1x US
+      - 越南 04 | 1x VN
+      - 印度 04 | 1x IN
+      - 加拿大 02 | 1x CA
+      - 加拿大 01 | 1x CA
+      - 美国 02 | 1x US
+      - 美国06
       - United States(ChatGPT) 08 TG:@nodpai
+      - 俄罗斯 01 | 1x RU
+      - 俄罗斯04
+      - 俄罗斯01
+      - 英国 01 | 1x UK
+      - 英国01
+      - 加拿大04
+      - Telegram@极客分享_3
+      - 英国 04 | 1x UK
+      - 香港03
+      - 德国 01 | 1x DE
+      - 乌克兰01
+      - 乌克兰 04 | 1x UA
+      - 德国04
+      - 乌克兰 01 | 1x UA
+      - 美国【付费推荐：tt.vg/vip】221
+      - 匈牙利 01 | 1x HU
+      - 土耳其 01 | 1x TR
+      - 匈牙利01
+      - 德国 04 | 1x AU
+      - 阿根廷01
+      - 土耳其01
+      - 阿根廷 04 | 1x AR
+      - 德国01
+      - 阿根廷04
+      - "@SSRSUB-V12-付费推荐:dlj.tf/ssrsub"
+      - 阿根廷 01 | 1x AR
+      - 日本01
+      - _US_美国
+      - 巴西 01 | 1x BR
+      - 巴西04
+      - V003--US-付费推荐:dlj.tf/ssrsub
+      - 美国【付费推荐：tt.vg/vip】163
+      - Telegram@极客分享_10
+      - Telegram@极客分享_12
+      - 美国【付费推荐：tt.vg/vip】90
+      - DE德国(youtube阿伟科技2)
+      - _🇺🇸_US_美国_分享师_271
       - 美国【付费推荐：v1.mk/vip】1
-      - US_speednode_0062
-      - Hong Kong 04 TG:@nodpai
-      - 二爷翻墙 节点_6
-      - 美国-2.61MB/s(Youtube:不良林)
-      - United States(ChatGPT) 05 TG:@nodpai
+      - 美国 Datability
+      - Telegram@极客分享_13
+      - 美国【付费推荐：tt.vg/vip】58
+      - JP-52.69.24.46-12816
+      - 美国【付费推荐：tt.vg/vip】208
+      - 荷兰 024
+      - https://1808.cf  二爷翻墙_7
+      - V005--US-付费推荐:dlj.tf/ssrsub
+      - "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub"
+      - 美国【付费推荐：tt.vg/vip】138
+      - 美国 039
+      - 菲律宾04
+      - "@SSRSUB-V19-付费推荐:dlj.tf/ssrsub"
+      - JP-133.242.55.38-0762
+      - _🇺🇸_US_美国_分享师_278
+      - RU-46.17.43.192-12754
+      - 美国【付费推荐：tt.vg/vip】214
+      - 美国 045
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Telegram@极客分享_14科学上网,白嫖节点,免费节点,免费梯子,免费机场,白嫖机场,免费VPN,免费V2Ray,免费Trojan,免费SSR, 每日多次更新,  سرور های جدید V2Ray,  سرور فعال V2ray, سرورهای vmess, لینک v2ray رایگان
-      - Singapore(ChatGPT) 01 TG:@nodpai
-      - Telegram@极客分享_12
-      - 美国 V2CROSS.COM
-      - 美国【付费推荐：tt.vg/vip】245
-      - _US_美国_1
-      - Telegram@极客分享_2
-      - "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub"
-      - https://1808.cf  二爷翻墙_7
+      - 日本 01 | 1x JP
+      - 台湾06
+      - 韩国01 | New Bing
+      - 日本03
+      - 新加坡 03 | 1x SG
+      - 台湾01 | New Bing
+      - 日本 06  | 1x JP
+      - 韩国04
+      - 日本04
+      - 台湾 06  | 1x TWN
+      - 香港 01 | 1x HK
+      - 日本 04  | 1x JP
+      - 新加坡02
+      - 日本06
+      - 新加坡01
+      - 新加坡04
+      - 新加坡 01  | 1x SG
+      - 台湾03
+      - 美国01
+      - 台湾 01  | 1x TWN | New Bing
+      - 日本 05  | 1x JP
+      - 香港01
+      - 香港04
+      - 韩国 01 | 1x KR | New Bing
+      - 韩国 02 | 1x KR
+      - 美国03
+      - 香港 04 | 1x HK
+      - 美国 06 | 1x US
+      - 香港 03 | 1x HK
+      - 美国01 | 1x US
+      - 日本 03  | 1x JP
+      - 新加坡 02 | 1x SG
+      - 台湾04
+      - 新加坡06
+      - 日本05
+      - 新加坡 05 | 1x SG
+      - 新加坡05
+      - 美国02
+      - 台湾 04  | 1x TWN
+      - 美国04
+      - 澳大利亚01
+      - 印度01
+      - 澳大利亚 01 | 1x AU
+      - 越南01
+      - 澳大利亚 04 | 1x AU
+      - 印度 01 | 1x IN
+      - 新加坡03
+      - 美国 05 | 1x US
+      - 澳大利亚04
+      - 加拿大01
+      - 越南 01 | 1x VN
+      - 美国 04 | 1x US
+      - 越南 04 | 1x VN
+      - 印度 04 | 1x IN
+      - 加拿大 02 | 1x CA
+      - 加拿大 01 | 1x CA
+      - 美国 02 | 1x US
+      - 美国06
       - United States(ChatGPT) 08 TG:@nodpai
+      - 俄罗斯 01 | 1x RU
+      - 俄罗斯04
+      - 俄罗斯01
+      - 英国 01 | 1x UK
+      - 英国01
+      - 加拿大04
+      - Telegram@极客分享_3
+      - 英国 04 | 1x UK
+      - 香港03
+      - 德国 01 | 1x DE
+      - 乌克兰01
+      - 乌克兰 04 | 1x UA
+      - 德国04
+      - 乌克兰 01 | 1x UA
+      - 美国【付费推荐：tt.vg/vip】221
+      - 匈牙利 01 | 1x HU
+      - 土耳其 01 | 1x TR
+      - 匈牙利01
+      - 德国 04 | 1x AU
+      - 阿根廷01
+      - 土耳其01
+      - 阿根廷 04 | 1x AR
+      - 德国01
+      - 阿根廷04
+      - "@SSRSUB-V12-付费推荐:dlj.tf/ssrsub"
+      - 阿根廷 01 | 1x AR
+      - 日本01
+      - _US_美国
+      - 巴西 01 | 1x BR
+      - 巴西04
+      - V003--US-付费推荐:dlj.tf/ssrsub
+      - 美国【付费推荐：tt.vg/vip】163
+      - Telegram@极客分享_10
+      - Telegram@极客分享_12
+      - 美国【付费推荐：tt.vg/vip】90
+      - DE德国(youtube阿伟科技2)
+      - _🇺🇸_US_美国_分享师_271
       - 美国【付费推荐：v1.mk/vip】1
-      - US_speednode_0062
-      - Hong Kong 04 TG:@nodpai
-      - 二爷翻墙 节点_6
-      - 美国-2.61MB/s(Youtube:不良林)
-      - United States(ChatGPT) 05 TG:@nodpai
+      - 美国 Datability
+      - Telegram@极客分享_13
+      - 美国【付费推荐：tt.vg/vip】58
+      - JP-52.69.24.46-12816
+      - 美国【付费推荐：tt.vg/vip】208
+      - 荷兰 024
+      - https://1808.cf  二爷翻墙_7
+      - V005--US-付费推荐:dlj.tf/ssrsub
+      - "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub"
+      - 美国【付费推荐：tt.vg/vip】138
+      - 美国 039
+      - 菲律宾04
+      - "@SSRSUB-V19-付费推荐:dlj.tf/ssrsub"
+      - JP-133.242.55.38-0762
+      - _🇺🇸_US_美国_分享师_278
+      - RU-46.17.43.192-12754
+      - 美国【付费推荐：tt.vg/vip】214
+      - 美国 045
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -104,91 +500,500 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Telegram@极客分享_14科学上网,白嫖节点,免费节点,免费梯子,免费机场,白嫖机场,免费VPN,免费V2Ray,免费Trojan,免费SSR, 每日多次更新,  سرور های جدید V2Ray,  سرور فعال V2ray, سرورهای vmess, لینک v2ray رایگان
-      - Singapore(ChatGPT) 01 TG:@nodpai
-      - Telegram@极客分享_12
-      - 美国 V2CROSS.COM
-      - 美国【付费推荐：tt.vg/vip】245
-      - _US_美国_1
-      - Telegram@极客分享_2
-      - "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub"
-      - https://1808.cf  二爷翻墙_7
+      - 日本 01 | 1x JP
+      - 台湾06
+      - 韩国01 | New Bing
+      - 日本03
+      - 新加坡 03 | 1x SG
+      - 台湾01 | New Bing
+      - 日本 06  | 1x JP
+      - 韩国04
+      - 日本04
+      - 台湾 06  | 1x TWN
+      - 香港 01 | 1x HK
+      - 日本 04  | 1x JP
+      - 新加坡02
+      - 日本06
+      - 新加坡01
+      - 新加坡04
+      - 新加坡 01  | 1x SG
+      - 台湾03
+      - 美国01
+      - 台湾 01  | 1x TWN | New Bing
+      - 日本 05  | 1x JP
+      - 香港01
+      - 香港04
+      - 韩国 01 | 1x KR | New Bing
+      - 韩国 02 | 1x KR
+      - 美国03
+      - 香港 04 | 1x HK
+      - 美国 06 | 1x US
+      - 香港 03 | 1x HK
+      - 美国01 | 1x US
+      - 日本 03  | 1x JP
+      - 新加坡 02 | 1x SG
+      - 台湾04
+      - 新加坡06
+      - 日本05
+      - 新加坡 05 | 1x SG
+      - 新加坡05
+      - 美国02
+      - 台湾 04  | 1x TWN
+      - 美国04
+      - 澳大利亚01
+      - 印度01
+      - 澳大利亚 01 | 1x AU
+      - 越南01
+      - 澳大利亚 04 | 1x AU
+      - 印度 01 | 1x IN
+      - 新加坡03
+      - 美国 05 | 1x US
+      - 澳大利亚04
+      - 加拿大01
+      - 越南 01 | 1x VN
+      - 美国 04 | 1x US
+      - 越南 04 | 1x VN
+      - 印度 04 | 1x IN
+      - 加拿大 02 | 1x CA
+      - 加拿大 01 | 1x CA
+      - 美国 02 | 1x US
+      - 美国06
       - United States(ChatGPT) 08 TG:@nodpai
+      - 俄罗斯 01 | 1x RU
+      - 俄罗斯04
+      - 俄罗斯01
+      - 英国 01 | 1x UK
+      - 英国01
+      - 加拿大04
+      - Telegram@极客分享_3
+      - 英国 04 | 1x UK
+      - 香港03
+      - 德国 01 | 1x DE
+      - 乌克兰01
+      - 乌克兰 04 | 1x UA
+      - 德国04
+      - 乌克兰 01 | 1x UA
+      - 美国【付费推荐：tt.vg/vip】221
+      - 匈牙利 01 | 1x HU
+      - 土耳其 01 | 1x TR
+      - 匈牙利01
+      - 德国 04 | 1x AU
+      - 阿根廷01
+      - 土耳其01
+      - 阿根廷 04 | 1x AR
+      - 德国01
+      - 阿根廷04
+      - "@SSRSUB-V12-付费推荐:dlj.tf/ssrsub"
+      - 阿根廷 01 | 1x AR
+      - 日本01
+      - _US_美国
+      - 巴西 01 | 1x BR
+      - 巴西04
+      - V003--US-付费推荐:dlj.tf/ssrsub
+      - 美国【付费推荐：tt.vg/vip】163
+      - Telegram@极客分享_10
+      - Telegram@极客分享_12
+      - 美国【付费推荐：tt.vg/vip】90
+      - DE德国(youtube阿伟科技2)
+      - _🇺🇸_US_美国_分享师_271
       - 美国【付费推荐：v1.mk/vip】1
-      - US_speednode_0062
-      - Hong Kong 04 TG:@nodpai
-      - 二爷翻墙 节点_6
-      - 美国-2.61MB/s(Youtube:不良林)
-      - United States(ChatGPT) 05 TG:@nodpai
+      - 美国 Datability
+      - Telegram@极客分享_13
+      - 美国【付费推荐：tt.vg/vip】58
+      - JP-52.69.24.46-12816
+      - 美国【付费推荐：tt.vg/vip】208
+      - 荷兰 024
+      - https://1808.cf  二爷翻墙_7
+      - V005--US-付费推荐:dlj.tf/ssrsub
+      - "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub"
+      - 美国【付费推荐：tt.vg/vip】138
+      - 美国 039
+      - 菲律宾04
+      - "@SSRSUB-V19-付费推荐:dlj.tf/ssrsub"
+      - JP-133.242.55.38-0762
+      - _🇺🇸_US_美国_分享师_278
+      - RU-46.17.43.192-12754
+      - 美国【付费推荐：tt.vg/vip】214
+      - 美国 045
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 台湾06
+      - 台湾01 | New Bing
+      - 台湾 06  | 1x TWN
+      - 香港 01 | 1x HK
+      - 台湾03
+      - 台湾 01  | 1x TWN | New Bing
+      - 香港01
+      - 香港04
+      - 香港 04 | 1x HK
+      - 香港 03 | 1x HK
+      - 台湾04
+      - 台湾 04  | 1x TWN
+      - 香港03
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Telegram@极客分享_14科学上网,白嫖节点,免费节点,免费梯子,免费机场,白嫖机场,免费VPN,免费V2Ray,免费Trojan,免费SSR, 每日多次更新,  سرور های جدید V2Ray,  سرور فعال V2ray, سرورهای vmess, لینک v2ray رایگان
-      - Singapore(ChatGPT) 01 TG:@nodpai
-      - Telegram@极客分享_12
-      - 美国 V2CROSS.COM
-      - 美国【付费推荐：tt.vg/vip】245
-      - _US_美国_1
-      - Telegram@极客分享_2
-      - "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub"
-      - https://1808.cf  二爷翻墙_7
+      - 日本 01 | 1x JP
+      - 台湾06
+      - 韩国01 | New Bing
+      - 日本03
+      - 新加坡 03 | 1x SG
+      - 台湾01 | New Bing
+      - 日本 06  | 1x JP
+      - 韩国04
+      - 日本04
+      - 台湾 06  | 1x TWN
+      - 香港 01 | 1x HK
+      - 日本 04  | 1x JP
+      - 新加坡02
+      - 日本06
+      - 新加坡01
+      - 新加坡04
+      - 新加坡 01  | 1x SG
+      - 台湾03
+      - 美国01
+      - 台湾 01  | 1x TWN | New Bing
+      - 日本 05  | 1x JP
+      - 香港01
+      - 香港04
+      - 韩国 01 | 1x KR | New Bing
+      - 韩国 02 | 1x KR
+      - 美国03
+      - 香港 04 | 1x HK
+      - 美国 06 | 1x US
+      - 香港 03 | 1x HK
+      - 美国01 | 1x US
+      - 日本 03  | 1x JP
+      - 新加坡 02 | 1x SG
+      - 台湾04
+      - 新加坡06
+      - 日本05
+      - 新加坡 05 | 1x SG
+      - 新加坡05
+      - 美国02
+      - 台湾 04  | 1x TWN
+      - 美国04
+      - 澳大利亚01
+      - 印度01
+      - 澳大利亚 01 | 1x AU
+      - 越南01
+      - 澳大利亚 04 | 1x AU
+      - 印度 01 | 1x IN
+      - 新加坡03
+      - 美国 05 | 1x US
+      - 澳大利亚04
+      - 加拿大01
+      - 越南 01 | 1x VN
+      - 美国 04 | 1x US
+      - 越南 04 | 1x VN
+      - 印度 04 | 1x IN
+      - 加拿大 02 | 1x CA
+      - 加拿大 01 | 1x CA
+      - 美国 02 | 1x US
+      - 美国06
       - United States(ChatGPT) 08 TG:@nodpai
+      - 俄罗斯 01 | 1x RU
+      - 俄罗斯04
+      - 俄罗斯01
+      - 英国 01 | 1x UK
+      - 英国01
+      - 加拿大04
+      - Telegram@极客分享_3
+      - 英国 04 | 1x UK
+      - 香港03
+      - 德国 01 | 1x DE
+      - 乌克兰01
+      - 乌克兰 04 | 1x UA
+      - 德国04
+      - 乌克兰 01 | 1x UA
+      - 美国【付费推荐：tt.vg/vip】221
+      - 匈牙利 01 | 1x HU
+      - 土耳其 01 | 1x TR
+      - 匈牙利01
+      - 德国 04 | 1x AU
+      - 阿根廷01
+      - 土耳其01
+      - 阿根廷 04 | 1x AR
+      - 德国01
+      - 阿根廷04
+      - "@SSRSUB-V12-付费推荐:dlj.tf/ssrsub"
+      - 阿根廷 01 | 1x AR
+      - 日本01
+      - _US_美国
+      - 巴西 01 | 1x BR
+      - 巴西04
+      - V003--US-付费推荐:dlj.tf/ssrsub
+      - 美国【付费推荐：tt.vg/vip】163
+      - Telegram@极客分享_10
+      - Telegram@极客分享_12
+      - 美国【付费推荐：tt.vg/vip】90
+      - DE德国(youtube阿伟科技2)
+      - _🇺🇸_US_美国_分享师_271
       - 美国【付费推荐：v1.mk/vip】1
-      - US_speednode_0062
-      - Hong Kong 04 TG:@nodpai
-      - 二爷翻墙 节点_6
-      - 美国-2.61MB/s(Youtube:不良林)
-      - United States(ChatGPT) 05 TG:@nodpai
+      - 美国 Datability
+      - Telegram@极客分享_13
+      - 美国【付费推荐：tt.vg/vip】58
+      - JP-52.69.24.46-12816
+      - 美国【付费推荐：tt.vg/vip】208
+      - 荷兰 024
+      - https://1808.cf  二爷翻墙_7
+      - V005--US-付费推荐:dlj.tf/ssrsub
+      - "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub"
+      - 美国【付费推荐：tt.vg/vip】138
+      - 美国 039
+      - 菲律宾04
+      - "@SSRSUB-V19-付费推荐:dlj.tf/ssrsub"
+      - JP-133.242.55.38-0762
+      - _🇺🇸_US_美国_分享师_278
+      - RU-46.17.43.192-12754
+      - 美国【付费推荐：tt.vg/vip】214
+      - 美国 045
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Telegram@极客分享_14科学上网,白嫖节点,免费节点,免费梯子,免费机场,白嫖机场,免费VPN,免费V2Ray,免费Trojan,免费SSR, 每日多次更新,  سرور های جدید V2Ray,  سرور فعال V2ray, سرورهای vmess, لینک v2ray رایگان
-      - Singapore(ChatGPT) 01 TG:@nodpai
-      - Telegram@极客分享_12
-      - 美国 V2CROSS.COM
-      - 美国【付费推荐：tt.vg/vip】245
-      - _US_美国_1
-      - Telegram@极客分享_2
-      - "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub"
-      - https://1808.cf  二爷翻墙_7
+      - 日本 01 | 1x JP
+      - 台湾06
+      - 韩国01 | New Bing
+      - 日本03
+      - 新加坡 03 | 1x SG
+      - 台湾01 | New Bing
+      - 日本 06  | 1x JP
+      - 韩国04
+      - 日本04
+      - 台湾 06  | 1x TWN
+      - 香港 01 | 1x HK
+      - 日本 04  | 1x JP
+      - 新加坡02
+      - 日本06
+      - 新加坡01
+      - 新加坡04
+      - 新加坡 01  | 1x SG
+      - 台湾03
+      - 美国01
+      - 台湾 01  | 1x TWN | New Bing
+      - 日本 05  | 1x JP
+      - 香港01
+      - 香港04
+      - 韩国 01 | 1x KR | New Bing
+      - 韩国 02 | 1x KR
+      - 美国03
+      - 香港 04 | 1x HK
+      - 美国 06 | 1x US
+      - 香港 03 | 1x HK
+      - 美国01 | 1x US
+      - 日本 03  | 1x JP
+      - 新加坡 02 | 1x SG
+      - 台湾04
+      - 新加坡06
+      - 日本05
+      - 新加坡 05 | 1x SG
+      - 新加坡05
+      - 美国02
+      - 台湾 04  | 1x TWN
+      - 美国04
+      - 澳大利亚01
+      - 印度01
+      - 澳大利亚 01 | 1x AU
+      - 越南01
+      - 澳大利亚 04 | 1x AU
+      - 印度 01 | 1x IN
+      - 新加坡03
+      - 美国 05 | 1x US
+      - 澳大利亚04
+      - 加拿大01
+      - 越南 01 | 1x VN
+      - 美国 04 | 1x US
+      - 越南 04 | 1x VN
+      - 印度 04 | 1x IN
+      - 加拿大 02 | 1x CA
+      - 加拿大 01 | 1x CA
+      - 美国 02 | 1x US
+      - 美国06
       - United States(ChatGPT) 08 TG:@nodpai
+      - 俄罗斯 01 | 1x RU
+      - 俄罗斯04
+      - 俄罗斯01
+      - 英国 01 | 1x UK
+      - 英国01
+      - 加拿大04
+      - Telegram@极客分享_3
+      - 英国 04 | 1x UK
+      - 香港03
+      - 德国 01 | 1x DE
+      - 乌克兰01
+      - 乌克兰 04 | 1x UA
+      - 德国04
+      - 乌克兰 01 | 1x UA
+      - 美国【付费推荐：tt.vg/vip】221
+      - 匈牙利 01 | 1x HU
+      - 土耳其 01 | 1x TR
+      - 匈牙利01
+      - 德国 04 | 1x AU
+      - 阿根廷01
+      - 土耳其01
+      - 阿根廷 04 | 1x AR
+      - 德国01
+      - 阿根廷04
+      - "@SSRSUB-V12-付费推荐:dlj.tf/ssrsub"
+      - 阿根廷 01 | 1x AR
+      - 日本01
+      - _US_美国
+      - 巴西 01 | 1x BR
+      - 巴西04
+      - V003--US-付费推荐:dlj.tf/ssrsub
+      - 美国【付费推荐：tt.vg/vip】163
+      - Telegram@极客分享_10
+      - Telegram@极客分享_12
+      - 美国【付费推荐：tt.vg/vip】90
+      - DE德国(youtube阿伟科技2)
+      - _🇺🇸_US_美国_分享师_271
       - 美国【付费推荐：v1.mk/vip】1
-      - US_speednode_0062
-      - Hong Kong 04 TG:@nodpai
-      - 二爷翻墙 节点_6
-      - 美国-2.61MB/s(Youtube:不良林)
-      - United States(ChatGPT) 05 TG:@nodpai
+      - 美国 Datability
+      - Telegram@极客分享_13
+      - 美国【付费推荐：tt.vg/vip】58
+      - JP-52.69.24.46-12816
+      - 美国【付费推荐：tt.vg/vip】208
+      - 荷兰 024
+      - https://1808.cf  二爷翻墙_7
+      - V005--US-付费推荐:dlj.tf/ssrsub
+      - "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub"
+      - 美国【付费推荐：tt.vg/vip】138
+      - 美国 039
+      - 菲律宾04
+      - "@SSRSUB-V19-付费推荐:dlj.tf/ssrsub"
+      - JP-133.242.55.38-0762
+      - _🇺🇸_US_美国_分享师_278
+      - RU-46.17.43.192-12754
+      - 美国【付费推荐：tt.vg/vip】214
+      - 美国 045
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Telegram@极客分享_14科学上网,白嫖节点,免费节点,免费梯子,免费机场,白嫖机场,免费VPN,免费V2Ray,免费Trojan,免费SSR, 每日多次更新,  سرور های جدید V2Ray,  سرور فعال V2ray, سرورهای vmess, لینک v2ray رایگان
-      - Singapore(ChatGPT) 01 TG:@nodpai
-      - Telegram@极客分享_12
-      - 美国 V2CROSS.COM
-      - 美国【付费推荐：tt.vg/vip】245
-      - _US_美国_1
-      - Telegram@极客分享_2
-      - "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub"
-      - https://1808.cf  二爷翻墙_7
+      - 日本 01 | 1x JP
+      - 台湾06
+      - 韩国01 | New Bing
+      - 日本03
+      - 新加坡 03 | 1x SG
+      - 台湾01 | New Bing
+      - 日本 06  | 1x JP
+      - 韩国04
+      - 日本04
+      - 台湾 06  | 1x TWN
+      - 香港 01 | 1x HK
+      - 日本 04  | 1x JP
+      - 新加坡02
+      - 日本06
+      - 新加坡01
+      - 新加坡04
+      - 新加坡 01  | 1x SG
+      - 台湾03
+      - 美国01
+      - 台湾 01  | 1x TWN | New Bing
+      - 日本 05  | 1x JP
+      - 香港01
+      - 香港04
+      - 韩国 01 | 1x KR | New Bing
+      - 韩国 02 | 1x KR
+      - 美国03
+      - 香港 04 | 1x HK
+      - 美国 06 | 1x US
+      - 香港 03 | 1x HK
+      - 美国01 | 1x US
+      - 日本 03  | 1x JP
+      - 新加坡 02 | 1x SG
+      - 台湾04
+      - 新加坡06
+      - 日本05
+      - 新加坡 05 | 1x SG
+      - 新加坡05
+      - 美国02
+      - 台湾 04  | 1x TWN
+      - 美国04
+      - 澳大利亚01
+      - 印度01
+      - 澳大利亚 01 | 1x AU
+      - 越南01
+      - 澳大利亚 04 | 1x AU
+      - 印度 01 | 1x IN
+      - 新加坡03
+      - 美国 05 | 1x US
+      - 澳大利亚04
+      - 加拿大01
+      - 越南 01 | 1x VN
+      - 美国 04 | 1x US
+      - 越南 04 | 1x VN
+      - 印度 04 | 1x IN
+      - 加拿大 02 | 1x CA
+      - 加拿大 01 | 1x CA
+      - 美国 02 | 1x US
+      - 美国06
       - United States(ChatGPT) 08 TG:@nodpai
+      - 俄罗斯 01 | 1x RU
+      - 俄罗斯04
+      - 俄罗斯01
+      - 英国 01 | 1x UK
+      - 英国01
+      - 加拿大04
+      - Telegram@极客分享_3
+      - 英国 04 | 1x UK
+      - 香港03
+      - 德国 01 | 1x DE
+      - 乌克兰01
+      - 乌克兰 04 | 1x UA
+      - 德国04
+      - 乌克兰 01 | 1x UA
+      - 美国【付费推荐：tt.vg/vip】221
+      - 匈牙利 01 | 1x HU
+      - 土耳其 01 | 1x TR
+      - 匈牙利01
+      - 德国 04 | 1x AU
+      - 阿根廷01
+      - 土耳其01
+      - 阿根廷 04 | 1x AR
+      - 德国01
+      - 阿根廷04
+      - "@SSRSUB-V12-付费推荐:dlj.tf/ssrsub"
+      - 阿根廷 01 | 1x AR
+      - 日本01
+      - _US_美国
+      - 巴西 01 | 1x BR
+      - 巴西04
+      - V003--US-付费推荐:dlj.tf/ssrsub
+      - 美国【付费推荐：tt.vg/vip】163
+      - Telegram@极客分享_10
+      - Telegram@极客分享_12
+      - 美国【付费推荐：tt.vg/vip】90
+      - DE德国(youtube阿伟科技2)
+      - _🇺🇸_US_美国_分享师_271
       - 美国【付费推荐：v1.mk/vip】1
-      - US_speednode_0062
-      - Hong Kong 04 TG:@nodpai
-      - 二爷翻墙 节点_6
-      - 美国-2.61MB/s(Youtube:不良林)
-      - United States(ChatGPT) 05 TG:@nodpai
+      - 美国 Datability
+      - Telegram@极客分享_13
+      - 美国【付费推荐：tt.vg/vip】58
+      - JP-52.69.24.46-12816
+      - 美国【付费推荐：tt.vg/vip】208
+      - 荷兰 024
+      - https://1808.cf  二爷翻墙_7
+      - V005--US-付费推荐:dlj.tf/ssrsub
+      - "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub"
+      - 美国【付费推荐：tt.vg/vip】138
+      - 美国 039
+      - 菲律宾04
+      - "@SSRSUB-V19-付费推荐:dlj.tf/ssrsub"
+      - JP-133.242.55.38-0762
+      - _🇺🇸_US_美国_分享师_278
+      - RU-46.17.43.192-12754
+      - 美国【付费推荐：tt.vg/vip】214
+      - 美国 045
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -204,22 +1009,121 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Telegram@极客分享_14科学上网,白嫖节点,免费节点,免费梯子,免费机场,白嫖机场,免费VPN,免费V2Ray,免费Trojan,免费SSR, 每日多次更新,  سرور های جدید V2Ray,  سرور فعال V2ray, سرورهای vmess, لینک v2ray رایگان
-      - Singapore(ChatGPT) 01 TG:@nodpai
-      - Telegram@极客分享_12
-      - 美国 V2CROSS.COM
-      - 美国【付费推荐：tt.vg/vip】245
-      - _US_美国_1
-      - Telegram@极客分享_2
-      - "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub"
-      - https://1808.cf  二爷翻墙_7
+      - 日本 01 | 1x JP
+      - 台湾06
+      - 韩国01 | New Bing
+      - 日本03
+      - 新加坡 03 | 1x SG
+      - 台湾01 | New Bing
+      - 日本 06  | 1x JP
+      - 韩国04
+      - 日本04
+      - 台湾 06  | 1x TWN
+      - 香港 01 | 1x HK
+      - 日本 04  | 1x JP
+      - 新加坡02
+      - 日本06
+      - 新加坡01
+      - 新加坡04
+      - 新加坡 01  | 1x SG
+      - 台湾03
+      - 美国01
+      - 台湾 01  | 1x TWN | New Bing
+      - 日本 05  | 1x JP
+      - 香港01
+      - 香港04
+      - 韩国 01 | 1x KR | New Bing
+      - 韩国 02 | 1x KR
+      - 美国03
+      - 香港 04 | 1x HK
+      - 美国 06 | 1x US
+      - 香港 03 | 1x HK
+      - 美国01 | 1x US
+      - 日本 03  | 1x JP
+      - 新加坡 02 | 1x SG
+      - 台湾04
+      - 新加坡06
+      - 日本05
+      - 新加坡 05 | 1x SG
+      - 新加坡05
+      - 美国02
+      - 台湾 04  | 1x TWN
+      - 美国04
+      - 澳大利亚01
+      - 印度01
+      - 澳大利亚 01 | 1x AU
+      - 越南01
+      - 澳大利亚 04 | 1x AU
+      - 印度 01 | 1x IN
+      - 新加坡03
+      - 美国 05 | 1x US
+      - 澳大利亚04
+      - 加拿大01
+      - 越南 01 | 1x VN
+      - 美国 04 | 1x US
+      - 越南 04 | 1x VN
+      - 印度 04 | 1x IN
+      - 加拿大 02 | 1x CA
+      - 加拿大 01 | 1x CA
+      - 美国 02 | 1x US
+      - 美国06
       - United States(ChatGPT) 08 TG:@nodpai
+      - 俄罗斯 01 | 1x RU
+      - 俄罗斯04
+      - 俄罗斯01
+      - 英国 01 | 1x UK
+      - 英国01
+      - 加拿大04
+      - Telegram@极客分享_3
+      - 英国 04 | 1x UK
+      - 香港03
+      - 德国 01 | 1x DE
+      - 乌克兰01
+      - 乌克兰 04 | 1x UA
+      - 德国04
+      - 乌克兰 01 | 1x UA
+      - 美国【付费推荐：tt.vg/vip】221
+      - 匈牙利 01 | 1x HU
+      - 土耳其 01 | 1x TR
+      - 匈牙利01
+      - 德国 04 | 1x AU
+      - 阿根廷01
+      - 土耳其01
+      - 阿根廷 04 | 1x AR
+      - 德国01
+      - 阿根廷04
+      - "@SSRSUB-V12-付费推荐:dlj.tf/ssrsub"
+      - 阿根廷 01 | 1x AR
+      - 日本01
+      - _US_美国
+      - 巴西 01 | 1x BR
+      - 巴西04
+      - V003--US-付费推荐:dlj.tf/ssrsub
+      - 美国【付费推荐：tt.vg/vip】163
+      - Telegram@极客分享_10
+      - Telegram@极客分享_12
+      - 美国【付费推荐：tt.vg/vip】90
+      - DE德国(youtube阿伟科技2)
+      - _🇺🇸_US_美国_分享师_271
       - 美国【付费推荐：v1.mk/vip】1
-      - US_speednode_0062
-      - Hong Kong 04 TG:@nodpai
-      - 二爷翻墙 节点_6
-      - 美国-2.61MB/s(Youtube:不良林)
-      - United States(ChatGPT) 05 TG:@nodpai
+      - 美国 Datability
+      - Telegram@极客分享_13
+      - 美国【付费推荐：tt.vg/vip】58
+      - JP-52.69.24.46-12816
+      - 美国【付费推荐：tt.vg/vip】208
+      - 荷兰 024
+      - https://1808.cf  二爷翻墙_7
+      - V005--US-付费推荐:dlj.tf/ssrsub
+      - "@SSRSUB-V67-付费推荐:dlj.tf/ssrsub"
+      - 美国【付费推荐：tt.vg/vip】138
+      - 美国 039
+      - 菲律宾04
+      - "@SSRSUB-V19-付费推荐:dlj.tf/ssrsub"
+      - JP-133.242.55.38-0762
+      - _🇺🇸_US_美国_分享师_278
+      - RU-46.17.43.192-12754
+      - 美国【付费推荐：tt.vg/vip】214
+      - 美国 045
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
